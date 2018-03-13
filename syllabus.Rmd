@@ -6,7 +6,7 @@ output:
   pdf_document:
     fig_caption: yes
     latex_engine: pdflatex
-    template: ~/Desktop/syllabus/template.tex
+    template: ~/Documents/GitHub/political-violence-syllabus-2019/template.tex
   word_document: default
 email: danilo_freire@brown.edu
 fontfamily:
@@ -42,7 +42,7 @@ The final paper should be somewhat longer, about 15 pages in length. The topic i
 
 # Schedule and Reading
 
-All readings are available on [the course's GitHub repository](https://github.com/danilofreire/political-violence-2019). It is very  important that you read the assigned readings before class. Students are encouraged to engage in critical discussions and are most welcome to express their views openly and freely. I would suggest you to bring some notes to the class so that we can discuss together the topics you find most interesting. Some of the texts make use of statistical models and game theory, but don't be intimidated by them. Feel free to skip the technical parts if they're too challenging and focus on the main ideas of the readings. 
+All readings are available on [the course's GitHub repository](https://github.com/danilofreire/political-violence-syllabus-2019). It is very  important that you read the assigned readings before class. Students are encouraged to engage in critical discussions and are most welcome to express their views openly and freely. I would suggest you to bring some notes to the class so that we can discuss together the topics you find most interesting. Some of the texts make use of statistical models and game theory, but don't be intimidated by them. Feel free to skip the technical parts if they're too challenging and focus on the main ideas of the readings. 
 
 ## Week 1: Introduction
 
@@ -141,8 +141,7 @@ Recommended:
 ## Week 7: Cross-National Determinants of Genocide
 
 - Harff, B. 2003. [No Lessons Learned from the Holocaust? Assessing Risks of Genocide and Political Mass Murder since 1955](https://www.cambridge.org/core/journals/american-political-science-review/article/no-lessons-learned-from-the-holocaust-assessing-risks-of-genocide-and-political-mass-murder-since-1955/FBA37FA563AC35E1CB6F7B57F8140F2C), _American Political Science Review_ 97(1):57-73.
-- Uzonyi, G. 2014. [Domestic Unrest, Genocide and Politicide](http://journals.sagepub.com/doi/abs/10.1111/1467-9248.12181), _
-Political Studies_ 64(2):1-20.
+- Uzonyi, G. 2014. [Domestic Unrest, Genocide and Politicide](http://journals.sagepub.com/doi/abs/10.1111/1467-9248.12181), _Political Studies_ 64(2):1-20.
 - Valentino, B., Huth, P. & Balch-Lindsay, D. 2004. ["Draining the Sea": Mass Killing and Guerrilla Warfare](https://www.cambridge.org/core/journals/international-organization/article/draining-the-sea-mass-killing-and-guerrilla-warfare/A4DD186DD876B363754AD358B8148014), _International Organization_ 58(2):375-407.
 
 Recommended:
@@ -217,8 +216,8 @@ Recommended
 
 Recommended: 
 
-- Kilcullen, D. 2005. [Countering Global Insurgency](https://www.tandfonline.com/doi/abs/10.1080/01402390500300956), _The Journal of Strategic Studies_, 28(4):597-617
-• Byman, D. 2006. [Friends Like These: Counterinsurgency and the War on Terrorism](), International Security, 31(2) 79-115
+- Kilcullen, D. 2005. [Countering Global Insurgency](https://www.tandfonline.com/doi/abs/10.1080/01402390500300956), _The Journal of Strategic Studies_ 28(4):597-617
+- Byman, D. 2006. [Friends Like These: Counterinsurgency and the War on Terrorism](https://www.jstor.org/stable/4137517), _International Security_ 31(2):79-115.
 - Zussman, A. & Zussman, N. 2006. [Assassinations: Evaluating the Effectiveness of an Israeli Counterterrorism Policy Using Stock Market Data](https://www.jstor.org/stable/30033656), _Journal of Economic Perspectives_ 20(2):193–206.
 - Jaeger, D., Klor, E., Miaari, S. & Paserman, M. 2012. [The Struggle for Palestinian Hearts and Minds: Violence and Public Opinion in the Second Intifada](https://www.sciencedirect.com/science/article/abs/pii/S0047272711001708), _Journal of Public Economics_ 96(3–4):354–368.
 - O'Donnell, D. 2006. [International Treaties Against Terrorism and the Use of Terrorism During Armed Conflict and by Armed Forces](https://www.cambridge.org/core/journals/international-review-of-the-red-cross/article/international-treaties-against-terrorism-and-the-use-of-terrorism-during-armed-conflict-and-by-armed-forces/DCEF95D271A0778572F566936A18887F), _International Review of the Red Cross_ 88(864):853-880.
