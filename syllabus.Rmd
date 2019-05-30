@@ -1,5 +1,5 @@
 ---
-title: "Political Violence, Terrorism, and Civil War"
+title: "Political Violence"
 author: "Danilo Freire"
 date: "Spring 2019"
 output:
@@ -9,7 +9,7 @@ output:
     template: ~/Documents/GitHub/political-violence-syllabus-2019/template.tex
   word_document: default
 email: danilo_freire@brown.edu
-fontfamily:
+fontfamily: libertine
 fontsize: 12pt
 geometry: margin=1in
 header-includes: \linespread{1.05}
@@ -17,7 +17,7 @@ office: TBD
 officehours: TBD
 classroom: TBD
 classhours: TBD
-web: danilofreire.com/teaching
+web: danilofreire.github.io
 ---
 
 # Course Description
@@ -36,13 +36,13 @@ If you have any special needs, please contact me. I'm happy to make necessary ar
 
 # Grading
 
-The writing assignments consist of three reviews essays and a final paper. The reviews should be about 5 pages long. Imagine you are a reviewer for a good academic journal and think of how you could help the author improve the article. Are the arguments well-developed in the text? Is the research design plausible? What further examples could the author include to strenghten his/her arguments? Try to provide as much constructive criticism as possible. You don't need to summarise the paper, just critically engage with it. You should write one paper for each section of the course (civil wars, mass killings, and terrorism), but you're free to choose any reading you prefer.  The essays are due at the beginning of the class and late assignments will not be eligible for an A. Each review will account for 20% of your grade. 
+The writing assignments consist of three reviews essays and a final paper. The reviews should be about 5 pages long. Imagine you are a reviewer for a good academic journal and think of how you could help the author improve the article. Are the arguments well-developed in the text? Is the research design plausible? What further examples could the author include to strenghten his/her arguments? Try to provide as much constructive criticism as possible. You don't need to summarise the paper, just critically engage with it. You should write one paper for each section of the course (civil wars, mass killings, and terrorism), but you're free to choose any reading you prefer. The essays are due at the beginning of the class and late assignments will not be eligible for an A. Each review will account for 20% of your grade. 
 
 The final paper should be somewhat longer, about 15 pages in length. The topic is of your own choice and should be based on one or more themes covered in the course. Please meet me to discuss the topic before you start writing. The final paper is worth 40% of your grade.
 
 # Schedule and Reading
 
-All readings are available on [the course's GitHub repository](https://github.com/danilofreire/political-violence-syllabus-2019). It is very  important that you read the assigned readings before class. Students are encouraged to engage in critical discussions and are most welcome to express their views openly and freely. I would suggest you to bring some notes to the class so that we can discuss together the topics you find most interesting. Some of the texts make use of statistical models and game theory, but don't be intimidated by them. Feel free to skip the technical parts if they're too challenging and focus on the main ideas of the readings. 
+All readings are available on [the course's GitHub repository](https://github.com/danilofreire/political-violence-syllabus-2019). It is very important that you read the assigned readings before class. Students are encouraged to engage in critical discussions and are most welcome to express their views openly and freely. I would suggest you to bring some notes to the class so that we can discuss together the topics you find most interesting. Some of the texts make use of statistical models and game theory, but don't be intimidated by them. Feel free to skip the technical parts if they're too challenging and focus on the main ideas of the readings. 
 
 ## Week 1: Introduction
 
@@ -149,7 +149,7 @@ Recommended:
 - Ulfelder, J. 2013. [A Multimodel Ensemble for Forecasting Onsets of State-Sponsored Mass Killing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2303048).
 - Goldsmith, B., Butcher, C., Semenovich, D. & Sowmya, A. 2013. [Forecasting the Onset of Genocide and Politicide: Annual Out-of-Sample Forecasts on a Global Dataset, 1988-2003](http://journals.sagepub.com/doi/abs/10.1177/0022343313484167), _Journal of Peace Research_ 50(4):437-452.
 - Ahram, A. 2014. [The Role of State-Sponsored Militias in Genocide](https://www.tandfonline.com/doi/abs/10.1080/09546553.2012.734875), _Terrorism and Political Violence_ 26(3):488-503.
-- Freire, D. & Uzonyi, G. 2018. [What Drives State-Sponsored Violence?: Evidence from Extreme Bounds Analysis and Ensemble Learning Models](https://github.com/danilofreire/mass-killings/). Working paper.
+- Freire, D. & Uzonyi, G. 2019. [What Drives State-Sponsored Violence?: Evidence from Extreme Bounds Analysis and Ensemble Learning Models](https://github.com/danilofreire/mass-killings/). Working paper.
 
 ## Week 8: Preventing Genocides
 
