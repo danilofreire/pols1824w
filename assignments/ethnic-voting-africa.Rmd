@@ -1,0 +1,114 @@
+---
+title: "Coethnic Voting in Africa"
+author: "Danilo Freire"
+date: \today
+fontsize: 12pt
+output:
+  pdf_document: default
+---
+
+To explore whether a political candidate can utilise his wife's ethnicity to garner coethnic support (where a voter prefers to vote for a candidate of his/her own ethnic group, and a well-established phenomenon in many African democracies), a group of researchers used observational time-series cross sectional data from the Afrobarometer (a public attitude survey on democracy and governance in more than 35 countries in Africa, see [Afrobarometer](http://www.afrobarometer.org/)) to establish patterns of preferring a president based on a coethnic presidential wife. The researchers then conducted an experiment where they randomly reminded potential voters in Benin that the Beninoise President Yayi Boni's wife, Chantal, is of the ethnic Fon group and asked them whether they approve of Yayi Boni. This exercise is based on: 
+
+Adida, Claire, Nathan Combes, Adeline Lo, and Alex Verink. 2016. "[The Spousal Bump: Do Cross-Ethnic Marriages Increase Political Support in Multiethnic Democracies?](http://dx.doi.org/10.1177/0010414015621080)" *Comparative Political Studies*, Vol. 49, No. 5, pp. 635-661.
+
+In the first dataset from Afrobarometer, the researchers focus on African democracies where information could be garnered about the ethnicities of the president and wife. For the purposes of this exercise, only African democracies where the president and wife are not of the same ethnicity are considered (i.e., the president and wife are not coethnic with one another), and the data is pre-subsetted to include only president non-coethnics. We will consider patterns of willingness to vote for the president amongst wife coethnics and non-coethnics across African democracies.  Descriptions of the relevant variables in the data file `afb.csv` are:
+
+ -------------------------------- ----------------------------------------------------------
+ Name                             Description
+ -------------------------------- ----------------------------------------------------------
+ `country`                        Character variable indicating which country the respondent is from
+ 
+ `wifecoethnic`                   `1` if respondent is same ethnicity as president's wife, and `0` otherwise
+ 
+ `oppcoethnic`                    `1` if respondent is same ethnicity as main presidential opponent, and `0` otherwise
+ 
+ `ethnicpercent`                  Respondent's ethnic group fraction in respondent country.
+ 
+ `vote`                           `1` if respondent would vote for the president, `0` otherwise.
+ -------------------------------------------------------------------------------------------
+ 
+The second dataset is a survey experiment in Cotonou, Benin. Here the researchers randomly assigned survey respondents short passages on the then Beninoise president Yayi Boni that included no mention of his wife, included a mention of his wife, or included a mention of his Fon wife. Respondents were then asked whether they were willing to vote for Yayi Boni should an election be held and barring term limits. The goal of the experiment was to assess whether priming respondents about the president's Fon wife might raise support amongst wife coethnics for the president.  Two pre-subsetted data from `benin.csv` are also provided: `coethnic.csv` which subsets `benin.csv` to only coethnic respondents with the wife, and `noncoethnic.csv` which subsets `benin.csv` to only noncoethnic respondents with the wife. Descriptions of the relevant variables in the data file `benin.csv` (and consequently `coethnic.csv` and `noncoethnic.csv`) are:
+
+ -------------------------------- ----------------------------------------------------------
+ Name                             Description
+ -------------------------------- ----------------------------------------------------------
+ `sex`                            `1` if respondent is female, and `0` otherwise
+
+ `age`                            Age of the respondent
+
+ `ethnicity`                      Ethnicity of the respondent
+
+ `fon`                            `1` if respondent is Fon, and `0` otherwise.
+
+ `passage`                        `Control` if respondent given control passage, `Wife` for wife passage, `FonWife` for Fon wife passage
+
+ `vote`                           `1` if respondent would vote for the president, `0` otherwise.
+ -------------------------------------------------------------------------------------------
+
+## Question 1
+
+Load the `afb.csv` data set. Look at a summary of the `afb` data to get a sense of what it looks like. Obtain a list of African democracies that are in the data set. Create a new binary variable, which is equal to `1` if the `ethnicpercent` variable is greater than its mean and is equal to `0` otherwise. Call this new variable `ethnicpercent2`. 
+
+## Answer 1
+
+```{r tidy=FALSE}
+
+```
+
+## Question 2
+
+What is the average willingness to vote for the president among all respondents? Now compute the average willingess separately for respondents who are coethnic with the presidential wife and respondents who are not. Given our initial hypothesis about how a president might be able to use his wife's ethnicity to get more support, how might we interpret the differences (or similarities) in the support amongst coethnics and non-coethnics?
+
+## Answer 2
+
+```{r tidy=FALSE}
+
+```
+
+It appears that coethnics with the president's wife have a XXXX average support for the president compared with non-coethnics.  This XXXX the hypothesis that a president can obtain a higher level of support from voters whose ethnicity is the same as that of his wife.
+
+## Question 3
+
+We might be concerned that we have not taken into account potentially confounding factors such as whether 1) the respondent is part of a proportionally larger or smaller ethnic group and 2) whether the respondent is also coethnic with the major opposition leader.  This is because if a respondent's ethnic group is quite small, the members might be less able to put forth a candidate of their exact ethnic label and have more incentive to support a president who, while not the same ethnicity, has a wife who does (and who therefore might have the wife's ethnic group interests at heart). It may also be that should an opposition candidate hold the same ethnicity as the respondent, such a "wife effect" might be diminished.
+
+To investigate this possibility, subset the `afb` data to adjust for potential confounding variable `ethnicpercent2` created in the previous question. _Consider the group of individuals who are of smaller than average ethnic groups_. What is the average willingness to vote between wife coethnics and wife non-coethnics?  Next, _consider only the group of individuals who are not only from smaller than average ethnic groups but are also not coethnic with the opponent_. What is the difference in average willingness to vote between wife coethnics and wife non-coethnics now? What do these results tell us about the relationship between the "wife effect"?
+
+## Answer 3
+
+```{r tidy=FALSE}
+
+```
+
+We see XXXX in the difference of willingness for wife coethnics versus wife non-coethnics to vote for the president. Adjusting for the size of the ethnic group as well as the opponent politician's ethnicity seems XXXX when trying to recover the effect of being coethnic with the president's wife on the vote for the president.
+
+## Question 4
+
+The Afrobarometer data, while rich and inclusive of many countries, is observational data.  Thus, it is difficult to estimate the effect of *treatment*, which is coethnicity with the president's wife in the current application. To address this difficulty, the authors of the study conduct a survey experiment in Benin, a small democracy on the western coast of the African continent. It is also a country represented in the Afrobarometer data set. The president at the time of the survey was Yayi Boni, who is of two ethnicities, Nago and Bariba. His wife Chantal is Fon. For the experiment, the authors randomly surveyed adult walkers on the streets of Cotonou (the capital of Benin). Respondents were asked some personal information, such as gender and age, as well as their ethnicity. Then, respondents were randomly assigned to either the control or one of two treatment groups (*Wife* and *Fon Wife*):
+
+In the control condition, respondents were read the following short biographical sketchof Yayi Boni, where there is no indication of the president's wife, Chantal: 
+
+> Yayi Boni became President of Benin on April 6, 2006 and was just re-elected for a second term. He has led a presidential campaign based on economic growth and suppressing corruption. However, some critics claim that the country's economic growth has been disappointing, and that Boni's administration is, itself, corrupt. 
+
+In the first treatment group, *Wife*, respondents were read the same passage as the control group, except the president's wife Chantal is explicitly mentioned at the beginning.  That is, the above script is preceded with "Accompanied by his wife, Chantal".  In the second treatment group, *Fon Wife*, respondents were read again the same passage, except the ethnicity of Chantal is explicitly mentioned with the script starting by "Accompanied by his Fon wife, Chantal".
+
+Now we turn to the `benin` dataset. Does being reminded that you are coethnic with the president's wife increase your willingness to vote for the president? The data has already been subsetted from the original experiment data so it contains only respondents who are not coethnic with the president (why would this be important to consider?). Take a closer look at the `ethnicity` variable by creating a table. How many ethnic groups are there represented in this dataset? Compare the mean willingness to vote for the president between the *Fon Wife* and control group. Briefly interpret the result. Was it important for the researchers to add a treatment with just the mention of the president's wife without her ethnicity?  Why or why not? 
+
+## Answer 4
+
+```{r tidy=FALSE}
+
+```
+
+Respondents who were reminded of their the Fon wife were XXXX likely to vote for the president than if they were not provided with any information about the wife. However, respondents were XXXX likely to vote for the president if they were simply reminded about the wife without ethnic information. This indicates that simply reminding respondents about the wife had a XXXX overall effect, while the Fon ethnic label had a XXXX effect that overcame the wife XXXX effect. This is why it's important to separately assess the *wife* and *Fon wife* effects.
+
+## Question 5
+
+Now compare the mean willingness to vote for the president between the *Fon Wife* and control group for wife coethnics only (load `coethnic.csv` file). Briefly interpret the result. What happens when we compare wife coethnics in the *Fon Wife* to the *Wife* group? The *Wife* to the control group? Do these results also apply to respondents who are NOT coethnic with the president's wife (load `noncoethnic.csv` file)? 
+
+## Answer 5
+
+```{r tidy=FALSE}
+
+```
+
+For coethnics with the wife, being reminded that the president's wife is the same (Fon) ethnicity XXXX their willingness to vote for the president by a XXXX probability, while being reminded of the president's wife Chantal, without her ethnicity, actually XXXX their willingness to vote for the president.

@@ -1,0 +1,109 @@
+---
+title: "Bias in Self-reported Turnout"
+output:
+  pdf_document: default
+  html_document: default
+date: "1st February 2019"
+fontsize: 12pt
+---
+
+Surveys are frequently used to measure political behavior such as
+voter turnout, but some researchers are concerned about the accuracy
+of self-reports.  In particular, they worry about possible *social
+desirability bias* where in post-election surveys, respondents who did
+not vote in an election lie about not having voted because they may
+feel that they should have voted.  Is such a bias present in the
+American National Election Studies (ANES)?  The ANES is a nation-wide
+survey that has been conducted for every election since 1948.  The
+ANES conducts face-to-face interviews with a nationally representative
+sample of adults.  The table below displays the names and descriptions
+of variables in the `turnout.csv` data file.
+
+--------------------------------------------------------------------------------
+ Name                 Description
+ -------------------- ----------------------------------------------------------
+ `year`               Election year
+ 
+ `VEP`                Voting Eligible Population (in thousands) 
+ 
+ `VAP`                Voting Age Population (in thousands) 
+ 
+ `total`              Total ballots cast for highest office (in thousands) 
+ 
+ `felons`             Total ineligible felons (in thousands) 
+ 
+ `noncitizens`        Total non-citizens (in thousands) 
+ 
+ `overseas`           Total eligible overseas voters (in thousands)
+ 
+ `osvoters`           Total ballots counted by overseas voters (in thousands)
+--------------------------------------------------------------------------------
+
+
+## Question 1
+
+Load the data into R and check the dimensions of the data.
+  Also, obtain a summary of the data.  How many observations are
+  there?  What is the range of years covered in this data set? 
+
+## Answer 1
+
+There are _XXXX_ observations in this data set.  The
+data covers the time period from
+_XXXX_ to _XXXX_.
+
+## Question 2
+
+Calculate the turnout rate based on the voting age population or
+  VAP. Note that for this data set, we must add the total number of
+  eligible overseas voters since the *VAP* variable does not
+  include these individuals in the count. Next, calculate the turnout
+  rate using the voting eligible population or VEP.  What difference
+  do you observe?
+  
+## Answer 2
+
+We find that the VAP turnout rate is consistently XXXX than the VEP 
+turnout rate. This result is due to the fact that .....
+
+## Question 3
+
+Compute the difference between VAP and ANES estimates of turnout
+  rate.  How big is the difference on average?  What is the range of
+  the difference?  Conduct the same comparison for the VEP and ANES
+  estimates of voter turnout.  Briefly comment on the results.
+
+## Answer 3
+
+On average, the ANES turnout rate is _XXXX_
+percentage points _XXXX_ than the VAP turnout rate. The difference
+ranges from _XXXX_ to
+_XXXX_ percentage points. Comparatively, we
+find that on average, the ANES turnout rate is
+_XXXX_ percentage points _XXXX_ than the VEP
+turnout rate. The difference ranges from _XXXX_ to
+_XXXX_ percentage points. The ANES
+turnout rate is _XXXX_ than both the VAP and VEP turnout
+rates. However, because the VAP turnout rate is consistently _XXXX_
+than the VEP turnout rate, we find that the difference between the VEP
+and ANES turnout rates is _XXXX_ than the difference between the VAP and
+ANES turnout rates.
+
+## Question 4
+
+Compare the VEP turnout rate with the ANES turnout rate
+  separately for presidential elections and midterm elections.  Note
+  that the data set excludes the year 2006. Does the bias of the ANES
+  vary across election types?
+
+## Answer 4
+
+On average, the bias is _XXXX_ among presidential elections than
+midterm elections. The ANES turnout rate is on average
+_XXXX_ percentage points _XXXX_ than the VEP
+turnout rate in presidential elections.  In midterm elections, the
+ANES turnout rate is on average _XXXX_
+percentage points _XXXX_ than the VEP turnout rate. Notably, however,
+the largest divergence of _XXXX_ percentage
+points between the ANES and VEP turnout rates occurs during the _XXXX_
+midterm election.

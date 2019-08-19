@@ -1,0 +1,107 @@
+---
+title: 'Changing Minds on Gay Marriage: Revisited'
+author: 'Your Name'
+date: \today
+fontsize: 12pt
+output:
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(error=FALSE,comment='')
+```
+
+In this exercise, we revisit the gay marriage study we analysed previously. As we discussed in class, in May 2015 three scholars reported several irregularities in the dataset used to produce the results in the study. This exercise is based on the unpublished report ['Irregularities in LaCour (2014)'](https://stanford.edu/~dbroock/broockman_kalla_aronow_lg_irregularities.pdf) by David Broockman, Joshua Kalla, and Peter Aronow. 
+
+They found that the gay marriage experimental data were statistically indistinguishable from data in the Cooperative Campaign Analysis Project (CCAP), which interviewed voters throughout the 2012 United States presidential campaign. The scholars suggested that the CCAP survey data -- and not the original data alleged to have been collected in the experiment -- were used to produce the results reported in the gay marriage study. The release of a report on these irregularities ultimately led to [the retraction of the original article](http://science.sciencemag.org/content/348/6239/1100.2). In this exercise, we will use several measurement strategies to reproduce the irregularities observed in the gay marriage dataset.
+
+To do so, we will use two CSV data files: First, a reshaped version of the original dataset in which every observation corresponds to a unique respondent, `gayreshaped.csv`.  The variables in this file are:
+
+-------------------------------------------------------------------------------
+ Name                 Description
+ -------------------- ---------------------------------------------------------
+ `study`              Which study the data set is from (1 = Study1, 2 = Study2) 
+ 
+ `treatment`          Five possible treatment assignment options 
+ 
+ `therm1`             Survey thermometer rating of feeling towards gay couples in wave 1 (0--100) 
+ 
+ `therm2`             Survey thermometer rating of feeling towards gay couples in wave 2 (0--100) 
+ 
+ `therm3`             Survey thermometer rating of feeling towards gay couples in wave 3 (0--100) 
+ 
+ `therm4`             Survey thermometer rating of feeling towards gay couples in wave 4 (0--100) 
+-------------------------------------------------------------------------------
+
+Second, the 2012 CCAP dataset alleged to have been used as the basis for the gay marriage study results, `ccap2012.csv`.  The variables in the CCAP data are:
+
+-------------------------------------------------------------------------------
+ Name                 Description
+ -------------------- ---------------------------------------------------------
+ `caseid`             Unique respondent ID 
+ 
+ `gaytherm`           Survey thermometer rating (0-100) of feeling towards gay couples 
+-------------------------------------------------------------------------------
+
+Note that a feeling thermometer measures how warmly respondents feel toward gay couples on a 0-100 scale.
+
+## Question 1
+
+In the gay marriage study, researchers used seven waves of a survey to assess how lasting the persuasion effects were over time. One irregularity the scholars found is that responses across survey waves in the control group (where no canvassing occurred) had unusually high correlation over time. What is the correlation between respondents' feeling thermometer ratings in waves 1 and 2 for the control group in Study 1? To handle missing data, we should set the `use` argument of the `cor` function to `"complete.obs"` so that the correlation is computed using only observations that have no missing data in any of these observations. Provide a brief substantive interpretation of the results.
+
+## Answer 1
+
+```{r, tidy=FALSE}
+
+```
+
+_Write your answer here_.
+
+## Question 2
+
+Repeat the previous question, using Study 2 and comparing all waves within the control group. Note that the `cor` function can take a single `data.frame` with multiple variables. To handle missing data in this case, we can set the `use` argument to `"pairwise.complete.obs"`. This means that the `cor` function uses all observations which have no missing values for a given pair of waves even if some of them have missing values in other waves. Briefly interpret the results.
+  
+## Answer 2
+
+```{r, tidy=FALSE}
+
+```
+
+_Write your answer here_.
+
+## Question 3
+
+Most surveys find at least some *outliers* or individuals whose responses are substantially different from the rest of the data. In addition, some respondents may change their responses erratically over time. Create a scatterplot to visualize the relationships between wave 1 and each of the subsequent waves in Study 2.  Use only the control group. Interpret the results. 
+
+## Answer 3
+
+```{r, tidy=FALSE}
+
+```
+
+_Write your answer here_.
+
+## Question 4
+
+The researchers found that the data of the gay marriage study appeared unusually similar to the 2012 CCAP dataset even though they were supposed to be samples of completely different respondents. We use the data contained in `ccap2012.csv` and `gayreshaped.csv` to compare the two samples. Create a histogram of the 2012 CCAP feeling thermometer, the wave 1 feeling thermometer from Study 1, and the wave 1 feeling thermometer from Study 2. There are a large number of missing values in the CCAP data. Consider how the missing data might have been recoded in the gay marriage study. To facilitate the comparison across histograms, use the `breaks` argument in the `hist` function to keep the bin sizes equal cross histograms. Briefly comment on the results.
+  
+## Answer 4
+
+```{r, tidy=FALSE}
+
+```
+
+_Write your answer here_.
+
+## Question 5
+
+A more direct way to compare the distribution of two samples is through a *quantile-quantile plot*. Use this visualization method to conduct the same comparison as in the previous question. Briefly interpret the plots.
+
+## Answer 5
+
+```{r, tidy=FALSE}
+
+```
+
+_Write your answer here_.
+

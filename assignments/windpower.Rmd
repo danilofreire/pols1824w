@@ -1,0 +1,66 @@
+This exercise is based on the following article:
+
+Stokes, Leah C. (2016). ["Electoral Backlash against Climate Policy: A Natural Experiment on Retrospective Voting and Local Resistance to Public Policy Authors"](https://doi.org/10.1111/ajps.12220) *American Journal of Political Science*, Vol. 60, No. 4, pp. 958-974.  
+
+The paper explores the period from 2003 to 2011 in Ontario, Canada.  During that time the Liberal Party government passed the Green Energy Act. This policy allowed groups (corporations, communities, and even individuals) to build wind turbines and other renewable energy projects throughout the province.  Further, the government agreed to sign long-term contracts to buy the energy produced by these projects.
+
+Although opinion polls suggest that there was broad support for green energy projects, many voters appeared angry about having a windfarm near them.  That is, many people wanted windfarms, but just not near them.  This is sometimes called NIMBYism (Not In My BackYard).  Stokes's paper investigated whether people near windfarms were more likely to vote against the Liberal Party, which put in place a policy that promoted windfarms.
+
+Here's a partial codebook for the variables in `stokes_electoral_2015.csv`: 
+
+------------------------------------------------------------------------------------
+Name             Description
+---------------  -------------------------------------------------------------------
+`master_id`      Precinct ID number 
+
+`year`           Election year
+
+`prop`           Binary variable indicating whether there was a proposed turbine in that precinct in that year 
+
+`perc_lib`       Votes cast for Liberal Party divided by the number of voters who cast ballots in precinct
+
+------------------------------------------------------------------------------------
+
+Because windfarms were only created in rural parts of Ontario, we are going to restrict the analysis to rural areas; see paper for definition.  Further, we are only going to analyze a random sample of 500 rural precincts for computational reasons. 
+
+Finally, the author assumes that the location of the windfarms was as-if random.  In other words, just like people in a clinical trial are randomly assigned to receive treatment or control, in this case it was as if the windfarms were assigned to precincts without regard to the political attitudes of residents. Under this assumption that windfarm location was unrelated to political preferences, we can give this regression a causal interpretation.
+
+## Question 1
+
+First, let's load the data. What years are included?  How many precincts are included? How many year-precincts are included?
+
+## Answer 1
+
+Your answer here.
+
+## Question 2
+
+Make a boxplot that shows the distribution of vote share for the Liberal Party in each year.  What do you conclude from this plot?
+
+## Answer 2
+
+Your answer here.
+
+## Question 3
+
+Make a timeseries plot that shows the number of precincts with proposed wind farms in each year as well as the number of operational wind farms each year.  What does the plot show?
+
+## Answer 3
+
+Your answer here.
+
+## Question 4
+
+Now we are going to explore whether districts that had proposed windfarms decreased their support for the Liberal Party.  Run a regression where the outcome is the percentage of votes for the Liberal Party and the predictors are whether a wind farm was proposed.  What is the estimated coefficient on the variable `prop`?  What do you conclude? 
+
+## Answer 4
+
+Your answer here.
+
+## Question 5
+
+What is the standard error of the coefficient for `prop`?  What is the value of the estimate divided by the standard error and what does that mean?  If you have the null hypothesis that this coefficient is equal to 0 and choose $\alpha = 0.05$ level, would you reject the null hypothesis?  What does rejecting the null hypothesis mean substantively in this case?
+
+## Answer 5
+
+Your answer here.

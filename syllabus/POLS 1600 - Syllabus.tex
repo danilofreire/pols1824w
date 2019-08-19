@@ -1,0 +1,314 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{amssymb,amsmath,amssymb}
+\usepackage[stable]{footmisc}
+\usepackage{lmodern}
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+\usepackage{FiraSans}
+\usepackage[authoryear]{natbib}
+\usepackage{babelbib}
+\usepackage{booktabs, makecell, longtable}
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.55}
+\setcitestyle{aysep={}} 
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\NAT@citex}
+  {\@citea\NAT@hyper@{%
+	 \NAT@nmfmt{\NAT@nm}%
+	 \hyper@natlinkbreak{\NAT@aysep\NAT@spacechar}{\@citeb\@extra@b@citeb}%
+	 \NAT@date}}
+  {\@citea\NAT@nmfmt{\NAT@nm}%
+   \NAT@aysep\NAT@spacechar\NAT@hyper@{\NAT@date}}{}{}
+\patchcmd{\NAT@citex}
+  {\@citea\NAT@hyper@{%
+	 \NAT@nmfmt{\NAT@nm}%
+	 \hyper@natlinkbreak{\NAT@spacechar\NAT@@open\if*#1*\else#1\NAT@spacechar\fi}%
+   {\@citeb\@extra@b@citeb}%
+	 \NAT@date}}
+  {\@citea\NAT@nmfmt{\NAT@nm}%
+   \NAT@spacechar\NAT@@open\if*#1*\else#1\NAT@spacechar\fi\NAT@hyper@{\NAT@date}}
+  {}{}
+\makeatother
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{float}
+\floatplacement{figure}{H}
+\usepackage{pgf}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{positioning}
+\usepackage{mathtools}
+\usepackage{caption}
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage[UKenglish]{babel}
+\usepackage[UKenglish]{isodate}
+\cleanlookdateon
+\exhyphenpenalty=1000
+\hyphenpenalty=1000
+\widowpenalty=10000
+\clubpenalty=1000
+\usepackage[backref,pagebackref]{hyperref}
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{%
+	\ifcase #1 (Not cited.)%
+	\or        Cited on page~#2.%
+	\else      Cited on pages~#2.%
+	\fi}
+\renewcommand{\backreftwosep}{ and~}
+\renewcommand{\backreflastsep}{ and~}
+
+\hypersetup{
+	pdftitle={POLS 1600: Political Research Methods},
+	pdfauthor={Danilo Freire},
+	pdfsubject={Course Syllabus},
+    pdfkeywords={POLS 1600},
+	pdfborder={0 0 0},
+	breaklinks=true,
+	linkcolor=Mahogany,
+	citecolor=Mahogany,
+	urlcolor=Mahogany,
+	colorlinks=true} %
+
+\doublespacing
+
+\title{\textbf{POLS 1600: Political Research Methods \\ \Large{Spring 2019}}}
+
+\author{Danilo Freire}
+
+\date{Brown University}
+
+\begin{document}
+\maketitle
+
+\section{Course Overview}%
+\label{sec:overview}
+
+This course offers an introduction to quantitative data analysis for political scientists. The main goal of the course is to provide students with the fundamental statistical and programming skills necessary to consume and produce current social science research. Students will learn how to formulate and test hypotheses using multivariate regression techniques and how to communicate statistical results with confidence and clarity.
+
+Students will also be introduced to \href{https://en.wikipedia.org/wiki/R_(programming_language)}{\texttt{R}}, an open source statistical language. \texttt{R} is the \textit{de facto} standard language for quantitative analysis and is widely used by academics and firms like Google, Facebook and Amazon to gain insights from data. \texttt{R} has about 14,000 packages that extend its core functionalities and it is free to download, use or modify. Compared to Excel or SPSS, \texttt{R} has a slightly steeper learning curve, but its power and flexibility greatly overweight the costs.
+
+\section{Course Information}%
+\label{sec:course_information}
+
+We will meet every Monday, Wednesday and Friday at 13:00 in the \href{http://brown.edu/Facilities/Facilities_Management/maps/index.php#building/WATSONCIT}{CIT Centre (Thomas Watson CTI) 227}. Classes will be 50-minutes long. Students are requested to read the materials and run the code before each class. Students should also bring their laptops to the sessions.
+
+All information about the course -- including this syllabus, lecture slides, problem sets and assignments -- will be available at \href{http://pols1600.github.io}{http://pols1600.github.io}. The syllabus will be updated periodically throughout the course according to the progress of the class. Please remember to visit the website regularly.
+
+ I am very flexible when it comes to office hours, but it is easier to contact me via email. Feel free to send me a message any time at \href{danilo_freire@brown.edu}{danilo\_freire@brown.edu}, I will probably reply in a few hours. You can also meet me in the afternoon at my office. I am in the Political Theory Project every weekday. My address is 8 Fones Alley, first floor, office 114. If possible, please send me an email before coming to my office just to make sure two students will not book the same time slot.
+
+\section{Community Standards}%
+\label{sec:community_standards}
+
+Brown University is committed to full inclusion of all students. Please inform me early in the term if you have a disability or other conditions that might require accommodations or modification of any of these course procedures. You may speak with me after class or during office hours. For more information, please contact \href{https://www.brown.edu/campus-life/support/accessibility-services/}{Student and Employee Accessibility Services} at 401-863-9588 or \href{mailto:SEAS@brown.edu}{SEAS@brown.edu}. Students in need of short-term academic advice or support can contact one of the deans in the Dean of the College office.
+
+\section{Academic Integrity}%
+\label{sec:academic_integrity}
+
+Many of the assignments of this course consist in writing R code. The best way to learn how to code is to write code, make mistakes, then try again. I kindly ask you not to copy code from other students as I take plagiarism very seriously. I am happy to provide any help you may require with your lessons as long as you are committed to the course. It is also important to cite other people's work whenever necessary, and if in doubt, mention your sources. 
+
+\section{English Language Learners}%
+\label{sec:english_language_learners}
+
+Brown University welcomes students from around the country and the world, and the unique perspectives international and multilingual students bring enrich the campus community. To empower multilingual learners, an array of support is available including language and culture workshops and individual appointments. For more information about English Language Learning support at Brown, contact the ELL Specialists at \href{ellwriting@brown.edu}{ellwriting@brown.edu}. No student will be penalised for their command of the English language.
+
+\section{Requirements and Grading}
+\label{sec:requirements}
+
+The means of evaluation includes three components:
+
+\begin{itemize}
+	\item \textbf{Participation: 10\%}. Students should be active participants in the course. Feel free to ask any question you may have, help others if you know how, and make suggestions or comments you believe are interesting. I hope we create a friendly, open environment for learning and students are the most important part of it.
+	\item \textbf{Problem Sets: 40\%}. I will assign several programming assignments during the course and they will count towards your grade. We will be using the \texttt{swirl} package and other data sets I will distribute over the coming weeks. In the first sessions I will describe how to install the package and how to submit the assignments. Students are encouraged to work in groups but should submit their own code. All problems sets have to be written in \href{https://rmarkdown.rstudio.com/}{RMarkdown}. 
+	\item \textbf{Final Project: 50\%}. In the final project, students will have the opportunity to work with real data and conduct their own statistical analyses. I will distribute a series of datasets about important topics in the social sciences and students will use the knowledge they acquire in the course to test new hypotheses on such data. If you would like to work on a particular topic, please let me know and we can try to accommodate your requests. Students can work in groups of up to three people as most academic research is currenty done collaboratively. In the last two weeks of the course, students will present their findings to the class and receive feedback from their colleagues. 
+\end{itemize}
+
+
+\section{Course Materials}%
+\label{sec:course_materials}
+
+The primary textbook for the course will be: 
+
+\begin{quote}
+Imai, Kosuke. \textit{Quantitative Social Science: An Introduction}. Princeton, NJ: Princeton University Press, 2018.
+\end{quote}
+
+The book can be found on Amazon or any other book store. It is not particularly expensive (eBook: US\$ 29; Paperback: US\$39 on Amazon), and it is important you buy it as soon as possible. The other book we will use in this course is:
+
+\begin{quote}
+Angrist, Joshua and Pischke, J\"{o}rn-Steffen. \textit{Mastering 'Metrics: The Path from Cause to Effect}. Princeton, NJ: Princeton University Press, 2014.
+\end{quote}
+
+Angrist and Pischke's book is a great introduction to the five most widely-used causal methods in econometrics and political science. It is written in a very accessible style and has many interesting examples. We will use several chapters of the book throughout the course. Ebook version: US\$ 19,99; paperback edition: US\$31.
+
+For students who need a refresher on introductory calculus and probability, I suggest the following two books: 
+
+\begin{quote}
+Moore, Will and Siegel, David. \textit{A Mathematics Course for Political and Social Research}. Princeton, NJ: Princeton University Press, 2013.
+\end{quote}
+
+\begin{quote}
+Chiang, Alpha. \textit{Fundamental Methods of Mathematical Economics}. New York City, NY: McGraw-Hill, Inc. Any edition.  
+\end{quote}
+
+Both books cover all topics we will use in the course and more. Another good source for basic mathematics is \href{https://www.khanacademy.org/}{Khan Academy}.
+
+Students who want to know more about causality and statistical methods are encouraged to read these books:
+
+\begin{quote}
+Morgan, Stephen and Winship, Christopher. \textit{Counterfactuals and Causal Inference: Methods and Principles for Social Research}. Cambridge: Cambridge University Press, 2016. 
+\end{quote}
+
+\begin{quote}
+Gerber, Alan and Greene, Donald. \textit{Field Experiments: Design, Analysis, and Interpretation}. New York City, NY: W. W. Norton and Company, 2012. 
+\end{quote}
+
+\begin{quote}
+Rosenbaum, Paul. \textit{Observation and Experiment: An Introduction to Causal Inference}. Cambridge, MA: Harvard University Press, 2019.
+\end{quote}
+
+
+
+\section{Software}%
+\label{sec:software}
+
+As I have mentioned above, we will use \texttt{R} in this course. You can download it at \href{http://www.r-project.org}{http://www.r-project.org}. I strongly recommend you also download \texttt{RStudio}, a user interface for \texttt{R}. It is available at \href{http://www.rstudio.com/}{http://www.rstudio.com/}. Both are free to download and there are versions for Mac, PC and Linux.
+
+\texttt{R} can be challenging for beginners, but fortunately it has a large and helpful software community. You will probably find on the internet the solution for any problem you may have. Two websites are of particular interest: \href{https://stackoverflow.com}{https://stackoverflow.com} and \href{https://r4ds.had.co.nz}{https://r4ds.had.co.nz}. They are surely going to be very helpful. 
+
+\section{Course Schedule}%
+\label{sec:course_schedule}
+
+The following schedule is preliminary and may change in the next weeks. 
+
+\subsubsection*{Week 1}
+
+\begin{itemize}
+	\item \textbf{23 January 2019 -- Wednesday}: Introduction and course overview
+	\item \textbf{25 January -- Friday:} Introduction to R and RStudio. Please read QSS chapter 1, pages 1-30 and bring your laptop to class
+\end{itemize}
+
+\subsubsection*{Week 2}
+
+\begin{itemize}
+	\item \textbf{28 January -- Monday:} More introduction to R
+	\item \textbf{30 January -- Wednesday:}  QSS chapter 2.1-2.4, MM chapter 1
+	\item \textbf{1 February -- Friday}: In class exercise on causality. Homework: Swirl, CAUSALITY 1. 
+\end{itemize}
+
+\subsubsection*{Week 3} 
+
+\begin{itemize}
+	\item \textbf{4 February -- Monday:} Continue exercise on RCTs
+	\item \textbf{6 February -- Wednesday:} Observational studies. Please read QSS chapter 2.5-2.6. Assignment due: QSS exercise 1.5.1 
+	\item \textbf{8 February -- Friday:} Observational studies continued. In class exercise.
+\end{itemize}
+
+\subsubsection*{Week 4}
+
+\begin{itemize}
+	\item \textbf{11 February -- Monday:} Observational studies continued. QSS chapter 2.5-2.6 
+	\item \textbf{13 February -- Wednesday:} Introduction to measurement. QSS 3.1-3.4 
+	\item \textbf{15 February -- Friday:} In class exercise on measurement. Homework: swirl exercise MEASUREMENT 1 
+\end{itemize}
+
+\subsubsection*{Week 5}
+
+\begin{itemize}
+	\item \textbf{20 February -- Wednesday}: Discussion about final project
+	\item \textbf{22 February -- Friday}: Bivariate relationships. QSS 3.5-3.7 
+\end{itemize}
+
+\subsubsection*{Week 6}
+
+\begin{itemize}
+	\item \textbf{25 February -- Monday:} More bivariate relationships. Homework: swirl exercise MEASUREMENT 2
+	\item \textbf{27 February -- Wednesday:} More bivariate relationships. In class exercise.
+	\item \textbf{1 March -- Friday:}  Introduction to prediction. QSS 4.1 
+\end{itemize}
+
+\subsubsection*{Week 7}
+
+\begin{itemize}
+	\item \textbf{4 March -- Monday:} Prediction. QSS 4.2
+	\item \textbf{6 March -- Wednesday:} In class exercise. Homework: swirl PREDICTION 1
+	\item \textbf{8 March -- Friday:} Introduction to regression. QSS 4.3. Homework: swirl PREDICTION 2 
+\end{itemize}
+
+\subsubsection*{Week 8}
+
+\begin{itemize}
+	\item \textbf{11 March -- Monday:} In class exercise prediction
+	\item \textbf{13 March -- Wednesday:} Regression review. Homework: swirl PREDICTION 3
+	\item \textbf{15 March -- Friday:} Regression and causality. QSS 4.3, MM 2 (no need to read the appendix) 
+\end{itemize}
+
+\subsubsection*{Week 9}
+
+\begin{itemize}
+	\item \textbf{18 March -- Monday:} More regression and causality 
+	\item \textbf{20 March -- Wednesday:} Introduction to probability. QSS 6.1
+	\item \textbf{22 March -- Friday:} More probability 
+\end{itemize}
+
+\subsubsection*{Week 10}
+
+\begin{itemize}
+	\item \textbf{Spring recess} 
+\end{itemize}
+
+
+\subsubsection*{Week 11}
+
+\begin{itemize}
+	\item \textbf{1 April -- Monday:} Conditional probability. QSS 6.2
+	\item \textbf{3 April -- Wednesday:} More conditional probability 
+	\item \textbf{5 April -- Friday:} In class exercise on probability. Homework: swirl PROBABILITY 1
+\end{itemize}
+
+\subsubsection*{Week 12}
+
+\begin{itemize}
+	\item \textbf{8 April -- Monday:} More probability. QSS 6.3
+	\item \textbf{10 April -- Wednesday:} Large sample theorems. QSS 6.4-6.5
+	\item \textbf{12 April -- Friday:} Discussion about final project 
+\end{itemize}
+
+\subsubsection*{Week 13}
+
+\begin{itemize}
+	\item \textbf{15 April -- Monday:} Law of large numbers. Homework: swirl PROBABILITY 2
+	\item \textbf{17 April -- Wednesday:} Introduction to uncertainty. QSS 7.1.1-7.1.4
+	\item \textbf{19 April -- Friday:} In class exercise about uncertainty. QSS 7.1.5-7.1.6. Homework: swirl UNCERTAINTY 1 
+\end{itemize}
+
+\subsubsection*{Week 14}
+
+\begin{itemize}
+	\item \textbf{22 April -- Monday:} In class exercise about uncertainty. Homework: swirl UNCERTAINTY 2
+	\item \textbf{24 April -- Wednesday:} Linear regression. QSS 7.3.1-7.3.4. MM Appendix chapter 2 
+	\item \textbf{26 April -- Friday:} In class exercise about linear regression. QSS 7.3.5-7.4 
+\end{itemize}
+
+\subsubsection*{Week 15}
+
+\begin{itemize}
+	\item \textbf{29 April -- Monday:} Review of uncertainty 
+	\item \textbf{1 May -- Wednesday:} Final project presentations
+	\item \textbf{3 May -- Friday:} Final project presentations 
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+\end{document}
