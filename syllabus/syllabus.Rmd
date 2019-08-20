@@ -1,0 +1,247 @@
+---
+title: "Political Violence"
+author: "Danilo Freire"
+date: "Fall 2019"
+output:
+  pdf_document:
+    fig_caption: yes
+    latex_engine: pdflatex
+    template: ~/Documents/GitHub/political-violence-syllabus-2019/template.tex
+  word_document: default
+email: danilofreire@brown.edu
+fontfamily: libertine
+fontsize: 12pt
+geometry: margin=1in
+header-includes: \linespread{1.05}
+office: 8 Fones Alley, 114
+officehours: Mo-Fr Afternoon
+classroom: 101 Thayer Street (VGQ 1st fl) 116B
+classhours: Tuesday, 4-6pm 
+web: danilofreire.github.io/pols1824w
+---
+
+# Course Description
+
+This course explores the main debates on the causes and consequences of political violence. We will focus on three major topics: civil wars, state-sponsored violence, and terrorism. Since the end of World War II, domestic conflict has largely outpaced international wars as the dominant type of violence. But what makes civil wars so prevalent in recent years? What are the conditions under which a state decides to attack its own citizens? Why some groups resort to terrorism while others prefer nonviolent tactics? 
+
+The class has three goals. First, students will become familiar with the literature on political violence, its most important debates and recent findings. Second, students should be able to evaluate research methods and critically assess distinct theoretical approaches. Lastly, the course will develop the students' writing skills by asking them to review academic articles and present a paper of their own by the end of the semester.
+
+# Course Information
+
+We will meet every Tuesday from 16:00 to 18:30 at [101 Thayer Street (VGQ 1st fl) 116B](http://brown.edu/Facilities/Facilities_Management/maps/index.php#building/VGQUADA). It is very important that you read the assigned readings before class. Students are encouraged to engage in critical discussions and are most welcome to express their views openly and freely. I would suggest you to bring some notes to the class so that we can discuss together the topics you find most interesting. Some of the texts make use of statistical models and game theory, but don't be intimidated by them. Feel free to skip the technical parts if they are too challenging and focus on the main ideas of the readings.
+
+All information about the course will be available at [http://danilofreire.github.io/pols1824w](http://danilofreire.github.io/pols1824w). The syllabus will be updated periodically according to the progress of the class. Please remember to visit the website regularly.
+
+# Office Hours
+
+I am very flexible when it comes to office hours, but it is easier to contact me via email. Feel free to send me a message any time at [danilofreire@brown.edu](mailto:danilofreire@brown.edu). I will probably reply in a few hours. You can also meet me in the afternoon at my office. I am in the Political Theory Project every weekday. My address is [8 Fones Alley, first floor, office 114](https://goo.gl/maps/8WhhyCNDHnw). If possible, please send me an email before coming to my office just to make sure two students will not book the same time slot.
+
+# Community Standards
+
+Brown University is committed to full inclusion of all students. Please inform me early in the term if you have a disability or other conditions that might require accommodations or modification of any of these course procedures. You may speak with me after class or during office hours. For more information, please contact [Student and Employee Accessibility Services](https://www.brown.edu/campus-life/support/accessibility-services) at 401-863-9588 or [SEAS@brown.edu](mailto:SEAS@brown.edu). Students in need of short-term academic advice or support can contact one of the deans in the Dean of the College office.
+
+# English Language Learners
+
+Brown University welcomes students from around the country and the world, and the unique perspectives international and multilingual students bring enrich the campus community. To empower multilingual learners, an array of support is available including language and culture workshops and individual appointments. For more information about English Language Learning support at Brown, contact the ELL Specialists at [ellwriting@brown.edu](ellwriting@brown.edu). No student will be penalised for their command of the English language.
+
+# Academic Integrity
+
+Students will write three review reports and a longer essay for this course. All writing should be your own work, and I take plagiarism very seriously. I am happy to provide any help you may require with your lessons as long as you are committed to the course. It is also important to cite other people's work whenever necessary, and if in doubt, mention your sources. 
+
+# Special Needs
+
+If you have any special needs, please contact me. I'm happy to make necessary arrangements so you can follow this course.
+
+# Requirements and Grading 
+
+**Participation: 15%.**  Students should be active participants in the course. Feel free to ask any question you may have, help others if you know how, and make suggestions or comments you believe are interesting. I hope we create a friendly, open environment for learning and students are the most important part of it.
+
+**Three Rewiew Reports: 45%.**  The reviews should be 3-5 pages long. Imagine you are a reviewer for a good academic journal and think of how you could help the author improve the article. Are the arguments well-developed in the text? Is the research design plausible? What further examples could the author include to strenghten his/her arguments? Try to provide as much constructive criticism as possible. You don't need to summarise the paper, just critically engage with it. You should write one paper for each section of the course (civil wars, mass killings, and terrorism), but you're free to choose any reading you prefer. The essays are due at the beginning of the class and late assignments will not be eligible for an A. Each report will account for 15% of your grade.
+
+**Final Project: 40%.** In the final project, students will have the opportunity to write a longer essay about a topic that interests them. The essay should be related to the readings of the course, but you are particularly encouraged to explore new ideas and use new data to test their hypotheses. Students can work in groups of up to three people as most academic research is currently done collaboratively. By the second week of the course, students should submit a one-page summary of their future essay. The instructor and two colleagues will review the paper proposal and give the authors constructive feedback. Students will then write a full draft during the term. In the last week of the course, students will present their findings to the class and receive feedback from their colleagues. The final paper is due one week after that. 
+
+# Materials
+
+We will not use a textbook in this course. Most readings are recent academic articles published in political science journals. You probably have access to the publications through Brown, but let me know if you cannot find any of them. I will also include links to the book chapters mentioned in the syllabus.
+
+# Schedule and Readings
+
+All readings are available on [the course's GitHub repository](https://github.com/danilofreire/political-violence-syllabus-2019). It is very important that you read the assigned readings before class. Students are encouraged to engage in critical discussions and are most welcome to express their views openly and freely. I would suggest you to bring some notes to the class so that we can discuss together the topics you find most interesting. Some of the texts make use of statistical models and game theory, but don't be intimidated by them. Feel free to skip the technical parts if they're too challenging and focus on the main ideas of the readings. 
+
+## Week 1: Introduction
+
+Overview of the course. Long-term trends in armed conflict. Why do groups fight even if wars are costly?
+
+- Pinker, S. 2011. _The Better Angels of Our Nature: Why Violence Has Declined_. New York: Penguin Books. Introduction and chapter 6. 
+- Fearon, J. 1995. [Rationalist Explanations for War](http://www.jstor.org/stable/2706903), International Organization 49(3):379-414.
+
+Recommended:
+
+- Rosner, M. 2018. [Our World in Data: War and Peace](https://ourworldindata.org/war-and-peace).
+- Gohdes, A. & Price, M. 2012. [First Things First: Assessing Data Quality before Model Quality](http://journals.sagepub.com/doi/10.1177/0022002712459708), _Journal of Conflict Resolution_ 57(6):1090-1108.
+- Lacina, B. &  Gleditsch, N. 2012. [The Waning of War is Real: A Response to Gohdes and Price](http://journals.sagepub.com/doi/abs/10.1177/0022002712459709), _Journal of Conflict Resolution_ 57(6):1109-1127.
+- Gleditsch, N., Pinker, S., Thayer, B., Levy, J., Thompson, W. 2013. [The Forum: The Decline of War](https://academic.oup.com/isr/article/15/3/396/1851344), _International Studies Review_ 15(3):396-419.
+
+# Part I: Civil Wars
+
+## Week 2: Conceptual Definitions, Overview of the Recent Literature 
+
+- Sambanis, N.	2004. [What Is Civil War? Conceptual and Empirical Complexities of an Operational Definition](http://journals.sagepub.com/doi/abs/10.1177/0022002704269355), _Journal of Conflict Resolution_ 48(6):814-858.
+- Kalyvas, S. 2006. _The Logic of Violence in Civil War_. New York: Cambridge University Press. Chapter 1.
+- Kalyvas, S. 2001. ["New" and "Old" Civil Wars: A Valid Distinction?](https://www.cambridge.org/core/journals/world-politics/article/new-and-old-civil-wars-a-valid-distinction/46C7C5D88F9A432F470EA60A1CF5D024), _World Politics_ 54(1):99-118.
+- Walter, B. 2017. [The New New Civil Wars](https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-060415-093921), _The Annual Review of Political Science_ 20:469-486.
+
+Recommended:
+
+- Cederman, L-E. & Vogt, M. 2017. [Dynamics and Logics of Civil War](http://journals.sagepub.com/doi/abs/10.1177/0022002717721385), _Journal of Conflict Resolution_ 61(9):1-25.
+- Blattman, C. & Miguel, E. 2010. [Civil Wars](https://www.aeaweb.org/articles?id=10.1257/jel.48.1.3), _Journal of Economic Literature_ 48(1):3-57.
+- Eckstein, H. 1965. [On the Etiology of Internal Wars](http://www.jstor.org/stable/2504149), _History and Theory_ 4(2):133-163.
+- Arjona, A. 2014. [Wartime Institutions: A Research Agenda](http://journals.sagepub.com/doi/abs/10.1177/0022002714547904), _Journal of Conflict Resolution_ 58(8):1360-1389.
+- Goodwin, J. & Skocpol, T. 1989. [Explaining Revolutions in the Contemporary Third World](http://journals.sagepub.com/doi/abs/10.1177/003232928901700403?journalCode=pasa), _Politics and Society_ 17(4):495-509.
+- Price, J. 2001. _Thucydides and Internal War_. Cambridge: Cambridge University Press.
+
+## Week 3: Causes of Civil War
+
+- Collier, P. & Hoeffler, A. 2004. [Greed and Grievance in Civil War](https://academic.oup.com/oep/article-abstract/56/4/563/2361902), _Oxford Economic Papers_ 56(4):563-595.
+- Fearon, J. & Laitin, D. 2003. [Ethnicity, Insurgency,	and Civil War](https://www.cambridge.org/core/journals/american-political-science-review/article/ethnicity-insurgency-and-civil-war/B1D5D0E7C782483C5D7E102A61AD6605), _American Political Science Review_ 97(1):75-90.
+- Cederman, L-E., Weidmann, N. & Gleditsch, K. 2011. [Horizontal Inequalities and Ethnonationalist Civil War: A Global Comparison](https://www.cambridge.org/core/journals/american-political-science-review/article/horizontal-inequalities-and-ethnonationalist-civil-war-a-global-comparison/840A4D0FA634987190FD73A38E136860), _American Political Science Review_, 105(3):478-495.
+- Kalyvas, S. 2003. [The Ontology of "Political Violence": Action and Identity in Civil Wars](https://www.cambridge.org/core/journals/perspectives-on-politics/article/ontology-of-political-violence-action-and-identity-in-civil-wars/C3DD7D831216BCE871D8D7BA70A842EB), _Perspectives on Politics_ 1(3):475-494.
+
+Recommended:
+
+- Sambanis, N. 2004. [Using Case Studies to Expand Economic Models of Civil War](https://www.cambridge.org/core/journals/perspectives-on-politics/article/using-case-studies-to-expand-economic-models-of-civil-war/D06130066DDF1FEA37F8C022CFF7E0B8), _Perspectives on Politics_, 2(2):259-279.
+- Balcells, L. & Justino, P. 2014. [Bridging Micro and Macro Approaches on Civil Wars and Political Violence: Issues, Challenges, and the Way Forward](http://journals.sagepub.com/doi/abs/10.1177/0022002714547905), _Journal of Conflict Resolution_ 58(8):1-17.
+- Sambanis, N. & Havard H. 2006. [Sensitivity Analysis of Empirical Results on Civil War Onset](http://journals.sagepub.com/doi/abs/10.1177/0022002706289303), _Journal of Conflict Resolution_, 50(4):508-535.
+- Ward, M., Greenhill, B., & Bakke, K. 2010. [The Perils of Policy by P-Value: Predicting Civil Conflicts](http://journals.sagepub.com/doi/abs/10.1177/0022343309356491), _Journal of Peace Research_ 47(4):363-375.
+- Cederman, L-E., Gleditsch, K. & Buhaug, H. 2013. _Inequality, Grievances, and Civil War_. Cambridge: Cambridge University Press.
+- Ross, M. 2004. [What Do We Know about Natural Resources and Civil War?](http://journals.sagepub.com/doi/abs/10.1177/0022343304043773), _Journal of Peace Research_ 41(3):337-356.
+- Elbadawi, I. & Sambanis, N. 2003. [Why are There so Many Civil Wars in Africa? Understanding and Preventing Violent Conflict](https://academic.oup.com/jae/article-abstract/9/3/244/708291), _Journal of African Economies_ 9(3):244-269.
+
+## Week 4: Violence against Civilians
+
+- Lacina, Bethany. 2006. [Explaining the Severity of Civil Wars](http://journals.sagepub.com/doi/abs/10.1177/0022002705284828), _Journal of Conflict Resolution_ 50(2):276-289.
+- Humphreys, M. & Weinstein, J. 2006. [Handling and Manhandling Civilians in Civil War](https://www.cambridge.org/core/journals/american-political-science-review/article/handling-and-manhandling-civilians-in-civil-war/4981647EDFE411635EB2086C4A851BFA), _American Political Science Review_ 100(3):429-447. 
+- Kalyvas, S. 2006. _The Logic of Violence in Civil War_. New York: Cambridge University Press. Chapters 4 to 7.
+
+Recommended:
+
+- Kalyvas, S. 1999. [Wanton And Senseless? The Logic of Massacres in Algeria](http://journals.sagepub.com/doi/abs/10.1177/104346399011003001), _Rationality and Society_ 11(3):243-285.
+- Melander, E., Magnus O. & Hall, J. 2009. [Are New Wars More Atrocious?](http://journals.sagepub.com/doi/abs/10.1177/1354066109338243), _European Journal of International Relations_ 15(3):505-536.
+- Cohen, D. 2013. [Explaining Rape During Civil War: Cross-National Evidence (1980-2009)](https://www.cambridge.org/core/journals/american-political-science-review/article/explaining-rape-during-civil-war-crossnational-evidence-19802009/30FC323D6DA7E923547156CC0E947213), _American Political Science Review_ 107(3):461-477.
+- Wood, E. 2009. [Armed Groups and Sexual Violence: When Is Wartime Rape Rare?](http://journals.sagepub.com/doi/abs/10.1177/0032329208329755), _Politics & Society_ 37(1):131-161.
+- Balcells, L. 2010. [Rivalry and Revenge: Violence against Civilians in Conventional Civil Wars](https://academic.oup.com/isq/article-abstract/54/2/291/1793034), _International Studies Quarterly_ 54(2):291-313.
+
+## Week 5: Ending Civil Wars
+
+- Walter, B. 1997. [The Critical Barrier to Civil War Settlement](https://www.cambridge.org/core/journals/international-organization/article/critical-barrier-to-civil-war-settlement/AF2E36B866EC5E658266D01C5B00B42F), _International Organization_ 51(3):335-364.
+- Howard, L. & Stark, A. 2018. [How Civil Wars End: The International System, Norms, and the Role of External Actors](https://www.mitpressjournals.org/toc/isec/42/3), _International Security_ 42(3):127–171.
+- Toft,	M. 2010. [Ending Civil Wars: A Case for Rebel Victory?](https://www.mitpressjournals.org/doi/abs/10.1162/isec.2010.34.4.7) _International Security_ 34(4):7-36.
+- Fortna, V. 2004. [Does Peacekeeping Keep Peace? International Intervention and the Duration of Peace After Civil War](https://academic.oup.com/isq/article/48/2/269/1888752), _International Studies Quarterly_ 48(2):269-292.
+
+Recommended: 
+
+- Findley. M. & Young, J. 2015. [Terrorism, Spoiling, and the Resolution of Civil Wars](https://www.journals.uchicago.edu/doi/abs/10.1086/682400), _Journal of Politics_ 77(4):1115-1128.
+- Balcells, L. & Kalyvas, S. 2014. [Does Warfare Matter? Severity, Duration, and Outcomes of Civil Wars](http://journals.sagepub.com/doi/abs/10.1177/0022002714547903), _Journal of Conflict Resolution_ 58(8):1-29.
+- Walter, B. 2002. _Committing to Peace: The Successful Settlement of Civil Wars_. Princeton: Princeton University Press.
+- Fearon, J. 2004. [Why Do Some Civil Wars Last So Much Longer Than Others?](http://journals.sagepub.com/doi/abs/10.1177/0022343304043770), _Journal of Peace Research_ 41(3):275-301.
+- Regan, P. 2010. [Interventions in Civil Wars: A Retrospective Survey with Prospective Ideas](https://www.tandfonline.com/doi/abs/10.1080/13698249.2010.534632), _Civil Wars_ 12(4):456-76.
+
+# Part II: State-Sponsored Violence
+
+## Week 6: What are Genocides and Politicides?
+
+- Levene, M. 2000. [Why Is the Twentieth Century the Century of Genocide?](https://muse.jhu.edu/article/18358/pdf), _Journal of World History_ 11(2):305-336.
+- Fein, H. 1993. [Accounting for Genocide after 1945: Theories and Some Findings](http://booksandjournals.brillonline.com/content/journals/10.1163/157181193x00013), _International Journal on Minority and Group Rights_ 1(2):79-106.
+- Blatman, D. 2015. [Holocaust Scholarship: Towards a Post-Uniqueness Era](https://www.tandfonline.com/doi/abs/10.1080/14623528.2015.991206), _Journal of Genocide Research_ 17(1):21-43.
+
+Recommended:
+
+- Jones, A. 2006. _Genocide: A Comprehensive Introduction_. New York: Routledge.
+- United Nations. 2012. _Office of the Special Advisor on the Prevention of Genocide_ (<http://www.un.org/en/preventgenocide/adviser/index.shtml>).
+- Palmer, A. 1998. [Colonial and Modern Genocide: Explanations and Categories](https://www.tandfonline.com/doi/abs/10.1080/014198798330115), _Ethnic and Racial Studies_ 21(1):89-115.
+- Huttenbach, H. 1988. [Locating the Holocaust on the Genocide Spectrum: Towards a Methodology of Definition and Categorization](https://academic.oup.com/hgs/article/3/3/289/602465), _Holocaust and Genocide Studies_ 3(3):289-303.
+- Fein, H. 1993. [Discriminating Genocide from War Crimes: Vietnam and Afghanistan Reexamined](http://heinonline.org/HOL/LandingPage?handle=hein.journals/denilp22&div=7&id=&page=), _Denver Journal of International Law and Policy_ 22(1):29-62.
+
+## Week 7: Cross-National Determinants of Genocide
+
+- Harff, B. 2003. [No Lessons Learned from the Holocaust? Assessing Risks of Genocide and Political Mass Murder since 1955](https://www.cambridge.org/core/journals/american-political-science-review/article/no-lessons-learned-from-the-holocaust-assessing-risks-of-genocide-and-political-mass-murder-since-1955/FBA37FA563AC35E1CB6F7B57F8140F2C), _American Political Science Review_ 97(1):57-73.
+- Uzonyi, G. 2014. [Domestic Unrest, Genocide and Politicide](http://journals.sagepub.com/doi/abs/10.1111/1467-9248.12181), _Political Studies_ 64(2):1-20.
+- Valentino, B., Huth, P. & Balch-Lindsay, D. 2004. ["Draining the Sea": Mass Killing and Guerrilla Warfare](https://www.cambridge.org/core/journals/international-organization/article/draining-the-sea-mass-killing-and-guerrilla-warfare/A4DD186DD876B363754AD358B8148014), _International Organization_ 58(2):375-407.
+
+Recommended:
+
+- Ulfelder, J. 2013. [A Multimodel Ensemble for Forecasting Onsets of State-Sponsored Mass Killing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2303048).
+- Goldsmith, B., Butcher, C., Semenovich, D. & Sowmya, A. 2013. [Forecasting the Onset of Genocide and Politicide: Annual Out-of-Sample Forecasts on a Global Dataset, 1988-2003](http://journals.sagepub.com/doi/abs/10.1177/0022343313484167), _Journal of Peace Research_ 50(4):437-452.
+- Ahram, A. 2014. [The Role of State-Sponsored Militias in Genocide](https://www.tandfonline.com/doi/abs/10.1080/09546553.2012.734875), _Terrorism and Political Violence_ 26(3):488-503.
+- Freire, D. & Uzonyi, G. 2019. [What Drives State-Sponsored Violence?: Evidence from Extreme Bounds Analysis and Ensemble Learning Models](https://github.com/danilofreire/mass-killings/). Working paper.
+
+## Week 8: Preventing Genocides
+
+- Bellamy, A. 2015. [When States Go Bad: The Termination of State Perpetrated Mass Killing](http://journals.sagepub.com/doi/abs/10.1177/0022343315569333), _Journal of Peace Research_ 52(5):565-576.
+- De Waal, A., Meierhenrich, J. & Conley-Zilkic, B. 2012. [How Mass Atrocities End: An Evidence-Based Counter-Narrative](http://heinonline.org/HOL/LandingPage?handle=hein.journals/forwa36&div=7&id=&page=), _The Fletcher Forum of World Affairs_ 36(1):15-31.
+- Melander, E. 2009. [Selected To Go Where Murderers Lurk? The Preventive Effect of Peacekeeping on Mass Killings of Civilians](http://journals.sagepub.com/doi/abs/10.1177/0738894209106482), _Conflict Management and Peace Science_ 26(4):389-406.
+
+Recommended:
+
+- Stanton, G. 2004. [Could the Rwandan Genocide Have Been Prevented?](https://www.tandfonline.com/doi/abs/10.1080/1462352042000225958?journalCode=cjgr20), _Journal of Genocide Research_ 6(2):211-228.
+- Krain, M. 2005. [International Intervention and the Severity of Genocides and Politicides](https://academic.oup.com/isq/article/49/3/363/1934221), _International Studies Quarterly_ 49(3):363-387.
+- Kuperman, A. 2008. [The Moral Hazard of Humanitarian Intervention: Lessons from the Balkans](https://academic.oup.com/isq/article/52/1/49/1791134), International Studies Quarterly_ 52(1)49-80.
+- Krain, M. 2017. [The Effect of Economic Sanctions on the Severity of Genocides or Politicides](https://www.tandfonline.com/doi/abs/10.1080/14623528.2016.1240516), _Journal of Genocide Research_ 19(1):88-111.
+- Cheadle, D. & Prendergast, J. 2007. _Not on Our Watch: The Mission to End Genocide in Darfur and Beyond_. New York: Hyperion Books.
+
+# Part III: Terrorism
+
+## Week 9: Concepts, Again: What is Terrorism?
+
+- Jaggar, A. 2005. [What is Terrorism, Why Is It Wrong, and Could It Ever Be Morally Permissible?](http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9833.2005.00267.x/full), _Journal of Social Philosophy_, 36(2):202-217.
+- Hoffmann, B. 2006. _Inside Terrorism_. New York: Columbia University Press. Chapter 1.
+- Merari, A. 1993. [Terrorism as a Strategy of Insurgency](https://www.tandfonline.com/doi/abs/10.1080/09546559308427227), _Terrorism and Political Violence_ 5(4): 213-251.
+- Weinberg, L., Pedahzur, A. & Hirsch-Hoeffler, S. 2004. [The Challenges of Conceptualizing Terrorism](https://www.tandfonline.com/doi/pdf/10.1080/095465590899768), _Terrorism and Political Violence_, 16(4):777-794.
+
+Recommended: 
+
+- Tilly, C. 2004. [Terror, Terrorism, Terrorists](https://www.jstor.org/stable/3648955), _Sociological Theory_ 22(1):5-13. 
+- Shughart, W. 2006. [An Analytical History of Terrorism, 1945-2000](https://link.springer.com/article/10.1007/s11127-006-9043-y), _Public Choice_ 128(1-2):7-39. 
+- Schmid, A. 2004. [Terrorism: The Definitional Problem](http://heinonline.org/HOL/LandingPage?handle=hein.journals/cwrint36&div=24&id=&page=), _Case Western Journal of International Law_, 36(2):375-419. 
+- Sanchez-Cuenca, I. & De la Calle, L. 2009. [Domestic Terrorism: The Hidden Side of Political Violence](https://www.annualreviews.org/doi/abs/10.1146/annurev.polisci.12.031607.094133), _Annual Review of Political Science_ 12:31-49. 
+- Young, R. 2006. [Defining Terrorism: The Evolution of Terrorism as a Legal Concept in International Law and Its Influence on Definitions in Domestic Legislation](http://heinonline.org/HOL/LandingPage?handle=hein.journals/bcic29&div=7&id=&page=), _Boston College International and Comparative Law Review_ 26(1):23-101
+- Young, J. 2014. [What is Terrorism?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2454681). Working Paper.
+
+## Week 10: The Rational Terrorist
+
+- Pape, R. 2003. [The Strategic Logic of Suicide Terrorism](https://www.cambridge.org/core/journals/american-political-science-review/article/strategic-logic-of-suicide-terrorism/A6F51C77E3DE644EBD20ADE176973547), _American Political Science Review_ 97(3):343-361.
+- Kydd, A. & Walter, B. 2006. [The Strategies of Terrorism](https://www.mitpressjournals.org/doi/abs/10.1162/isec.2006.31.1.49), _International Security_ 31(1):49-80.
+- Horowitz, M. 2010. [Nonstate Actors and the Diffusion of Innovations: The Case of Suicide Terrorism](https://www.cambridge.org/core/journals/international-organization/article/nonstate-actors-and-the-diffusion-of-innovations-the-case-of-suicide-terrorism/9D060458C614C2BBD8322ED5D444AA32), _International Organization_ 64(1):33-64.
+
+Recommended:
+
+- Gambetta, D. & Hertog, S 2009. [Why Are There So Many Engineers Among Islamic Radicals?](https://www.cambridge.org/core/journals/european-journal-of-sociology-archives-europeennes-de-sociologie/article/why-are-there-so-many-engineers-among-islamic-radicals/91ED8BEFDE3793834667750B31575422), _European Journal of Sociology_ 50(2):201-230.
+- Horgan, J. 2008. [From Profiles and Pathways and Roots to Routes: Perspectives from Psychology on Radicalization into Terrorism](http://journals.sagepub.com/doi/abs/10.1177/0002716208317539), _The Annals of the American Academy of Political and Social Science_ 618(1):80-94.
+- Victoroff, J. 2005. [The Mind of the Terrorist: A Review and Critique of Psychological Approaches](https://www.jstor.org/stable/30045097), _Journal of Conflict Resolution_ 49(1):3-42.
+- Krueger, A. & Malečková, J. 2003. [Education, Poverty and Terrorism: Is There a Causal Connection?](https://www.aeaweb.org/articles?id=10.1257/089533003772034925), _The Journal of Economic Perspectives_ 17(4):119-144
+
+## Week 11: Is Terrorism an Effective Strategy?
+
+- Abrahms, M. 2006. [Why Terrorism Does Not Work](https://www.mitpressjournals.org/doi/pdf/10.1162/isec.2006.31.2.42), _International Security_ 31(2):42–78.
+- Gould, E. & Klor, E. 2010. [Does Terrorism Work?](https://www.jstor.org/stable/40961012), _Quarterly Journal of Economics_ 125(4):1459–1510.
+- Stephan, M. & Chenoweth, E. 2008. [Why Civil Resistance Works: The Strategic Logic of Nonviolent Conflict](https://www.mitpressjournals.org/doi/abs/10.1162/isec.2008.33.1.7), _International Security_ 33(1):7-44.
+
+Recommended
+
+- Kalyvas, S. 2004. [The Paradox of Terrorism in Civil War](https://link.springer.com/article/10.1023/B:JOET.0000012254.69088.41), _The Journal of Ethics_  8(1):97-138.
+- Sharp, G. 1989. [The Intifadah and Nonviolent Struggle](https://www.jstor.org/stable/pdf/2537242.pdf), _Journal of Palestine Studies_ 19(1):3-13.
+- Asal, V. & Rethemeyer, R. 2008. [Dilettantes, Ideologues, and the Weak: Terrorists Who Don’t Kill](http://journals.sagepub.com/doi/abs/10.1080/07388940802219000), _Conflict Management and Peace Science_ 25(3):244-260.
+
+## Week 12: Counterterrorism
+
+- Lyall, J. 2009. [Does Indiscriminate Violence Incite Insurgent Attacks?: Evidence from Chechnya](http://journals.sagepub.com/doi/abs/10.1177/0022002708330881), _Journal of Conflict Resolution_ 53(3):331–362.
+- Lyall, J., Blair, G. & Imai, K. 2013. [Explaining Support for Combatants during Wartime: A Survey Experiment in Afghanistan](https://www.cambridge.org/core/journals/american-political-science-review/article/explaining-support-for-combatants-during-wartime-a-survey-experiment-in-afghanistan/B0E55BA87D4EBF66F0BF6135959541A7), _American Political Science Review_ 107(4):679-705.
+- Bermann, E., Felter, J. & Shapiro, J. 2011. [Can Hearts and Minds be Bought?: The Economics of Counterinsurgency in Iraq](http://www.jstor.org/stable/10.1086/661983), _Journal of Political Economy_ 119(4):766-819.
+
+Recommended: 
+
+- Kilcullen, D. 2005. [Countering Global Insurgency](https://www.tandfonline.com/doi/abs/10.1080/01402390500300956), _The Journal of Strategic Studies_ 28(4):597-617
+- Byman, D. 2006. [Friends Like These: Counterinsurgency and the War on Terrorism](https://www.jstor.org/stable/4137517), _International Security_ 31(2):79-115.
+- Zussman, A. & Zussman, N. 2006. [Assassinations: Evaluating the Effectiveness of an Israeli Counterterrorism Policy Using Stock Market Data](https://www.jstor.org/stable/30033656), _Journal of Economic Perspectives_ 20(2):193–206.
+- Jaeger, D., Klor, E., Miaari, S. & Paserman, M. 2012. [The Struggle for Palestinian Hearts and Minds: Violence and Public Opinion in the Second Intifada](https://www.sciencedirect.com/science/article/abs/pii/S0047272711001708), _Journal of Public Economics_ 96(3–4):354–368.
+- O'Donnell, D. 2006. [International Treaties Against Terrorism and the Use of Terrorism During Armed Conflict and by Armed Forces](https://www.cambridge.org/core/journals/international-review-of-the-red-cross/article/international-treaties-against-terrorism-and-the-use-of-terrorism-during-armed-conflict-and-by-armed-forces/DCEF95D271A0778572F566936A18887F), _International Review of the Red Cross_ 88(864):853-880.
