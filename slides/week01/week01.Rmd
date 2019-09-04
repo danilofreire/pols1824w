@@ -1,0 +1,240 @@
+---
+title: "POLS 1824W - Political Violence"
+subtitle: "Introduction <html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html>"
+author: "Danilo Freire"
+date: "10 September 2019"
+output: 
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    nature: 
+      beforeInit: "macros.js"
+      highlightStyle: github
+      ratio: 4:3
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+<style>
+
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 6px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #EB811B;
+}
+
+.orange {
+  color: #EB811B;
+}
+</style>
+
+# Introduction
+
+.font180[**Danilo Freire**]
+
+.font120[
+* Eu sou brasileiro
+
+* Masters from the Graduate Institute Geneva
+
+* PhD in Political Economy at King's College London
+
+* Postdoctoral Research Associate in the Political Theory Project
+
+* Political violence, collective action, public service provision, experimental methods, machine learning
+
+* [http://danilofreire.github.io](http://danilofreire.github.io)
+* [danilo_freire@brown.edu](mailto:danilo_freire@brown.edu)
+]
+---
+
+background-image: url(neymar.jpg)
+
+class: clear
+---
+
+background-image: url(carnaval.jpg)
+
+class: clear
+---
+
+class: clear
+
+background-image: url(sp.png)
+---
+
+class: inverse, center, middle
+
+# What about you?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+# Introduce yourself
+
+.font150[
+* What is your name?
+
+* Where do you come from?
+
+* Tell me something I don't know about your city or country
+
+* Why are you taking this course?
+]
+---
+
+class: clear
+
+background-image: url(liberdade.jpg)
+---
+
+class: inverse, center, middle
+
+# POLS 1824W
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+# Logistics
+
+.font150[
+* We meet every Tuesday from 16:00 to 18:30 at [101 Thayer Street (VGQ 1st fl) 116B](http://brown.edu/Facilities/Facilities_Management/maps/index.php#building/VGQUADA)
+
+* All course information will be available at [http://danilofreire.github.io/pols1824w](http://danilofreire.github.io/pols1824w)
+
+* I might update the syllabus over the course (but probably not very much)
+
+* Office hours: at your convenience (please e-mail me first)
+
+* Office address: [8 Fones Alley, first floor, office 114](https://goo.gl/maps/MRQNS9EC9Qv)
+]
+---
+
+# Learning objectives
+
+.font150[
+* Become familiar with recent theories about the causes and consequences of political violence 
+]
+--
+.font150[
+* Learn how to write referee reports
+]
+--
+.font150[
+* Improve your presentation skills and receive real-time feedback like in an academic conference
+]
+--
+.font150[
+* Write a term paper that can potentially become an academic article
+]
+--
+.font150[
+* .orange[Have interesting and thought-provoking discussions with your colleagues]
+]
+---
+
+# Grading
+
+.font150[
+* **Participation**: 15%
+  - Ask questions, bring suggestions, help your colleagues if you know how
+
+* **Three referee reports**: 45%
+  - About 5 pages long, one per section of the course (civil wars, genocide, terrorism)
+
+* **Final project**: 40%
+  - 15-20 pages, any topic, groups of 3, presentation in the last week
+]
+---
+
+class: inverse, center, middle
+
+# Questions?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+
+---
+
+class: inverse, center, middle
+
+# Week 01: Long-Term Perspectives
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+
+---
+
+# Long-Term Trends on War and Peace
+
+.font150[
+* **Questions**: 
+	- Is there more conflict (civil war, genocide, terrorism) today than in the 1950s?
+	- What about crime? Are societies in general more violent than they were 60 years ago? 
+	- Are Western countries more likely to be victims of terrorism?]
+--
+.font150[
+* **No.**
+]
+--
+.font150[
+* **No.**
+]
+--
+.font150[
+* You guessed it: **No.** 
+]
+---
+
+# Crime in the US
+
+.center[![](voters.png)]
+---
+
+# Crime in the US
+
+.center[![:scale 70%](voters2.png)]
+
+.center[Source: [Pew Research](http://pewrsr.ch/2fxLhfk)]
+---
+
+# Crime in the UK
+
+.center[![](uk01.png)]
+
+.center[Source: [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/publicperceptionsofcrimeinenglandandwales/yearendingmarch2016)]
+---
+
+# Crime in the UK
+
+.center[![:scale 70%](uk02.png)]
+
+.center[Source: [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/crimeinenglandandwales/yearendingjune2018)]
+---
+
+
+class: inverse, center, middle
+
+# See you on Friday!
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+
+
