@@ -468,7 +468,7 @@ class: inverse, center, middle
 .font150[
 * Issues of data quality:
 	- No reliable estimates for many conflicts, specially before 1980
-	- E.g.: "for the Persian GulfWar  in  Iraq  in  1991,  the  PRIO  Battle  Deaths  Dataset  gives  a  disaggregated  bestestimate of 28,245, a low estimate of 1,545, and a high estimate of 43,245 killedin combat situations" (p. 1095)
+	- E.g.: "for the Persian Gulf War in Iraq in 1991,  the  PRIO Battle Deaths Dataset gives a disaggregated best estimate of 28,245, a low estimate of 1,545, and a high estimate of 43,245 killed in combat situations" (p. 1095)
 	- Which one should we believe in? The best, high or low? 
 ]
 ---
