@@ -141,11 +141,11 @@ class: inverse, center, middle
 ]
 --
 .font150[
-* Improve your presentation skills and receive real-time feedback like in an academic conference
+* Write a term paper that can potentially become an academic article
 ]
 --
 .font150[
-* Write a term paper that can potentially become an academic article
+* Improve your presentation skills and receive real-time feedback like in an academic conference
 ]
 --
 .font150[
@@ -157,7 +157,7 @@ class: inverse, center, middle
 
 .font150[
 * **Participation**: 15%
-  - Ask questions, bring suggestions, help your colleagues if you know how
+  - Ask questions, bring suggestions, help your colleagues
 
 * **Three referee reports**: 45%
   - About 5 pages long, one per section of the course (civil wars, genocide, terrorism)
@@ -187,7 +187,7 @@ class: inverse, center, middle
 
 .font150[
 * **Questions**: 
-	- Is there more conflict (civil war, genocide, terrorism) today than in the 1950s?
+	- Is there more conflict today than in the 1950s?
 	- What about crime? Are societies in general more violent than they were 60 years ago? 
 	- Are Western countries more likely to be victims of terrorism?]
 --
@@ -230,6 +230,167 @@ class: inverse, center, middle
 .center[Source: [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/crimeinenglandandwales/yearendingjune2018)]
 ---
 
+# Are we hard-wired to like bad news? 
+
+.center[![:scale 75%](pnas.png)]
+
+.center[Source: [Soroka et al (2019)](https://doi.org/10.1073/pnas.1908369116)]
+---
+
+# Are we hard-wired to like bad news? 
+
+.center[![:scale 85%](suroka.png)]
+
+.center[Source: [Trussler and Suroka (2017)](https://journals.sagepub.com/doi/abs/10.1177/1940161214524832?etoc=)]
+---
+
+# Short-term bias
+
+S&P 500 annual returns
+
+.center[![:scale 85%](crisis-2008.png)]
+
+.center[Source: [Macrotrends (2019)](https://www.macrotrends.net/2526/sp-500-historical-annual-returns)]
+---
+
+# Short-term bias 
+
+.center[![:scale 95%](s-and-p-retuns.png)]
+
+.center[Source: [Dow Jones (2019)](https://dqydj.com/sp-500-return-calculator/)]
+---
+
+# Short-term bias 
+
+DAX 30 Index
+
+.center[![:scale 85%](dax.png)]
+
+.center[Source: [Macrotrends (2019)](https://www.macrotrends.net/2595/dax-30-index-germany-historical-chart-data)]
+---
+
+# Short-term bias 
+
+Ibovespa Index
+
+.center[![:scale 87%](ibov.png)]
+
+.center[Source: [Macrotrends (2019)](https://www.macrotrends.net/2597/bovespa-index-brazil-historical-chart-data)]
+---
+
+# Long-term view of the economy
+
+.font150[
+* **Question**: Imagine you had US$10,000 in 1942 and you invested the money in a plain market index like an ETF that replicates the S&P500. How much money do you think you would have today?  
+]
+--
+.font150[
+* Let Warren Buffett answer that question for you:  
+]
+
+.center[![:scale 130%](buffett-1942.png)]
+
+.center[Source: 2018 Letter to the Shareholders of Berkshire Hathaway Inc: <http://www.berkshirehathaway.com/letters/2018ltr.pdf>]
+---
+
+# Long-term view of global violence
+
+.center[![scale: 250%](pinker.png)]
+
+.center[Source: [Steven Pinker (2018)](https://www.youtube.com/watch?v=yCm9Ng0bbEQ)]
+---
+
+# Wars among great powers
+
+.center[![:scale 100%](wid-conf01.png)]
+
+.center[Source: [Our World in Data: War and Peace](https://ourworldindata.org/war-and-peace)]
+---
+
+# Wars are less violent 
+
+.center[![:scale 90%](wid-conf02.png)]
+
+.center[Source: [Our World in Data: War and Peace](https://ourworldindata.org/war-and-peace)]
+---
+
+# Wars are less violent
+
+.center[![:scale 90%](wid-conf03.png)]
+
+.center[Source: [Our World in Data: War and Peace](https://ourworldindata.org/war-and-peace)]
+---
+
+# Nuclear war is less likely 
+
+.center[![:scale 90%](nukes.png)]
+
+.center[Source: [Our World in Data: Nuclear Weapons](https://ourworldindata.org/nuclear-weapons)]
+---
+
+# Nuclear war is less likely today
+
+.font120[Non-nuclear states that started and stopped exploring nuclear weapons, 1945-2010]
+
+.center[![:scale 77%](nuclear-countries.png)]
+
+.center[Source: [Steven Pinker (2011)](https://ourworldindata.org/nuclear-weapons)]
+---
+
+# Genocides are far less common 
+
+.center[![:scale 90%](genocides.png)]
+
+.center[Source: [Our World in Data: Genocides](https://ourworldindata.org/genocides)]
+---
+
+# Hijackings disappeared 
+
+.center[![:scale 90%](hijackings.png)]
+
+.center[Source: [Our World in Data: Terrorism](https://ourworldindata.org/terrorism)]
+---
+
+# Terrorism is not common in the West 
+
+.center[![:scale 90%](terrorism.png)]
+
+.center[Source: [Our World in Data: Terrorism](https://ourworldindata.org/terrorism)]
+---
+
+class: inverse, center, middle
+
+# We're more peaceful, but why?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+# Pinker (2013) 
+
+.font150[
+* If human nature hasn't changed, what has?
+]
+--
+.font150[
+* Violence is not homeostatic, but opportunistic 
+]
+--
+.font150[
+* Increased costs of violence:
+	- Stronger governments
+	- Democracy
+	- Trade
+	- International community and organisations
+	- Humanistic ideologies, such as natural rights
+]
+---
+
+# Sceptical view of the long peace 
+
+.font150[
+*  
+]
+---
 
 class: inverse, center, middle
 

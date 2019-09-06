@@ -16,7 +16,7 @@ header-includes: \linespread{1.05}
 office: 8 Fones Alley, 114
 officehours: Mo-Fr Afternoon
 classroom: 101 Thayer Street (VGQ 1st fl) 116B
-classhours: Tuesday, 4-6pm 
+classhours: Tuesday, 4-6:30pm 
 web: danilofreire.github.io/pols1824w
 ---
 
@@ -34,7 +34,7 @@ All information about the course will be available at [http://danilofreire.githu
 
 # Office Hours
 
-I am very flexible when it comes to office hours, but it is easier to contact me via email. Feel free to send me a message any time at [danilofreire@brown.edu](mailto:danilofreire@brown.edu). I will probably reply in a few hours. You can also meet me in the afternoon at my office. I am in the Political Theory Project every weekday. My address is [8 Fones Alley, first floor, office 114](https://goo.gl/maps/8WhhyCNDHnw). If possible, please send me an email before coming to my office just to make sure two students will not book the same time slot.
+I am very flexible when it comes to office hours, but it is easier to contact me via email. Feel free to send me a message any time at [danilofreire@brown.edu](mailto:danilofreire@brown.edu). I will probably reply in a few hours. You can also meet me in the afternoon at my office. I am in the Political Theory Project every weekday and you can find me at [8 Fones Alley, first floor, office 114](https://goo.gl/maps/8WhhyCNDHnw). If possible, please send me an email before coming to my office just to make sure two students will not book the same time slot.
 
 # Community Standards
 
@@ -70,10 +70,9 @@ All readings are available on [the course's GitHub repository](https://github.co
 
 ## Week 1: Introduction and course overview. Long-term trends in armed conflict 
 
-- Fearon, J. 1995. [Rationalist Explanations for War](http://www.jstor.org/stable/2706903). _International Organization_, 49(3):379-414.
 - Rosner, M. 2019. [Our World in Data: War and Peace](https://ourworldindata.org/war-and-peace). [Our World in Data: Terrorism](https://ourworldindata.org/terrorism). [Our World in Data: Genocides](https://ourworldindata.org/genocides).
 - Pinker, S. 2013. [The Decline of War---The Main Issues](https://doi.org/10.1111/misr.12031). _International Studies Review_, 15(3):397-399.
-- Cirillo, P. & and Taleb, N. 2015. [The Decline of Violent Conflicts: What Do the Data Really Say?](https://www.fooledbyrandomness.com/pinker.pdf) Nobel Foundation Symposium 161: The Causes of Peace.
+- Cirillo, P. & Taleb, N. 2015. [The Decline of Violent Conflicts: What Do the Data Really Say?](https://www.fooledbyrandomness.com/pinker.pdf) Nobel Foundation Symposium 161: The Causes of Peace.
 - Gohdes, A. & Price, M. 2012. [First Things First: Assessing Data Quality before Model Quality](http://journals.sagepub.com/doi/10.1177/0022002712459708). _Journal of Conflict Resolution_, 57(6):1090-1108.
 - Lacina, B. &  Gleditsch, N. 2012. [The Waning of War is Real: A Response to Gohdes and Price](http://journals.sagepub.com/doi/abs/10.1177/0022002712459709). _Journal of Conflict Resolution_, 57(6):1109-1127.
 
@@ -81,6 +80,7 @@ All readings are available on [the course's GitHub repository](https://github.co
 
 ## Week 2: Conceptual definitions, overview of the recent literature 
 
+- Fearon, J. 1995. [Rationalist Explanations for War](http://www.jstor.org/stable/2706903). _International Organization_, 49(3):379-414.
 - Sambanis, N.	2004. [What Is Civil War? Conceptual and Empirical Complexities of an Operational Definition](http://journals.sagepub.com/doi/abs/10.1177/0022002704269355). _Journal of Conflict Resolution_, 48(6):814-858.
 - Kalyvas, S. 2006. _The Logic of Violence in Civil War_. New York: Cambridge University Press. [Chapters 1 and 2](https://github.com/danilofreire/pols1824w/blob/master/readings/kalyvas2006chap1-2.pdf).
 - Walter, B. 2017. [The New New Civil Wars](https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-060415-093921). _The Annual Review of Political Science_, 20:469-486.
