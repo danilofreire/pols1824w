@@ -116,7 +116,7 @@ background-image: url(liberdade.jpg)
 
 class: inverse, center, middle
 
-# POLS 1824W
+# Course logistics
 
 &lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=720px&gt;&lt;/html&gt; 
 ---
@@ -327,7 +327,7 @@ Ibovespa Index
 .center[Source: [Our World in Data: War and Peace](https://ourworldindata.org/war-and-peace)]
 ---
 
-# Nuclear war is less likely 
+# Nuclear war is less likely today 
 
 .center[![:scale 90%](nukes.png)]
 
@@ -364,6 +364,13 @@ Ibovespa Index
 .center[Source: [Our World in Data: Terrorism](https://ourworldindata.org/terrorism)]
 ---
 
+# Even mass shootings aren't increasing 
+
+.center[![:scale 95%](mass-shootings.jpg)]
+
+.center[Source: [James Allan Fox (2019)](https://www.vox.com/2015/10/1/18000524/mass-shootings-rare)]
+---
+
 class: inverse, center, middle
 
 # We're more peaceful, but why?
@@ -394,13 +401,271 @@ class: inverse, center, middle
 # Sceptical view of the long peace 
 
 .font150[
-*  
+* What if we haven't had a major war...
+* ... just because they don't happen often?
 ]
+--
+.font150[
+* **Fat-tailed events**: some events happen so unfrequently that we underestimate them
+* E.g.: massive financial crises, large disease outbreaks
+
+* Pareto principle: 80-20 rule 
+]
+--
+.font150[
+* **Absense of evidence is not the same as evidence of absense** 
+]
+---
+
+# Black swan
+
+.center[![:scale 45%](black-swan.jpg)]
+---
+
+# Large wars as black swans
+
+.font150[
+* Cirilo and Taleb (2015) make two important comments:
+
+	- 1) The Law of Large Numbers converges much more slowly in fat-tailed distributions
+	- "We require more data to assert that there are no black swans than to assert that there are black swans"
+	- 2) The means are misleading with dealing with extreme events
+	- "for fat-tailed variables, the mean is almost entirely determined by extremes. If you are uncertain about the tails, then you are uncertain about the mean"
+]
+---
+
+# Number of conflicts
+
+.center[![:scale 95%](taleb01.png)]
+---
+
+# Number of battle-related deaths 
+
+.center[![:scale 95%](taleb02.png)]
+---
+
+# Is there a trend?
+
+.center[![:scale 120%](taleb03.png)]
 ---
 
 class: inverse, center, middle
 
-# See you on Friday!
+# Are battle deaths decreasing?
+
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=720px&gt;&lt;/html&gt; 
+---
+
+# Gohdes and Price (2012) 
+
+.font150[
+* What if our data are wrong?
+
+* PRIO is the most important think-tank for peace studies 
+
+* The PRIO Battle Deaths Dataset is widely used in academia
+
+* G&amp;P argue that the dataset has a lot of *missing data* and the data is prone to *measurement error*
+]
+---
+
+# Gohdes and Price (2012)
+
+.font150[
+* Issues of data quality:
+	- No reliable estimates for many conflicts, specially before 1980
+	- E.g.: "for the Persian GulfWar  in  Iraq  in  1991,  the  PRIO  Battle  Deaths  Dataset  gives  a  disaggregated  bestestimate of 28,245, a low estimate of 1,545, and a high estimate of 43,245 killedin combat situations" (p. 1095)
+	- Which one should we believe in? The best, high or low? 
+]
+---
+
+# Gohdes and Price (2012)
+
+.font150[
+* Issues of data availability:
+	- No yearly data available for most conflicts before 1980
+	- Interpolate mean yearly estimates according to qualitative knowledge of the case, when available
+	- E.g.: "35.4 percent of conflict-year units that fall in this category merely include a constant number that is derived by averaging across all battle deaths of the period of the respective conflict." (p. 1096) 
+	- "60.2 percent of the units before 1975 do not even include information on conflict-internal trends." (p. 1096)
+]
+---
+
+# Differences in battle deaths 
+
+.center[![:scale 100%](gp01.png)]
+---
+
+# Differences in battle deaths 
+
+.center[![:scale 100%](gp02.png)]
+---
+
+# Convenience samples
+
+.font150[
+* Why are convenience samples bad for statistical inference? 
+]
+--
+.font150[
+* _Selection bias_ 
+]
+--
+.font150[
+* Can we correct for selection bias in data? 
+]
+--
+.font150[
+* _Very rarely_: only if we have an idea of how the true population looks like. 
+
+* _We often don't_
+
+* Some statistical procedures can approximate it, but only with a lot of uncertainty
+]
+---
+
+# Gohdes and Price (2012)
+
+.font150[
+* They replicate the analysis using heteroskedasticity-robust clustered standard errors and polynomial trends
+
+* Result: Inverted U - battle deaths decline in the 1980s and are rising again 
+]
+
+.center[![:scale 80%](gp03.png)]
+---
+
+# Lacina and Gleditsch (2012)
+
+.font150[
+* Issues of data quality:
+	- Best estimate is missing for some years, and in others there are two or more estimates available
+	- Conflicts tend to be short: interpolation isn't a great problem
+	- Armies are good record-keepers
+	- Applying smoothing functions work better than arbitrary model assumptions 
+]
+---
+
+# Lacina and Gleditsch (2012)
+
+.center[![:scale 80%](lacina01.png)]
+---
+
+# Lacina and Gleditsch (2012)
+
+.center[![:scale 80%](lacina02.png)]
+---
+
+# Underestimates or overestimates?
+
+.font150[
+* The authors argue that:
+	- Media reports tend to underestimate battle deaths
+	- Academic scrutiny corrects eventual errors in data
+	- Experts and NGOs tend to overestimate conflict size
+	- Thus, the biases can go in both directions
+
+* _What do you think?_
+]
+---
+
+# Violence in the Pinochet regime
+
+.center[![:scale 80%](freire01.png)]
+---
+
+# Violence in the Pinochet regime
+
+
+```r
+library(pinochet)
+names(pinochet)
+```
+
+```
+##  [1] "individual_id"                  "group_id"                      
+##  [3] "start_date_daily"               "end_date_daily"                
+##  [5] "start_date_monthly"             "end_date_monthly"              
+##  [7] "last_name"                      "first_name"                    
+##  [9] "minor"                          "age"                           
+## [11] "male"                           "occupation"                    
+## [13] "occupation_detail"              "victim_affiliation"            
+## [15] "victim_affiliation_detail"      "violence"                      
+## [17] "method"                         "interrogation"                 
+## [19] "torture"                        "mistreatment"                  
+## [21] "targeted"                       "press"                         
+## [23] "war_tribunal"                   "number_previous_arrests"       
+## [25] "perpetrator_affiliation"        "perpetrator_affiliation_detail"
+## [27] "nationality"                    "place_1"                       
+## [29] "location_1"                     "latitude_1"                    
+## [31] "longitude_1"                    "exact_coordinates_1"           
+## [33] "place_2"                        "location_2"                    
+## [35] "latitude_2"                     "longitude_2"                   
+## [37] "exact_coordinates_2"            "place_3"                       
+## [39] "location_3"                     "latitude_3"                    
+## [41] "longitude_3"                    "exact_coordinates_3"           
+## [43] "place_4"                        "location_4"                    
+## [45] "latitude_4"                     "longitude_4"                   
+## [47] "exact_coordinates_4"            "place_5"                       
+## [49] "location_5"                     "latitude_5"                    
+## [51] "longitude_5"                    "exact_coordinates_5"           
+## [53] "place_6"                        "location_6"                    
+## [55] "latitude_6"                     "longitude_6"                   
+## [57] "exact_coordinates_6"            "page"                          
+## [59] "additional_comments"
+```
+---
+
+# Violence in the Pinochet regime
+
+.center[![:scale 80%](freire02.png)]
+---
+
+# Violence in the Pinochet regime
+
+.center[![:scale 65%](freire03.png)]
+---
+
+class: inverse, center, middle
+
+# Wrap-up
+
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=720px&gt;&lt;/html&gt; 
+---
+
+# To sum up...
+
+.font150[
+* Short-term and negativity biases are always present in media reports
+
+* Long-run trends for the economy is very robust (and it's going up)
+
+* Long-run trends for war and peace.... are a bit less robust
+
+* International and civil wars are indeed much more rare
+
+* And so are many other types of violence
+
+* ... but for how long? 
+]
+---
+
+# To sum up...
+
+.font150[
+* The best way to improve those estimates is to understand _cause and effect_
+
+* Knowing whether A causes B allows us to make better predictions about the future
+
+* And this is what we will do in this course:
+	- Discuss recent theories about civil wars, genocides, and terrorism
+	- See their limitations and think about how to improve them
+	- Hopefully, have fun along the way! 
+]
+
+---
+class: inverse, center, middle
+
+# Thanks for coming! See you next week!
 
 &lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=720px&gt;&lt;/html&gt;
     </textarea>
