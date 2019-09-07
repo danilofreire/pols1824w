@@ -71,7 +71,7 @@ All readings are available on [the course's GitHub repository](https://github.co
 ## Week 1: Introduction and course overview. Long-term trends in armed conflict 
 
 - Rosner, M. 2019. [Our World in Data: War and Peace](https://ourworldindata.org/war-and-peace). [Our World in Data: Terrorism](https://ourworldindata.org/terrorism). [Our World in Data: Genocides](https://ourworldindata.org/genocides).
-- Pinker, S. 2013. [The Decline of War---The Main Issues](https://doi.org/10.1111/misr.12031). _International Studies Review_, 15(3):397-399.
+- Pinker, S. 2013. [The Decline of War---The Main Issues](http://sci-hub.tw/https://academic.oup.com/isr/article-abstract/15/3/396/1851344?redirectedFrom=fulltext). _International Studies Review_, 15(3):397-399.
 - Cirillo, P. & Taleb, N. 2015. [The Decline of Violent Conflicts: What Do the Data Really Say?](https://www.fooledbyrandomness.com/pinker.pdf) Nobel Foundation Symposium 161: The Causes of Peace.
 - Gohdes, A. & Price, M. 2012. [First Things First: Assessing Data Quality before Model Quality](http://journals.sagepub.com/doi/10.1177/0022002712459708). _Journal of Conflict Resolution_, 57(6):1090-1108.
 - Lacina, B. &  Gleditsch, N. 2012. [The Waning of War is Real: A Response to Gohdes and Price](http://journals.sagepub.com/doi/abs/10.1177/0022002712459709). _Journal of Conflict Resolution_, 57(6):1109-1127.
@@ -80,7 +80,6 @@ All readings are available on [the course's GitHub repository](https://github.co
 
 ## Week 2: Conceptual definitions, overview of the recent literature 
 
-- Fearon, J. 1995. [Rationalist Explanations for War](http://www.jstor.org/stable/2706903). _International Organization_, 49(3):379-414.
 - Sambanis, N.	2004. [What Is Civil War? Conceptual and Empirical Complexities of an Operational Definition](http://journals.sagepub.com/doi/abs/10.1177/0022002704269355). _Journal of Conflict Resolution_, 48(6):814-858.
 - Kalyvas, S. 2006. _The Logic of Violence in Civil War_. New York: Cambridge University Press. [Chapters 1 and 2](https://github.com/danilofreire/pols1824w/blob/master/readings/kalyvas2006chap1-2.pdf).
 - Walter, B. 2017. [The New New Civil Wars](https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-060415-093921). _The Annual Review of Political Science_, 20:469-486.
@@ -91,8 +90,8 @@ All readings are available on [the course's GitHub repository](https://github.co
 - Collier, P. & Hoeffler, A. 2004. [Greed and Grievance in Civil War](https://academic.oup.com/oep/article-abstract/56/4/563/2361902). _Oxford Economic Papers_, 56(4):563-595.
 - Fearon, J. & Laitin, D. 2003. [Ethnicity, Insurgency,	and Civil War](https://www.cambridge.org/core/journals/american-political-science-review/article/ethnicity-insurgency-and-civil-war/B1D5D0E7C782483C5D7E102A61AD6605). _American Political Science Review_, 97(1):75-90.
 - Wimmer, A., Cederman, L-E. & Min, B. 2009. [Ethnic Politics and Armed Conflict: A Configurational Analysis of a New Global Data Set](https://doi.org/10.1177%2F000312240907400208). _American Sociological Review_, 74(2):316-337.
-- Ward, M., Greenhill, B., & Bakke, K. 2010. [The Perils of Policy by P-Value: Predicting Civil Conflicts](http://journals.sagepub.com/doi/abs/10.1177/0022343309356491). _Journal of Peace Research_, 47(4):363-375.
 - Kalyvas, S. & Balcells, L. 2010. [International System and Technologies of Rebellion: How the End of the Cold War Shaped Internal Conflict](https://doi.org/10.1017/S0003055410000286). _American Political Science Review_, 104(3):415-429.
+- Ward, M., Greenhill, B., & Bakke, K. 2010. [The Perils of Policy by P-Value: Predicting Civil Conflicts](http://journals.sagepub.com/doi/abs/10.1177/0022343309356491). _Journal of Peace Research_, 47(4):363-375.
 	
 ## Week 4: Violence against civilians
 

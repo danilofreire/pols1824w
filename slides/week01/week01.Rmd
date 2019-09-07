@@ -281,7 +281,7 @@ Ibovespa Index
 # Long-term view of the economy
 
 .font150[
-* **Question**: Imagine you had US$10,000 in 1942 and you invested the money in a plain market index like an ETF that replicates the S&P500. How much money do you think you would have today?  
+* **Question**: Imagine you had US$10,000 in 1942 and you invested it in the S&P500. How much money do you think you would have today?  
 ]
 --
 .font150[
@@ -468,7 +468,7 @@ class: inverse, center, middle
 .font150[
 * Issues of data quality:
 	- No reliable estimates for many conflicts, specially before 1980
-	- E.g.: "for the Persian Gulf War in Iraq in 1991,  the  PRIO Battle Deaths Dataset gives a disaggregated best estimate of 28,245, a low estimate of 1,545, and a high estimate of 43,245 killed in combat situations" (p. 1095)
+	- E.g.: "for the Persian Gulf War in Iraq in 1991, the PRIO Battle Deaths Dataset gives a disaggregated best estimate of 28,245, a low estimate of 1,545, and a high estimate of 43,245 killed in combat situations" (p. 1095)
 	- Which one should we believe in? The best, high or low? 
 ]
 ---
@@ -479,8 +479,7 @@ class: inverse, center, middle
 * Issues of data availability:
 	- No yearly data available for most conflicts before 1980
 	- Interpolate mean yearly estimates according to qualitative knowledge of the case, when available
-	- E.g.: "35.4 percent of conflict-year units that fall in this category merely include a constant number that is derived by averaging across all battle deaths of the period of the respective conflict." (p. 1096) 
-	- "60.2 percent of the units before 1975 do not even include information on conflict-internal trends." (p. 1096)
+	- E.g.: "60.2 percent of the units before 1975 do not even include information on conflict-internal trends." (p. 1096)
 ]
 ---
 

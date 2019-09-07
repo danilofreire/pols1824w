@@ -1,0 +1,102 @@
+
+
+# James Fearon
+
+.pull-left[
+![James Fearon](fearon.jpg)
+]
+
+.pull-right[
+.font130[
+Department of Political Science, Stanford
+
+Has written extensively about civil and international wars, often using game theory and statistical modelling
+
+"_Ethnicity, Insurgency, and Civil War_" (2003, with David Laitin)
+
+"_Rationalist Explanations for War_" (1995)
+]
+]
+---
+
+# Fearon (1995)
+
+.font150[
+* Wars are always costly:
+  - Destroy infrastructure
+  - Disrupt trade
+  - Kill both soldiers and civilians
+  - Victory is often uncertain
+]
+--
+.font150[
+* _Why would rational people go to war, then?_
+]
+---
+
+# Fearon (1995) 
+
+.font150[
+* Three explanations:
+	- Leaders are sometimes or always irrational
+	- Leaders can free ride: benefits at no cost
+	- (These two arguments are easy to understand)
+	- _Leaders calculate the costs and benefits and go to war anyway_ (this is not)
+]
+
+.font150[
+* Three mechanisms:
+	- Bluffing
+	- Commitment problems
+	- Issue indivisibility
+]
+---
+
+# Wanted and unwanted wars
+
+.font150[
+* Wars are _always inefficient ex post_
+
+* Both sides would be better off by bargaining (lower costs)
+
+* Unless people enjoy war, it is always better to find cheaper _ex ante_ solutions
+	- Question: was that ever the case? Examples?
+]
+
+---
+
+# Flawed arguments
+
+.font150[
+* _Anarchy_
+]
+--
+.font120[
+* if war is costly regardless of outcome, why is it ever employed?
+]
+--
+.font150[
+* _Preventive war_ 
+]
+--
+.font120[
+* why couldn’t the states construct a bargain that would leave both sides better off? 
+]
+--
+.font150[
+* _Positive expected utility_ 
+]
+--
+.font120[
+* there always exists an _ex ante_ bargaining space
+]
+
+---
+
+# Incentives to misrepresent
+
+.font150[
+*  
+]
+
+
