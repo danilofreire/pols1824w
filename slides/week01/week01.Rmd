@@ -163,7 +163,10 @@ class: inverse, center, middle
   - About 5 pages long, one per section of the course (civil wars, genocide, terrorism)
 
 * **Final project**: 40%
-  - 15-20 pages, any topic, groups of 3, presentation in the last week
+  - About 20 page long, any topic covered in the course, groups of 3
+	- Submit a one-page summary for review on *1st of October*, review your colleagues' work (1 week)
+	- Discuss your paper on the *19th of November*
+	- Present the results on the *17th of December*
 ]
 ---
 
