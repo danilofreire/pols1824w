@@ -80,8 +80,8 @@ All readings are available on [the course's GitHub repository](https://github.co
 
 ## Week 2: Conceptual definitions, overview of the recent literature 
 
-- Sambanis, N.	2004. [What Is Civil War? Conceptual and Empirical Complexities of an Operational Definition](http://journals.sagepub.com/doi/abs/10.1177/0022002704269355). _Journal of Conflict Resolution_, 48(6):814-858.
 - Kalyvas, S. 2006. _The Logic of Violence in Civil War_. New York: Cambridge University Press. [Chapters 1 and 2](https://github.com/danilofreire/pols1824w/blob/master/readings/kalyvas2006chap1-2.pdf).
+- Sambanis, N.	2004. [What Is Civil War? Conceptual and Empirical Complexities of an Operational Definition](http://journals.sagepub.com/doi/abs/10.1177/0022002704269355). _Journal of Conflict Resolution_, 48(6):814-858.
 - Walter, B. 2017. [The New New Civil Wars](https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-060415-093921). _The Annual Review of Political Science_, 20:469-486.
 - Cederman, L-E. & Vogt, M. 2017. [Dynamics and Logics of Civil War](http://journals.sagepub.com/doi/abs/10.1177/0022002717721385). _Journal of Conflict Resolution_, 61(9):1-25.
 

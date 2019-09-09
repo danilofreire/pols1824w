@@ -78,10 +78,9 @@ options(htmltools.dir.version = FALSE)
 ]
 ---
 
-
 class: inverse, center, middle
 
-# What is civil war?
+# What is civil war? 
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
 ---
@@ -119,13 +118,145 @@ class: inverse, center, middle
 .center[![:scale 90%](troy.jpg)]
 ---
 
-# κλέος
+# Fame (κλέος)
 
 .center[![:scale 100%](kleos.png)]
 
 .center[![:scale 70%](achilles.png)]
 ---
 
+# Athens versus Sparta
 
+.center[![:scale 50%](thucydides.jpg)]
+---
+
+# Stasis (στάσις)
+
+.center[![:scale 50%](thucydides02.jpg)]
+---
+
+# Civil war in Corcyra
+
+.font150[
+Thucydides, III.82.3-5: 
+]
+
+.font120[
+*"Revolution thus ran its course from city to city, and the places which it arrived at last, from having heard what had been done before, carried to a still greater excess the refinement of their inventions, as manifested in the cunning of their enterprises and the atrocity of their reprisals. Words had to change their ordinary meaning and to take that which was now given them. Reckless audacity came to be considered the courage of a loyal ally; prudent hesitation, specious cowardice; moderation was held to be a cloak for unmanliness; ability to see all sides of a question, inaptness to act on any. Frantic violence became the attribute of manliness; cautious plotting, a justifiable means of self-defence. The advocate of extreme measures was always trustworthy; his opponent a man to be suspected."*]
+---
+
+# Roman Empire
+
+.center[![:scale 90%](colosseum.jpg)]
+---
+
+# Roman Empire
+
+.font150[
+Created by civil war... 
+]
+
+.center[![:scale 40%](cesar02.jpg)]
+---
+
+# Roman Empire
+
+.font150[
+... and destroyed by civil war 
+]
+
+.center[![:scale 40%](usurpers.jpg)]
+---
+
+# Thomas Hobbes
+
+.center[![:scale 60%](leviathan.jpg)]
+---
+
+class: clear
+
+background-image: url(leviathan02.jpg)
+---
+
+# English Civil War
+
+.center[![:scale 90%](english-civil-war.jpg)]
+---
+
+# American Civil War
+
+.center[![:scale 80%](american-iliad.jpg)]
+---
+
+# French Revolution
+
+.center[![:scale 70%](french-revolution.jpg)]
+--
+
+.font150[
+.center[**Question**: Why don't we call it the French Civil War?]
+]
+---
+
+class: inverse, center, middle
+
+# So what is civil war, then?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+# Kalyvas (2006)
+
+.font150[
+*  Literature on civil war has grown exponentially over the last decades:
+	- Onset
+	- Resolution
+	- Duration
+	- Social bases
+	- Political and social outcomes
+	- Postwar justice and reconciliation
+
+* Civil wars remains ill-defined
+
+* Applied to historical cases, yet comparative analyses demand standard definitions 
+]
+---
+
+# Kalyvas (2006)
+
+.font150[
+* Strongly politicised term: confers/removes legitimacy
+	- Our side: heroes, warriors, freedom fights
+	- Their side: bandits, criminals, terrorists
+
+* A neutral definition: 
+	- *Armed combat within the boundaries of a recognised sovereign entity between parties subject to a common authority at the outset of the hostilities* (p. 17) 
+
+]
+
+---
+# Sambanis (2004)      
+
+.font150[
+* Significant variation in civil war coding in datasets
+
+* _Ad hoc_ criteria to distinguish civil wars from other conflicts
+
+* First quantitative definition:
+
+	- *"any armed conflict that involves (a) military action internal to the metropole, (b) the active participation of the national government, and (c) effective resistance by both sides."* (Small and Singer 1982, 210)
+	- 1,000 battle-related deaths per calendar year
+]
+---
+
+# Sambanis (2004)
+
+.font150[
+* Problems:
+	- Extranational or internal? (colonial wars)
+	- Organised opposition or genocide?
+	- Why not 999 deaths?
+	- Temporal dependence: one or many conflicts? 
+]
 
 
