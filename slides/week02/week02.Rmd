@@ -222,16 +222,122 @@ class: inverse, center, middle
 ]
 ---
 
-# Kalyvas (2006)
+# Terminology
 
-.font150[
+.font140[
 * Strongly politicised term: confers/removes legitimacy
 	- Our side: heroes, warriors, freedom fights
 	- Their side: bandits, criminals, terrorists
 
 * A neutral definition: 
-	- *Armed combat within the boundaries of a recognised sovereign entity between parties subject to a common authority at the outset of the hostilities* (p. 17) 
+	- *[...] armed combat within the boundaries of a recognised sovereign entity between parties subject to a common authority at the outset of the hostilities* (p. 17) 
+	- Sceptical about motivations, parties, and outcomes
+	- Key part: *de facto* territorial division
+]
+---
 
+# Questions
+
+.font150[
+* How to differentiate between terrorism and civil war?
+
+* Are criminal groups different from insurgents?
+
+* What about conflicts *among* insurgent groups? Are they also civil wars?
+]
+---
+
+# What is violence?
+
+.font150[
+* **Violence**:
+	- Take many, many forms: physical, verbal, sexual, lethal, etc
+	- Focus on _lethal violence_:
+	- Most severe (?)
+	- Easier to measure
+
+* Although very related, _civil war_ and _violence in civil war_ are distinct concepts
+
+* Violence is _both an outcome and a means_ of civil war
+
+* Again: _it is also a tool_
+]
+---
+
+# Victims and perpetrators
+
+.font130[
+* Kalyvas makes a strong statement here (p. 21, edited): 
+
+*"[...] little or no information is provided about the victims' histories and lives before the advent of violence. Such a view assumes (and further propagates) a dichotomous world populated only by victims and perpetrators, [... so] victims cannot be guilty. Yvon Grenier (1999:2) portrays the literature on Latin American insurgencies as suggesting "a world inhabited by women, children, and the elderly." Typically overlooked is a large "gray zone" populated by those who partake in the process of violence in a variety of ways [...] as either perpetrators or victims [...]. Yesterday's victims may turn into tomorrow's victimizers and vice versa. Women and children, usually portrayed as victims, are often active and willing participants in all kinds of activities, including combat."*
+]
+---
+
+# Aims of violence
+
+.font150[
+* What is violence used for?
+	- Senseless: killing for the sake of killing
+	- Kalyvas sees "expressive violence" as a probematic category. Why?
+]
+
+.font150[
+* Conflates several reasons
+* Subject to _post hoc_ rationalisation
+* Endogenous to the conflict itself
+* Most often, perpetrators do not have severe psychological issues 
+]
+---
+
+# Aims of violence
+
+.font150[
+* Strategic/instrumental violence: 
+	- Even extremely barbaric uses of violence might have a purpose
+	- E.g.: cannibalism is (obviously) used to frighten others
+	- Individual motivations cannot sustain a long war
+
+* Mix between the two:
+	- Leaders might have strategic goals
+	- Followers might operate according to expressive logics
+]
+---
+
+# Strategic violence
+
+.font150[
+* Instill fear and send a message
+
+* "Communicative violence" in other settings:
+	- Cutting hands of thieves (Sierra Lione)
+	- Raping child molesters (prison gangs)
+	- Forced self-amputation of fingers (Yakuza)
+
+* **Question**:
+	- Are these uses of violence rational from an organisational standpoint?
+]
+
+.font150[
+* _Yes_ 
+]
+---
+
+# Classification
+
+.center[![:scale 100%](typology.png)]
+---
+
+class: inverse, center, middle
+
+# Questions?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+# Pathologies of civil war
+
+.font150[
+*  
 ]
 
 ---
