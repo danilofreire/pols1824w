@@ -61,6 +61,25 @@ options(htmltools.dir.version = FALSE)
 ]
 ---
 
+# Final project
+
+.font150[
+* 15-20 pages
+
+* Up to 3 people per group
+
+* **1st of October**: one-page summary of your paper idea
+
+* Each student will review 2 summaries (one-page comment too)
+
+* **8th of October**: please send me your comments
+
+* **19th of November**: discussion of your projects
+
+* **17th of December**: 20-minute presentations
+]
+---
+
 # Last week we saw that... 
 
 .font150[
@@ -334,13 +353,107 @@ class: inverse, center, middle
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
 ---
 
-# Pathologies of civil war
+# Pathologies: Partisan bias
 
 .font150[
-*  
-]
+* Sympathy for victims implies barbarism of others   
 
+* Normatively fair; theoretically problematic
+
+* Civil war causes barbarism; barbarism might not cause civil war
+
+* "Glory is monopolized by one’s own camp, crime by the other's"
+
+* "Revolutionary romanticism"
+]
 ---
+
+# Political bias
+
+.font150[
+* **War is not politics**]
+--
+
+.font150[
+* "fundamental distinction between peaceful political competition and armed combat"
+]
+--
+
+.font150[
+* War creates its own dynamics:
+	- More constains, more repression
+	- Higher stakes
+
+* **Question**: how do these constrains impact leaders?
+]
+---
+
+# Urban bias
+
+.font150[
+* Civil war is often a rural phenomenon
+
+* Politicians, the press, and academics are located in cities
+
+* Prejudice and costly information
+
+* Little understanding of local dynamics:
+	- Ascribing broad ideological motives for rebel groups
+	- Fighters tend to rationalise their actions _a posteriori_
+	- Offer narratives that fit what they believe others want to hear
+]
+---
+
+# Preference falsification
+
+.center[![:scale 95%](oendrila.png)]
+
+.center[Source: [Cillier et al (2015)](https://www.sciencedirect.com/science/article/pii/S0167268115000906)]
+---
+
+# Preference falsification 
+
+.center[![:scale 45%](kuran.png)]
+---
+
+# Urban bias
+
+.font150[
+* Existing societies vs narratives about such societies
+
+* Bias toward written sources
+
+* Emphasis on "top-down" motives, broad narratives
+
+* Fixed identities: catholics vs protestants, peasants vs elites, etc
+	- Endogeneity of social clivages: they change _because_ of the war
+
+* Researchers should focus more on the local 
+]
+---
+
+# Selection bias
+
+.font150[
+* We study places _where wars occur_
+
+* Variables can cause both war and violence in war
+
+* Data are problematic: we have more information about some places than others
+
+* Overaggregation and acontextual
+
+* Fake news
+]
+---
+
+class: inverse, center, middle
+
+# Questions?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
 # Sambanis (2004)      
 
 .font150[
@@ -355,14 +468,209 @@ class: inverse, center, middle
 ]
 ---
 
-# Sambanis (2004)
+# Problems
 
 .font150[
-* Problems:
-	- Extranational or internal? (colonial wars)
-	- Organised opposition or genocide?
-	- Why not 999 deaths?
-	- Temporal dependence: one or many conflicts? 
+* Extranational or internal? (colonial wars)
+
+* Organised opposition or genocide?
+
+* Why not 999 deaths?
+
+* Temporal dependence: one or many conflicts? 
+
+* Many small conflicts are a civil war?
+
+* How can we know whether the person was indeed killed because of the war?
+]
+---
+
+# Extrasystemic wars
+
+.font150[
+* How do we classify colonial wars?
+	- International or civil wars?
+
+* Should the Algerian Revolution (1954-1962) count as a French civil war?
+
+* If so, all other variables (democracy, GDP, population) has to be adjusted for the whole empire
+
+* Lose context: France was democractic but Algeria was not
+]
+---
+
+# Comparison between different datasets
+
+.font150[
+* Correlation is sometimes modest (0.42-0.46) 
+
+* Parsimonious solution: run models with all of them
+]
+---
+
+# Results
+
+.center[![:scale 90%](sambanis01.png)]
+
+.center[![:scale 90%](sambanis02.png)]
+---
+
+# What datasets do we use today?
+
+.center[![:scale 90%](prio01.png)]
+
+.center[Source: [PRIO (2019)](https://www.prio.org/Data/Armed-Conflict/UCDP-PRIO/)]
+---
+
+# PRIO/UCDP
+
+.font150[
+* Two thresholds: 25 and 1000 annual battle-deaths 
+
+* Covers from 1945 to 2018 (?)
+
+* *"An armed conflict is defined by the Uppsala Conflict Data Project as a contested incompatibility that concerns government or territory or both where the use of armed force between two parties results in at least 25 battle-related deaths. Of these two parties, at least one is the government of a state."*
+
+* Recommended reading: [Gleditsch et al (2002)](http://sci-hub.tw/https://journals.sagepub.com/doi/10.1177/0022343302039005007) 
+]
+---
+
+# PRIO/UCDP
+
+.center[![:scale 80%](owid.png)]
+---
+
+# ACLED
+
+.font150[
+* Armed Conflict Location & Event Data Project (ACLED)
+
+* Records the dates, actors, types of violence, locations, and fatalities of all reported political violence and protest events across Africa, South Asia, Southeast Asia, the Middle East, Europe, and Latin America
+
+* Political violence and protest activity includes events that occur within civil wars and periods of instability, public demonstrations, and regime breakdown 
+]
+---
+
+# ACLED
+
+.center[![:scale 100%](acled01.png)]
+
+.center[Source: [ACLED (2019)](https://www.acleddata.com)]
+---
+
+class: inverse, center, middle
+
+# Questions?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+class: inverse, center, middle
+
+# Recent trends in civil wars
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+# Walter (2017)
+
+.font150[
+* Civil wars declined until 1990...
+
+* ... they seem to be on the rise again
+
+* Post-2003 conflicts are different:
+	- Muslim countries
+	- Fought by radical Islamists
+	- Transnational goals
+	- Very long
+	- Encompass the whole region
+	- Rarely end via negotiated agreements
+	- Dangers of contagion
+]
+---
+
+# Three waves
+
+.font150[
+* One that began around 1951 and ended with the close of the Cold War
+	- Peasant rebellions, class based
+	- Colonial wars (Angola, Algeria, etc)
+	- Proxy wars (Vietnam, Afghanistan, Iran-Iraq)
+
+* A second that began around 1992 and ended soon after 2001
+	- Ethnic conflicts
+	- Larger role of peacekeeping forces
+]
+---
+
+# Three waves
+
+.font150[
+* A third wave began with the fall of Saddam Hussein in 2003 and continues today
+
+	- Religious conflicts
+	- Muslim countries (63%)
+	- Radical islamists: Syria, Afghanistan, etc
+	- Transnational: Rebel forces and armies from around the world
+]
+---
+
+# Muslim countries and civil wars
+
+.font150[
+* Is the religion to blame for wars?
+
+* We don't know for sure, maybe/probably not
+
+* Muslim countries also have many factors that influence civil war onset:
+	- Poor
+	- Very populated
+	- Authoritarian government
+	- Natural resources
+	- Foreign interference
+	- Rise of extremist groups
+]
+---
+
+# Muslim countries and civil wars
+
+.center[![:scale 90%](rap.png)]
+
+.center[[Gleditsch and Rudolfsen (2016)](https://journals.sagepub.com/doi/full/10.1177/2053168016646392)]
+---
+
+# Muslim countries and civil wars
+
+.font150[
+* Civil wars in Muslim countries increasingly involve extremists 
 ]
 
+.center[![:scale 100%](muslim01.jpeg)]
+---
+
+# Muslim countries and civil wars
+
+.center[![:scale 100%](muslim02.jpeg)]
+
+.font130[
+* Six had low-level internal conflict, but only three experienced civil war. 
+
+* Four of the five largest have been free from conflict for more than 10 years
+]
+---
+
+class: inverse, center, middle
+
+# Questions?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+class: inverse, center, middle
+
+# See you next week! 
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
 
