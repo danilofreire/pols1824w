@@ -672,5 +672,4 @@ class: inverse, center, middle
 # See you next week! 
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
----
 
