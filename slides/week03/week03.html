@@ -1,29 +1,35 @@
----
-title: "Week 03: Civil Wars"
-subtitle: "Causes of Civil Wars <html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html>"
-author: "Danilo Freire"
-date: "24 September 2019"
-output: 
-  xaringan::moon_reader:
-    css: [default, metropolis, metropolis-fonts]
-    nature: 
-      beforeInit: "macros.js"
-      highlightStyle: github
-      ratio: 4:3
-      highlightLines: true
-      countIncrementalSlides: false
-      slideNumberFormat: |
-        <div class="progress-bar-container">
-          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
-          </div>
-        </div>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Week 03: Civil Wars</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Danilo Freire" />
+    <meta name="date" content="2019-09-24" />
+    <link href="week03_files/remark-css/default.css" rel="stylesheet" />
+    <link href="week03_files/remark-css/metropolis.css" rel="stylesheet" />
+    <link href="week03_files/remark-css/metropolis-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Week 03: Civil Wars
+## Causes of Civil Wars
+<html>
+<div style="float:left">
+
+</div>
+<hr color='#EB811B' size=1px width=800px>
+</html>
+### Danilo Freire
+### 24 September 2019
+
 ---
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
 
-<style>
+
+
+&lt;style&gt;
 
 .remark-slide-number {
   position: inherit;
@@ -46,7 +52,7 @@ options(htmltools.dir.version = FALSE)
 .orange {
   color: #EB811B;
 }
-</style>
+&lt;/style&gt;
 
 # Last week we saw that... 
 
@@ -91,7 +97,7 @@ class: inverse, center, middle
 
 # Causes of civil war
 
-<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=720px&gt;&lt;/html&gt; 
 ---
 
 # Collier and Hoeffler (2004)
@@ -119,7 +125,7 @@ class: inverse, center, middle
 # Opportunity-based theory
 
 .font150[
-* C&H affirm that political scientists puts too much emphasis on motivations (grievances)
+* C&amp;H affirm that political scientists puts too much emphasis on motivations (grievances)
 
 * People have grievances all the time, why do civil wars break only at a particular time, then?
 
@@ -236,23 +242,17 @@ class: inverse, center, middle
 
 # Combined model 
 
-```{r comb01, out.width="1100px", out.height="400px", echo=FALSE}
-knitr::include_graphics("ch05.png")
-```
+&lt;img src="ch05.png" width="1100px" height="400px" /&gt;
 ---
 
 # Combined model 
 
-```{r comb02, out.width="1100px", out.height="400px", echo=FALSE}
-knitr::include_graphics("ch06.png")
-```
+&lt;img src="ch06.png" width="1100px" height="400px" /&gt;
 ---
 
 # Combined model 
 
-```{r comb03, out.width="1100px", out.height="400px", echo=FALSE}
-knitr::include_graphics("ch07.png")
-```
+&lt;img src="ch07.png" width="1100px" height="400px" /&gt;
 ---
 
 # Interpretation
@@ -310,7 +310,7 @@ knitr::include_graphics("ch07.png")
 	- Also find little support for grievance-based theories
 	- Factors that explain *insurgency* are the most relevant
 
-* Different from C&H, F&L argue that low GDP proxies for *state capacity* 
+* Different from C&amp;H, F&amp;L argue that low GDP proxies for *state capacity* 
 ]
 ---
 
@@ -321,7 +321,7 @@ knitr::include_graphics("ch07.png")
 
 * Include colonial wars
 
-* F&L are cautious about their data on empires
+* F&amp;L are cautious about their data on empires
 
 * They analyse the data both including and excluding colonial wars
 ]
@@ -386,10 +386,102 @@ knitr::include_graphics("ch07.png")
 ]
 ---
 
-# Comparing C&H and F&L
+# Comparing C&amp;H and F&amp;L
 
 .font150[
 * 
 ]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"ratio": "4:3",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "<div class=\"progress-bar-container\">   <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">   </div> </div>"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
 
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
 
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
