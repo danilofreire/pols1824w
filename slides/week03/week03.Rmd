@@ -329,7 +329,7 @@ knitr::include_graphics("ch07.png")
 
 # Conflicts over time
 
-.center[![:scale 100%](fearon01.png)]
+.center[![](fearon01.png)]
 ---
 
 # Ethnicity and conflict
@@ -367,12 +367,12 @@ knitr::include_graphics("ch07.png")
 
 # Main results
 
-.center[![](fearon03.png)]
+.center[![:scale 100%](fearon03.png)]
 ---
 
 # Discussion 
 
-.font150[
+.font140[
 * The high number of civil wars in the 1990s is the result of accumulation of previous conflicts, not the end of the Cold War
 
 * Ethnicities and grievances do not explain why internal wars occur 
@@ -386,10 +386,127 @@ knitr::include_graphics("ch07.png")
 ]
 ---
 
-# Comparing C&H and F&L
+# Comments on C&H and F&L
 
 .font150[
-* 
+* C&H: *homo oeconomicus* goes to war
+
+* Utility-maximising, profit-seeking individuals
+
+* Rebels are essentially criminals: profits from looting
+
+* **Question**: natural/lootable resources can fuel grievances too, can't they?
 ]
+--
 
+.font150[
+* Resource-rich countries might have higher inequality, forced migrations, trade shocks, etc
 
+* Diasporas can also provide welfare to local communities and therefore *reduce* the likelihood of conflict
+]
+---
+
+# Comments on C&H and F&L
+
+.font150[
+* F&L: unclear which aspect of state capacity decreases civil war risk: Inclusive institutions, shared power, armed forces, economic redistribution?
+
+* What about leadership? Failure to internalise costs can explain civil war outbreaks as the event is rare
+
+* Impossible to adjudicate between their theory (state capacity, proxied by GDP per capita) and C&H's (lootable resources, proxied by.... GDP per capita!) 
+
+* As with C&H, national-level data obscures important within-country dynamics
+]
+---
+
+class: inverse, center, middle
+
+# Questions?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+# Wimmer et al (2009)
+
+.font150[
+* Ethnicity *does* play a role in civil war outbreaks
+
+* Qualify previous literature 
+
+* Offer better data on ethnic groups
+
+* Establish new mechanisms that link group grievances to conflicts
+
+* Focus on political dynamics of ethnic exclusion and competition
+]
+---
+
+# Institutionalist, configurational theory
+
+.font150[
+* **Institutionalist**: political structures create incentives for players to act strategically
+
+* **Configurational**: the same institution provides different incentives according to the distribution of power
+
+* Ethnicity matters _because the nation state uses it for legitimacy_
+
+* Politicians have incentives to favour their co-ethnics 
+
+* Ethnic favouritism is more likely in poor, young states (who need more legitimacy)
+]
+---
+
+# Institutionalist, configurational theory
+
+.center[![:scale 90%](wimmer01.png)]
+---
+
+# Three types of ethnic conflict
+
+.font150[
+* **Secession**: changing the territorial boundaries of a polity and can be pursued by both excluded and included groups
+
+* **Rebellion**: excluded segments of a population fight to shift the boundaries of inclusion
+
+* **Infighting**: elite disputes for the spoils of government
+
+* Predictions:
+	- ethnic exclusion breeds conflict
+	- more power-sharing increase conflict (coalitions)
+	- large states and those under indirect rule rebel more 
+]
+---
+
+# Results
+
+.center[![:scale 100%](wimmer02.png)]
+---
+
+# Results
+
+.center[![:scale 100%](wimmer03.png)]
+---
+
+# Results
+
+.center[![:scale 100%](wimmer04.png)]
+---
+
+# Conclusion
+
+.font150[
+* "The likelihood of armed confrontation increases as the center of power becomes more ethnically segmented and as greater proportions of a states population are excluded from power because of their ethnic background"
+
+* "These conflicts are even more likely in incoherent states where the population is not accustomed to direct rule by the political center"
+
+* "Ethnicity is not an aim in itself, but the organizational means through which individuals struggle to gain access to state power"
+]
+---
+
+# Comments on Wimmer et al
+
+.font150[
+* Good idea to focus on ethnic group strategies    
+
+*  
+] 
