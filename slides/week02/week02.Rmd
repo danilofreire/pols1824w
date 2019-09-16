@@ -64,9 +64,9 @@ options(htmltools.dir.version = FALSE)
 # Final project
 
 .font150[
-* 15-20 pages
+* About 20 pages
 
-* Up to 3 people per group
+* ~~Up to 3 people per group~~ Individual work
 
 * **1st of October**: one-page summary of your paper idea
 
@@ -76,7 +76,7 @@ options(htmltools.dir.version = FALSE)
 
 * **19th of November**: discussion of your projects
 
-* **17th of December**: 20-minute presentations
+* **17th of December**: deadline for the capstone project
 ]
 ---
 
