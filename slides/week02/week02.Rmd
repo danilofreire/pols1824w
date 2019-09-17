@@ -87,11 +87,11 @@ options(htmltools.dir.version = FALSE)
 
 * We are prone to negavitity bias too
 
-* The economy has done incredibly well in the long run...
+* The economy has done incredibly well in the long run (about 250 years)
 
-* It seems that other things are going fine too...
+* It seems the world is becoming more peaceful too (we're not sure)
 	
-* ... yet conflicts still occur 
+* Nevertheless, serious conflicts still occur 
 	
 * Let's see why: we start with **civil wars**
 ]
@@ -107,9 +107,9 @@ class: inverse, center, middle
 # What is civil war?
 
 .font150[
-* Civil wars are probably as old as humankind itself
+* Civil wars are as old as humankind itself
 
-* They have been discussed, debated, and praised through history
+* They have been discussed, debated, and often praised through history
 
 * Pointed out as the cause of demise of many civilisations 
 
@@ -226,7 +226,7 @@ class: inverse, center, middle
 
 # Kalyvas (2006)
 
-.font150[
+.font140[
 *  Literature on civil war has grown exponentially over the last decades:
 	- Onset
 	- Resolution
@@ -235,9 +235,9 @@ class: inverse, center, middle
 	- Political and social outcomes
 	- Postwar justice and reconciliation
 
-* Civil wars remain fill-defined
+* Civil wars remain ill-defined
 
-* Applied to historical cases, yet comparative analyses demand standard definitions 
+* Comparative studies require a common, broad definition of internal war
 ]
 ---
 
@@ -325,7 +325,7 @@ class: inverse, center, middle
 # Strategic violence
 
 .font150[
-* Instill fear and send a message
+* Instil fear and send a message
 
 * "Communicative violence" in other settings:
 	- Cutting hands of thieves (Sierra Lione)
@@ -333,9 +333,9 @@ class: inverse, center, middle
 	- Forced self-amputation of fingers (Yakuza)
 
 * **Question**:
-	- Are these uses of violence rational from an organisational standpoint?
+	- Can those methods be used rationally?
 ]
-
+--
 .font150[
 * _Yes_ 
 ]
@@ -517,7 +517,7 @@ class: inverse, center, middle
 
 # What datasets do we use today?
 
-.center[![:scale 90%](prio01.png)]
+.center[![:scale 100%](prio01.png)]
 
 .center[Source: [PRIO (2019)](https://www.prio.org/Data/Armed-Conflict/UCDP-PRIO/)]
 ---
@@ -537,7 +537,7 @@ class: inverse, center, middle
 
 # PRIO/UCDP
 
-.center[![:scale 80%](owid.png)]
+.center[![:scale 90%](owid.png)]
 ---
 
 # ACLED
