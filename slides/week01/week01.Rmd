@@ -103,11 +103,6 @@ class: inverse, center, middle
 ]
 ---
 
-class: clear
-
-background-image: url(liberdade.jpg)
----
-
 class: inverse, center, middle
 
 # Course logistics
@@ -122,7 +117,7 @@ class: inverse, center, middle
 
 * All course information will be available at [http://danilofreire.github.io/pols1824w](http://danilofreire.github.io/pols1824w)
 
-* I might update the syllabus over the course (but probably not very much)
+* I might update the syllabus over the course (but not very much)
 
 * Office hours: at your convenience (please e-mail me first)
 
@@ -163,10 +158,10 @@ class: inverse, center, middle
   - About 5 pages long, one per section of the course (civil wars, genocide, terrorism)
 
 * **Final project**: 40%
-  - About 20 page long, any topic covered in the course, groups of 3
+  - About 20 page long, any topic covered in the course 
 	- Submit a one-page summary for review on *1st of October*, review your colleagues' work (1 week)
 	- Discuss your paper on the *19th of November*
-	- Present the results on the *17th of December*
+	- Send the final manuscript on the *17th of December*
 ]
 ---
 
@@ -191,7 +186,7 @@ class: inverse, center, middle
 .font150[
 * **Questions**: 
 	- Is there more conflict today than in the 1950s?
-	- What about crime? Are societies in general more violent than they were 60 years ago? 
+	- What about crime? Are societies in general more violent today than 30 years ago? 
 	- Are Western countries more likely to be victims of terrorism?]
 --
 .font150[
@@ -370,7 +365,7 @@ Ibovespa Index
 
 class: inverse, center, middle
 
-# We're more peaceful, but why?
+# We're more peaceful today, but why?
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
 ---
@@ -382,7 +377,7 @@ class: inverse, center, middle
 ]
 --
 .font150[
-* Violence is not homeostatic, but opportunistic 
+* Violence is not constant, but opportunistic 
 ]
 --
 .font150[
@@ -395,7 +390,7 @@ class: inverse, center, middle
 ]
 ---
 
-# Sceptical view of the long peace 
+# Sceptical view about the long peace 
 
 .font150[
 * What if we haven't had a major war...
@@ -511,7 +506,7 @@ class: inverse, center, middle
 ]
 --
 .font150[
-* _Very rarely_: only if we have an idea of how the true population looks like. 
+* Very rarely: only if we know how the true population looks like. 
 
 * _We often don't_
 
@@ -522,7 +517,7 @@ class: inverse, center, middle
 # Gohdes and Price (2012)
 
 .font150[
-* They replicate the analysis using heteroskedasticity-robust clustered standard errors and polynomial trends
+* They replicate L&G's analysis using heteroskedasticity-robust clustered standard errors and polynomial trends
 
 * Result: Inverted U - battle deaths decline in the 1980s and are rising again 
 ]
@@ -599,14 +594,15 @@ class: inverse, center, middle
 .font150[
 * Short-term and negativity biases are always present in media reports
 
-* Long-run trend for the economy is very robust (and it's going up)
+* Long-run upward trend for the economy is very robust 
 
-* Long-run trend for war and peace.... is a bit less robust
+* Long-run downward trend for war and peace is less robust
 
-* International and civil wars are indeed much more rare
+* International and civil wars are indeed more rare today
 
-* And so are many other types of violence
-
+* And so are many other types of violence]
+--
+.font150[
 * ... but for how long? 
 ]
 ---
