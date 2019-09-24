@@ -147,7 +147,7 @@ class: inverse, center, middle
 
 * Immigrants provide money (and skills?) rebel groups wouldn't have otherwise
 
-* Proxied by % of emigrants living in the US
+* Proxied by % of immigrants living in the US
 ]
 ---
 
