@@ -415,7 +415,7 @@ class: inverse, center, middle
 
 * Politicians have incentives to favour their co-ethnics 
 
-* Ethnic favouritism is more likely in poor, young states (who need more legitimacy)
+* Ethnic favouritism is more likely in poor, young states (which need more legitimacy)
 ]
 ---
 
