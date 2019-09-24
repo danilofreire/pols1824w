@@ -1,0 +1,185 @@
+---
+title: "Week 04: Civil Wars"
+subtitle: "Violence against Civilians<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html>"
+author: "Danilo Freire"
+date: "1st October 2019"
+output: 
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    nature: 
+      beforeInit: "macros.js"
+      highlightStyle: github
+      ratio: 4:3
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+<style>
+
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 6px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #EB811B;
+}
+
+.orange {
+  color: #EB811B;
+}
+</style>
+
+# Last week we saw that... 
+
+.font150[
+* C&H propose a greed-based theory of civil wars
+
+* Grievance are constant, so civil wars need another triggering factor
+
+* Opportunity: rebel groups revolt when they're able to
+
+* Lootable resources, money from diasporas and hostile governments, and low costs of fighting (poverty) explain civil war onset 
+]
+---
+
+# Last week we saw that... 
+
+.font150[
+* F&L argue that state capability is the most important civil war predictor
+
+* Also proxied by GDP, like C&H's opportunity variable
+
+* Ethnic and religious heterogeneity don't matter once you control for income
+
+* Factors that favour insurgency (mountainous terrain, oil, unstable regimes) increase the risk of civil wars
+]
+
+---
+
+# Last week we saw that... 
+
+.font150[
+* Wimmer et al (2009) write ethnicity does play a role in civil wars
+
+* Ethnicity is useful because politicians mobilise it
+
+* Secession, rebellion, or group infighting
+
+* Excluded population fight for the first two, included groups for the latter (sometimes for secession too)
+]
+
+---
+
+# Last week we saw that... 
+
+.font150[
+* Most variables don't have strong predictive power
+
+* GDP per capita and population are the best predictors of civil conflicts
+
+* Statistical significance is not the same as practical or predictive significance
+]
+
+---
+
+class: inverse, center, middle
+
+# Violence against Civilians
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+# Kalyvas (1999)
+
+.center[![:scale 65%](k00.png)]
+---
+
+# Some context
+
+.font150[
+* The Algerian Civil War lasted from 1991 to 2002
+
+* Islamist groups vs the government 
+
+* Onset: government cancelled 1991 elections after the Islamic Salvation Front (FIS) would win
+
+* FIS was banned and members arrested, Islamist guerrillas rebelled against the government
+
+* Two main rebel groups: Islamic Armed Movement (MIA) and Armed Islamic Group (GIA)
+]
+---
+
+# Some context
+
+.font150[
+* In 1994, talks between FIS and the government took place
+
+* GIA declared war against FIS
+
+* Pro-Army party won the next election (1997)
+
+* MIA surrended and GIA were hunted down
+
+* 1996-1999 peak violence; civil war ends in 2002 (government victory)
+]
+---
+
+# Some context
+
+.font150[
+* *La sale guerre*  
+
+* 44,000 to 100,000 deaths
+
+* Salafist Group for Preaching and Combat (GSPC), a GIA dissident group, later affiliated with Al-Qaeda and continue fighting in the Maghreb
+]
+---
+
+# Kalyvas (1999)
+
+.font150[
+* Rational choice approach to mass violence
+
+* Massacres are not acts of barbarism, but a war strategy
+
+* Violence maximises civilian support under constrains
+
+* Illustrates his case using the Algerian Civil War as an example
+]
+---
+
+# Kalyvas (1999)
+
+.font150[
+* Why would political organisations kill civilians randomly?
+
+* Specifically, why would *insurgents*, who tend to be weaker, kill civilians?
+]
+--
+.font150[]
+---
+
+class: inverse, center, middle
+
+# See you next week!
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 

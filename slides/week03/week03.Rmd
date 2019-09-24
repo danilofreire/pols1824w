@@ -401,6 +401,11 @@ class: inverse, center, middle
 
 # Wimmer et al (2009)
 
+.center[![:scale 70%](wimmer00.png)]
+---
+
+# Wimmer et al (2009)
+
 .font150[
 * Ethnicity *does* play a role in civil war outbreaks
 
@@ -498,6 +503,11 @@ class: inverse, center, middle
 
 # Kalyvas and Balcells (2010)
 
+.center[![scale 80%](kb00.png)]
+---
+
+# Kalyvas and Balcells (2010)
+
 .font150[
 * Does systemic factors play a role in civil war dynamics?
 
@@ -578,6 +588,11 @@ class: inverse, center, middle
 
 * SNC is a poorly-defined category
 ]
+---
+
+# Ward et al (2010)
+
+.center[![scale 80%](ward00.png)]
 ---
 
 # Ward et al (2010)
