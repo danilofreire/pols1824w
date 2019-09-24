@@ -401,7 +401,7 @@ class: inverse, center, middle
 
 # Wimmer et al (2009)
 
-.center[![:scale 70%](wimmer00.png)]
+.center[![:scale 65%](wimmer00.png)]
 ---
 
 # Wimmer et al (2009)
