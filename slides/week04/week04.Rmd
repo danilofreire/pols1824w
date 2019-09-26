@@ -120,7 +120,7 @@ class: inverse, center, middle
 
 * Islamist groups vs the government 
 
-* Onset: government cancelled 1991 elections after the Islamic Salvation Front (FIS) would win
+* Onset: government cancelled 1991 elections after they thought the Islamic Salvation Front (FIS) would win
 
 * FIS was banned and members arrested, Islamist guerrillas rebelled against the government
 
@@ -165,19 +165,67 @@ class: inverse, center, middle
 
 * Illustrates his case using the Algerian Civil War as an example
 ]
+--
+.font150[
+* Research questions:
+	- Why would political organisations kill civilians randomly?
+	- Specifically, why would *insurgents*, who tend to be weaker, kill civilians?
+]
 ---
 
 # Kalyvas (1999)
 
 .font150[
-* Why would political organisations kill civilians randomly?
-
-* Specifically, why would *insurgents*, who tend to be weaker, kill civilians?
+* **Ideology**:
+	- Religious/ethnic/racial fanaticism
+	- Barbarism
+	- However...
 ]
 --
-.font150[]
+.font150[
+* Rebels need popular support / individuals want to stay alive
+
+* Repression is an effective tool to prevent civilian defection
+	- Cheaper than selective benefits
+	- Useful in areas and periods of contested rebel control
+]
 ---
 
+# Targets
+
+.font150[
+* Local opponents, mainly those associated with the government
+
+* Civilians associated with other insurgents
+
+* Defectors
+]
+--
+.font150[
+* **Question**: how to identify the enemies?
+]
+--
+.font150[
+* Access to reliable local information
+]
+---
+
+# A theory of selective violence
+
+.font150[
+* Rebels and the government have fragmented sovereignty  
+
+* "Invisible borders" between the two areas
+
+* Citizens are often stuck in these areas and are forced to collaborate if rebels establish a monopoly of force
+
+* 
+]
+
+---
+
+
+---
 class: inverse, center, middle
 
 # See you next week!
