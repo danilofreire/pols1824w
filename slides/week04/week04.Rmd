@@ -342,6 +342,7 @@ class: inverse, center, middle
 
 .font150[
 * H6: Warring factions with more dense social structures have lower levels of abuse
+
 * H7: More ethnically homogenous factions should exhibit lower levels of civilian abuse
 	- Same: repeated interactions, social connections
 ]
