@@ -1,0 +1,714 @@
+---
+title: "Week 05: Civil Wars"
+subtitle: "Ending Civil Wars<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html>"
+author: "Danilo Freire"
+date: "08 October 2019"
+output: 
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    nature: 
+      beforeInit: "macros.js"
+      highlightStyle: github
+      ratio: 4:3
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+<style>
+
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 6px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #EB811B;
+}
+
+.orange {
+  color: #EB811B;
+}
+</style>
+
+# Last week we saw that... 
+
+.font150[
+* Civil war violence is not necessarily irrational
+
+* Violence prevents civilian defector and elicits information about enemies
+
+* Violence is unlikely in areas fully controled by the rebels/gov't forces
+
+* In contested areas, it's hard for groups to gather information about the enemies and defection is easy
+
+* Thus, _selective violence against civilians are more prevalent in areas over which the groups have dominant but incomplete control_
+]
+---
+
+# Last week we saw that... 
+
+.font150[
+* Humphreys and Weinstein highlight another factor that explains violence against civilians in internal wars: _rebel group structure_
+
+* Groups that are less cohesive tend to commit more violence: less control over rogue soldiers
+
+* They also find that material incentives also increase violence in civil wars
+
+* Note: no distinction between selective and indiscriminate violence here
+]
+
+---
+
+# Last week we saw that... 
+
+.font150[
+* Balcells focuses her attention on *conventional civil wars*, where insurgents and the government have similar resources
+
+* She affirms that Kalyvas and H&W focused too much on *irregular wars*, or guerrillas
+
+* While guerrillas fight for territorial control, in conventional civil wars rebel groups control well-delineated areas
+
+* Violence occurs due to rivalry and revenge:
+	- 
+]
+
+---
+
+# Last week we saw that... 
+
+.font150[
+* Most variables don't have strong predictive power
+
+* GDP per capita and population are the best predictors of civil conflicts
+
+* Statistical significance is not the same as practical or predictive significance
+]
+
+---
+
+class: inverse, center, middle
+
+# Violence against Civilians
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+# Kalyvas (1999)
+
+.center[![:scale 65%](k00.png)]
+---
+
+# Some context
+
+.font150[
+* The Algerian Civil War lasted from 1991 to 2002
+
+* Islamist groups vs the government 
+
+* Onset: government cancelled 1991 elections after they thought the Islamic Salvation Front (FIS) would win
+
+* FIS was banned and members arrested, Islamist guerrillas rebelled against the government
+
+* Two main rebel groups: Islamic Armed Movement (MIA) and Armed Islamic Group (GIA)
+]
+---
+
+# Some context
+
+.font150[
+* In 1994, talks between FIS and the government took place
+
+* GIA declared war against FIS
+
+* Pro-Army party won the next election (1997)
+
+* MIA surrended and GIA were hunted down
+
+* 1996-1999 peak violence; civil war ends in 2002 (government victory)
+]
+---
+
+# Some context
+
+.font150[
+* *La sale guerre*  
+
+* 44,000 to 100,000 deaths
+
+* Salafist Group for Preaching and Combat (GSPC), a GIA dissident group, later affiliated with Al-Qaeda and continue fighting in the Maghreb
+]
+---
+
+# Kalyvas (1999)
+
+.font150[
+* Rational choice approach to mass violence
+
+* Massacres are not acts of barbarism, but a war strategy
+
+* Violence maximises civilian support under constrains
+
+* Illustrates his case using the Algerian Civil War as an example
+]
+--
+
+---
+
+# Kalyvas (1999)
+
+.font150[
+* **Questions**:
+	- Should political organisations kill civilians randomly?
+	- Specifically, why would *insurgents*, who tend to be weaker, kill civilians?
+]
+--
+.font150[
+* *No*]
+--
+.font150[
+* *To find infiltrated enemies and prevent civilian defection*
+
+* Repression is effective:
+	- Cheaper than selective benefits
+	- Useful in areas and periods of contested rebel control
+]
+---
+
+# Targets
+
+.font150[
+* Local opponents, mainly those associated with the government
+
+* Civilians associated with other insurgents
+
+* Defectors
+]
+--
+.font150[
+* **Question**: how to identify the enemies?
+]
+--
+.font150[
+* Access to reliable local information
+]
+---
+
+# A theory of selective violence
+
+.font150[
+* Rebels and the government have fragmented sovereignty  
+
+* But rebels and gov't forces often don't have full control oves the territory
+
+* They use coercion to elicit information from citizens and punish the enemies
+
+* Constraints faced by denouncers provide a good way to model the process
+
+* Key constraint is *the likelihood of retaliation*
+]
+---
+
+# A theory of selective violence
+
+.font150[
+* In areas over which the rebels/gov't have full control, they can easily retaliate citizens
+
+* In contested areas, citizens can switch sides and it's hard for parties to use selective violence
+
+* Denunciation leading to selective violence is most likely where one actor exercises *dominant but incomplete control*
+
+* **Question**: in which type of conflict actors *might not* need to solicit information to citizens?
+]
+--
+.font150[
+* Ethnic civil wars: private information is often available 
+]
+---
+
+# Territorial control and violence
+
+.center[![:scale 100%](k01.jpg)]
+---
+
+# Territorial control and violence
+
+.font150[
+* Violence is more likely in zones 2 and 4 
+	- Dominant but incomplete control by the rebels
+	- The same for incumbents
+
+* As they lose control over the population, actors compensate by increasing the level of brutality
+
+* *This process can happen elsewhere*, not only in Algeria
+
+* The level of violence probably does *not* come from ideology, but from territorial control
+]
+---
+
+class: inverse, center, middle
+
+# Questions?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+# Humphreys & Weinstein (2006)
+
+.center[![:scale 100%](mh00.png)]
+---
+
+# Humphreys & Weinstein (2006)
+
+.font130[
+* "...the extent of civilian suffering varies across conflicts, over time within a conflict, and across geographic regions in countries that experience violence" 
+
+* Three factors:
+	- Incentives for groups to be violent
+	- Territorial control
+	- *Poor internal cohesion*
+
+* "Units composed of members with private goals, which organize into ethnically heterogeneous groupings and lack internal mechanisms to discipline behavior, exhibit relationships with noncombatants characterized by coercion and abuse"
+]
+---
+
+# Humphreys & Weinstein (2006)
+
+.font150[
+* Model:
+
+* Too much violence is counterproductive: "kills the goose that lays the golden egg"
+
+* Too *little* violence is also counterproductive: rebels will lose without information and conquest
+
+* There exist an optimal point where violence is effective: restrained violence + public goods production 
+
+* *When do groups find that equilibrium?*
+]
+---
+
+# Hypotheses
+
+.font150[
+* 8 hypotheses to explain variation in rebel violence 
+]
+--
+
+.font150[
+* H1: Abuse levels are likely to be higher in poorer areas 
+	- Rationale: Fewer resources to extract in the long run, less need for constrain]
+--
+
+.font150[
+* H2: Lower levels of abusiveness should be apparent in geographic zones in which warring factions are fighting in their home communities
+	- Repeated interactions, social connections
+]
+---
+
+# Hypotheses
+
+.font140[
+* H3: Lower levels of abusiveness should be apparent in geographic zones in which warring factions are predominantly of the same ethnic group as members of the local community
+	- Same: repeated interactions, social connections
+]
+--
+
+.font140[
+* H4: Greater levels of contestation will be associated with higher levels of abuse
+	- More competition, more violence: monopolies are efficient]
+--
+
+.font140[
+* H5: Warring factions that recruit combatants using offers of private benefits are more likely to exhibit high levels of civilian abuse
+	- Private incentives are not the same as public incentives: greed
+]
+---
+
+# Hypotheses
+
+.font150[
+* H6: Warring factions with more dense social structures have lower levels of abuse
+
+* H7: More ethnically homogenous factions should exhibit lower levels of civilian abuse
+	- Same: repeated interactions, social connections
+]
+--
+
+.font150[
+* H8: Factions with tight disciplinary structures are likely to be less abusive of civilian populations
+	- Control over rogue soldiers]
+---
+
+# Conflict in Sierra Leone
+
+.font150[
+* Civil war from 1991-2002
+
+* Blood diamonds
+
+* Majority of crimes perpetrated by the Armed Forces Revolutionary Council (AFRC) and the Revolutionary United Front (RUF), supported by Charles Taylor (Liberia)
+
+* UN sent a mission in 1999; it failed
+
+* British Armed Forces intervened in 2000: conflict over by 2002
+]
+---
+
+# Data
+
+.font150[
+* Representative sample (1,043 combatants): avoids selection and partisan biases
+
+* Asked questions about characteristics of armed groups during all stages of the combat 
+	- Problem: selective memory
+
+* Units of analysis: 
+	- same faction and chiefdom (FCH)
+	- subfaction and district (SFD)
+]
+---
+
+# Results
+
+.center[![:scale 100%](mh03.png)]
+---
+
+# Results
+
+.center[![:scale 90%](mh04.png)]
+---
+
+# Discussion
+
+.font150[
+* Support for the hypothesis that material incentives increase violence against civilians
+
+* Strong support for the hypothesis that internal discipline decreases violence
+
+* Other variables have little or no effect
+]
+---
+
+# Discussion
+
+.font150[
+* Violence is largely explained by characteristics of the fighting units themselves
+
+* Weak relationship between the extent of combatant–community ties and patterns of abuse
+
+* Wealth is also nor correlated with more violence
+	- Little variation in wealth, diamond wealth not captured by indices? 
+
+* No support for territorial control (Kalyvas)
+]
+---
+
+class: inverse, center, middle
+
+# Questions?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+# Balcells (2010)
+
+.center[![:scale 80%](b00.png)]
+---
+
+# Balcells (2010)
+
+.font150[
+* Kalyvas and Humphreys and Weinstein de-emphasise political variables 
+
+* Many civil wars are fought for political reasons: regime change, self-determination, etc
+
+* F&L equate all civil wars with guerrilla wars
+
+* B&K affirm that about 50% of civil wars are conventional wars, such as the Spanish Civil War
+
+]
+---
+
+# Balcells (2010)
+
+.font150[
+* Conventional civil wars: strong control over populations
+
+* Irregular wars: contested areas 
+
+* **Hypothesis**: While violence in irregular wars in connected with military competition to gain territory, in conventional civil wars violence is caused by *prewar political cleavages*
+]
+---
+
+# Spanish Civil War
+
+.center[![:scale 100%](picasso.jpeg)]
+---
+
+# Theory
+
+.font150[
+* Killings occur in clearly delineated spaces
+
+* Civilians are generally isolated from the battlefield
+	- Indirect violence (bombings) is cost-effective
+
+* In guerrilla wars, information about enemies is difficult
+	- Selective violence
+
+* Why use selective violence in conventional civil wars?
+
+* Rebel groups target *highly mobilised supporters of the rival* 
+]
+---
+
+# Hypotheses
+
+.font150[
+* When is violence more likely?
+
+* **Rivalry**:
+
+* H1: The greater prewar competition approaches parity between groups, the higher the levels of violence perpetrated by the armed group controlling that locality (*rivalry*)
+	- If the enemy has a large majority or a large minority, civilians restrain their armies
+	- When groups have parity, strong supporter of each side push armies to fight
+]
+--- 
+
+# Hypotheses
+.font150[
+* **Revenge**: 
+
+* H2: The higher the levels of violence perpetrated by an armed group controlling a locality at t1, the higher the levels of violence perpetrated by the rival armed group in the same locality during the subsequent time period (*revenge*)
+	- Tit-for-tat 
+]
+---
+
+# Results
+
+.center[![:scale 100%](b01.png)]
+---
+
+# Results
+
+.center[![:scale 100%](b02.png)]
+---
+
+# Discussion
+
+.font150[
+* In both cases, competition is positively associated with violence  
+
+* Presence of CNT (labour union) and Church centres increase violence
+
+* Montainous terrain, proximity to France and to the sea decrease executions (exit)
+]
+---
+
+# Discussion
+
+.font150[
+* In conventional wars, groups target civilians according to their public identities
+
+* In locatities with high parity in the prewar, violence is used to change the status quo
+
+* Local collaboration is not endonegous with territorial control, but to prewar mobilisation
+
+* Grievances can explain civil war violence
+]
+---
+
+class: inverse, center, middle
+
+# Questions?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+# Cohen (2013)
+
+.center[![:scale 100%](c00.png)]
+---
+
+# Cohen (2013)
+
+.font150[
+* What explains wartime rape? 
+
+* Three explanations for wartime sexual violence:
+	- Greed
+	- Ethnic hatred
+	- Gender inequality
+
+* It appears that those explanations are not true
+
+* New hypothesis: *combatant socialisation*
+]
+---
+
+# Rape and combatant socialisation
+
+.font150[
+* Gang rape is much more common in wartime than in peacetime 
+
+* *Rape as a socialisation device*
+
+* Many combatants are abducted, so they create bonds of esteem by violating women
+
+* Men are more likely to be killed during wartime, women and girls more likely to suffer nonlethal violence and to experience long-run consequences of war
+]
+---
+
+# Hypotheses
+
+.font150[
+* **Opportunity/greed**: 
+]
+--
+.font150[
+*  H1: State collapse is correlated with higher state-perpetrated and insurgent-perpetrated levels of wartime rape
+	- Collapse of social norms
+]
+--
+.font150[
+* H2: Rape by insurgents is more likely in conflicts whereinsurgent groups rely on material resources.
+	- "Individual incentives"
+]
+---
+
+# Hypotheses
+
+.font150[
+* **Ethnic hatred** 
+]
+--
+.font150[
+* H3: Ethnic wars are associated with conflict-wide rape
+	- Humiliation 
+]
+--
+.font150[
+* H4: States or insurgents who perpetrate genocide are more likely to commit wartime rape than those who do not
+	- Inflict bodily or mental harm to other group
+]
+--
+.font150[
+* H5: Secessionist wars, especially those featuring ethnic cleansing, are associated with insurgent-perpetrated rape
+	- Ethnic cleansing or forced expulsion
+]
+---
+
+# Hypotheses
+
+.font150[
+* **Gender inequality**
+]
+--
+.font150[
+* H6: Greater gender inequality is associated with conflict-wide rape
+	- Acceptance of violence against women
+	- Shames not only the victim, but male relatives
+]
+---
+
+# Rape as combatant socialisation tool
+
+.font150[
+* Peacetime rape tends to be private; wartime rape is often public
+
+* "Rite of passage"
+
+* Creates and solidifies social status for men
+
+* Act of camaraderie: increases group cohesion
+
+* Gang rapists are less likely to have committed other crimes and are considered less pathological than private rapists
+]
+---
+
+# Rape as combatant socialisation tool
+
+
+.center[![:scale 100%](c01.png)]
+
+.font150[
+* H7: Insurgent groups that depend on abduction as a recruitment mechanism are more likely to perpetrate rape than groups that use other, more voluntary methods of recruitment
+
+* H8: States that depend on pressganging as a recruitment mechanism are more likely to perpetrate rape than groups that use other, more voluntary methods of recruitment
+]
+---
+
+# Results
+
+.center[![:scale 95%](c02.png)]
+---
+
+# Discussion
+
+.font140[
+* Opportunity/greed mechanisms not supported for conflict-wide rape
+
+* But supported for rebel-group rape 
+
+* Insurgent contraband funding is positively associated with rape
+
+* Ethnic hatred arguments are not supported for conflict-wide or rebel-group rape
+
+* Gender inequality also not supported (not shown)
+
+* Maybe GI was already so widespread that it doesn't explain sexual violence 
+]
+---
+
+# Discussion
+
+.center[![:scale 100%](c03.png)]
+---
+
+# Discussion
+
+.center[![:scale 100%](c04.png)]
+---
+
+# Discussion
+
+.font150[
+* Rape serves to socialise recruits, boost their morale, and increase group cohesion
+
+* Associated with state collapse
+
+* Lootable resources have a positive influence
+
+* Common suppositions were not supported
+]
+---
+
+class: inverse, center, middle
+
+# Questions?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+class: inverse, center, middle
+
+# See you next week!
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
