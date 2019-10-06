@@ -68,7 +68,7 @@ options(htmltools.dir.version = FALSE)
 .font150[
 * Humphreys and Weinstein highlight another factor that explains violence against civilians in internal wars: _rebel group structure_
 
-* Groups that are less cohesive tend to commit more violence: less control over rogue soldiers
+* Less cohesive groups tend to commit more violence: less control over rogue soldiers
 
 * They also find that material incentives also increase violence in civil wars
 
@@ -201,7 +201,7 @@ class: inverse, center, middle
 ]
 ---
 
-# Third-Party Guarantees
+# Third-party guarantees
 
 .font150[
 * A mediator can increase the costs of punishment for non-compliers
@@ -387,6 +387,11 @@ class: inverse, center, middle
 
 # Howard and Stark (2018)  
 
+.center[![:scale 100%](hs00.png)]
+---
+
+# Howard and Stark (2018)  
+
 .font150[
 * While in the 1990s civil wars were more likely to end in negotiated agreements...
 
@@ -398,8 +403,301 @@ class: inverse, center, middle
 ]
 ---
 
-# 
+# Unipolarity
 
+.font150[
+* During the Cold War, the US tried to win decise victories
+	- Interventions were credible
+
+* In the post-Cold War years, the US doesn't not need to intervene so strongly
+	- No other superpower to compete for influence 
+
+* Colour Revolutions, Arab Spring have also shown that democratisation is not always feasible
+
+* Solution: stabilisation instead of regime change
+]
+---
+
+# Three periods 
+
+.center[![:scale 100%](hs01.png)]
+---
+
+# Three periods
+
+.center[![:scale 100%](hs02.png)]
+---
+
+# Text analysis
+
+.center[![:scale 100%](hs03.png)]
+
+---
+
+# New norms
+
+.font150[
+* Since 9/11 the US and other powers applied new norms of anti-terrorism in civil wars where Islamists were involved
+	- Afghanistan, Central African Republic, Iraq, Syria, etc
+
+* No negotiations with terrorist groups 
+
+* Result: civil wars are less likely to end 
+]
+---
+
+# Questions
+
+.font150[
+* Will these norms change with the rise of China? What would be the impact of a new bipolar world on civil war duration?
+
+* Why is there no push for democratisation from European countries?
+
+* Should the US promote democracy abroad? 
+]
+---
+
+class: inverse, center, middle
+
+# Questions?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+---
+
+# Findley & Young (2015)
+
+.center[![:scale 100%](fy00.png)]
+---
+
+# Findley & Young (2015)
+
+.font150[
+* How does terrorism affect civil war termination? 
+
+* Extend civil war research beyond rebels versus governments
+
+* *Spoilers*: individuals or small groups that derail a peace process
+
+* *De facto* "veto players" in negotiations
+]
+---
+
+# Terrorism in civil conflicts
+
+.font150[
+* Groups can use terrorism in three different ways during the peace process:
+	- Before, during, and after the peace process
+
+* **Question**: why would they do so?]
+--
+
+.font150[
+* Early in the process, to be included in the negotiations
+
+* During the process, to increase their bargaining power 
+
+* After the process, to alter or derail the original agreement
+]
+---
+
+# Hypotheses
+
+.font150[
+* H1. As terrorism occurs more frequently, the duration until a war ends should increase
+
+* H2. As terrorism occurs more frequently, the duration of postwar peace should decrease.
+
+* Mechanisms: erodes trust among parties and create incentives for individuals to fight
+
+* They proxy spoiling by a measure of terrorist attacks directly connected to civil wars
+	]
+---
+
+# Results 
+
+.center[![:scale 80%](fy01.png)]
+
+.font150[
+More terrorism decreases the chance of civil war termination
+]
+---
+
+# Results
+
+.center[![:scale 100%](fy02.png)]
+
+.font150[
+* More terrorism increase the likelihood of civil war recurrence 
+]
+---
+
+# Discussion
+
+.font150[
+* The results confirm both hypotheses:
+	- Terrorism increases the duration of civil wars
+	- And it also increases the chance a new conflict will erupot
+
+* **Question**: Kalyvas states that indiscriminate violence is counter-productive. Under what conditions his statement is true? And when is it false?
+]
+
+---
+
+class: inverse, center, middle
+
+# Questions?
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+--- 
+
+---
+
+# Toft (2010)
+
+.center[![:scale 100%](t00.png)]
+---
+
+# Two views on civil war termination
+
+.font150[
+* First, negotiated agreements are always the best option 
+	- The sooner the conflict ends, the better
+
+* "Give war a chance"
+	- Decisive victories lead to more stable states
+
+* What are the pros and cons of each approach?]
+--
+
+.font150[
+
+* (Yes, "giving war a chance" is a serious argument!)
+]
+---
+
+# Some background information
+
+.font150[
+* Civil wars than ended in victory are twice as likely to remain settled when compared to cease-fires or negotiated agreements
+
+* Wars ended through negotiated settlement were twice as likely to reignite as those ending in victory
+
+* Rebel victories were more stable than government victories
+]
+--
+.font150[
+* *Should we then hope for a rebel victory?*
+]
+---
+
+# Results
+
+.center[![:scale 100%](t01.png)]
+---
+
+# Results
+
+.center[![:scale 100%](t02.png)]
+---
+
+# Discussion
+
+.font150[
+* Victories decrease the duration of civil wars (model 1)
+
+* Negotiated settlements, in contrast, increase them (model 2) 
+
+* Government victory *does not* seem to decrease civil war duration
+
+* The effect comes from rebel victories
+
+* No difference between wars than ended in victories or settlements in any measure except duration
+]
+---
+
+# Post-civil war politics
+
+.font150[
+* What is the effect of victories on post-civil war democratisation? 
+
+* Polity IV: -10 (most authoritarian) to +10 (most democratic)
+]
+---
+
+# Results
+
+.center[![:scale 90%](t03.png)]
+---
+
+# Discussion 
+
+.font150[
+* Negotiated settlements are associated with greater levels of authoritarianism as the postwar period is extended
+
+* Incumbent governments seem to sink precipitously into authoritarianism
+
+* Cease-fires/stalemates do not appear to have an impact on democratisation
+
+* *Levels of autocracy decreased after rebel victories*]
+---
+
+# Post-civil war prosperity
+
+.center[![:scale 90%](t04.png)]
+---
+
+# Discussion
+
+.font150[
+* Economic growth or decline is unrelated to the type of civil war settlement 
+
+* Rebel victory does not seem to negatively impact economic growth
+]
+---
+
+# Mechanisms
+
+.font150[
+* **Question**: why do insurgents promote better governance when they win the war? Do they? 
+]
+--
+.font150[
+* Rebels have to address popular grievances
+
+* They do not have international recognition
+
+* Face little opposition to implement reforms
+]
+---
+
+# Case study 1: Uganda
+
+.center[![:scale 100%](uganda00.png)]
+---
+
+# Case study 1: Uganda
+
+.center[![:scale 85%](uganda01.png)]
+---
+
+# Case study 1: Uganda
+
+.center[![:scale 100%](uganda02.png)]
+---
+
+# Case study 2: Somaliland
+
+.center[![:scale 100%](som00.png)]
+---
+
+# Case study 2: Somaliland
+
+.center[![:scale 100%](som01.png)]
+---
+
+# Case study 2: Somaliland
+
+.center[![:scale 100%](som02.png)]
 ---
 
 class: inverse, center, middle
