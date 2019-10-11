@@ -2,7 +2,7 @@
 title: "Week 06: State-Sponsored Violence"
 subtitle: "What are Genocides and Politicides?<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html>"
 author: "Danilo Freire"
-date: "08 October 2019"
+date: "15 October 2019"
 output: 
   xaringan::moon_reader:
     css: [default, metropolis, metropolis-fonts]
