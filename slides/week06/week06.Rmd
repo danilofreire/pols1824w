@@ -50,6 +50,21 @@ options(htmltools.dir.version = FALSE)
 
 # Last week we saw that... 
 
+.center[![:scale 100%](trump.png)]
+---
+
+# Last week we saw that... 
+
+.center[![:scale 80%](peace.png)]
+---
+
+# Last week we saw that... 
+
+.center[![:scale 100%](economics.png)]
+---
+
+# Last week we saw that... 
+
 .font150[
 * Civil wars generally last longer than international conflicts 
 
