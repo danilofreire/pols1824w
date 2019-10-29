@@ -70,7 +70,7 @@ options(htmltools.dir.version = FALSE)
 
 * First generation of post-WWII scholars emphasised the uniqueness of the Holocaust
 
-* Contemporary scholars argue that the genocides must be analysed comparetively 
+* Contemporary scholars argue that the genocides must be analysed comparatively 
 
 * Nazi Germany is an extreme case of Social Darwinism + modern technology + state totalitarianism  
 
@@ -85,7 +85,7 @@ options(htmltools.dir.version = FALSE)
 
 * State building often involved genocidal practices
 
-* Societies that were prosperous and homegenous in the early 20th century had started this process earlier
+* Societies that were prosperous and homogenous in the early 20th century had started this process earlier
 
 * The competitiveness of the international system puts pressure on underdeveloped states
 
@@ -113,7 +113,7 @@ class: inverse, center, middle
 * Since the 1980s, scholars took a comparative approach to analyse genocides
 
 * Genocides share some characteristics with ethnic wars and revolutions:
-	- Almost all genocides ocurr during or after wars 
+	- Almost all genocides occur during or after wars 
 
 * Few large-_n_ analyses of correlates of genocides
 ]
@@ -166,7 +166,7 @@ class: inverse, center, middle
 .font150[
 * **Political upheaval**: abrupt change in the political community
 
-* **Prior genocides**: atrocity begets atrocity 
+* **Prior genocides**: atrocity creates atrocity 
 
 * **Exclusionary ideologies**: Marxists, Islamists, anticommunists, ethnonationalists 
 
@@ -209,7 +209,7 @@ class: inverse, center, middle
 
 * Theoretical implications: more research on elite behaviour 
 
-* Political implications: genocide/politicide watchlist 
+* Political implications: genocide/politicide watch list 
 ]
 ---
 
@@ -278,7 +278,7 @@ class: inverse, center, middle
 .font150[
 * While genocides intend to destroy a specific group...
 
-* Politicides are used to maintain the government’s stability
+* Politicides are used to maintain the government's stability
 
 * During politicide, the government perceives several groups as potentially threatening
 
@@ -330,7 +330,7 @@ class: inverse, center, middle
 .font150[
 * The literature on genocide forecasting generated two predictions:
 	- Mass killing during war may be driven by ethnic hatred and discrimination
-	- Mass killing during war may be associated with nondemocratic regimes
+	- Mass killing during war may be associated with undemocratic regimes
 
 * Valentino et al argue that killing civilians is a calculated strategy to combat guerrillas 
 
@@ -360,7 +360,7 @@ class: inverse, center, middle
 
 * “Massive number”: 50,000 intentional deaths in the course of five years or less
 
-* “Noncombatant”: “any unarmed person who is not a member of a professional or guerrilla military group and who does not actively participate in hostilities by intending to cause physical harm to enemy personnel or property” (p.378-9).
+* “Noncombatant”: “any unarmed person who is not a member of a professional or guerilla military group and who does not actively participate in hostilities by intending to cause physical harm to enemy personnel or property” (p.378-9).
  ]
 ---
 
