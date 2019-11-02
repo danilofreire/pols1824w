@@ -120,7 +120,7 @@ class: inverse, center, middle
 
 # Overview 
 
-.font150[
+.font140[
 * UN's Responsibility to Protect (R2P) implies that the international community should prevent genocides, war crimes, ethnic cleansing, and crimes against humanity
 
 * Global compact created in 2005 and it consists of three pillars:
@@ -129,17 +129,158 @@ class: inverse, center, middle
 * Evoked several times by the UNSC:
 	- Kenya, Libya, Syria, CAR, etc
 
-* But is the best way to end genocides?
+* But is that the best way to end genocides?
 ]
 
 ---
 
 # Overview 
 
+.font140[
 * "Best of all worlds" trap: if we can't do what is best, we don't do anything at all
 
-* Analysing the 
+* If we look closely at the data, some unexpected patterns emerge
 
+* Most cases of genocide de-escalated after the perpetrators achieved their goals
+
+* External military interventions account for a small part of the de-escalations
+]
+
+---
+
+# Mass killings termination
+
+.font150[
+* We have no good data about how genocides end
+
+* The author has three suggestions:
+  - Look at the determinants of civil war onset, civil war duration, and the causes of mass killings
+  - Try an inductive approach by analysing how state-sponsored mass killings have ended in the past
+  - The literature on external interventions
+]
+--
+
+.font150[
+* Let's start with the first one and take a look at the most recent UCDP/PRIO dataset
+]
+
+---
+
+# Civil war termination
+
+```{r, message=FALSE,warning=FALSE,error=FALSE,eval=FALSE}
+library(tidyverse); library(readxl); library(lubridate); library(viridis)
+
+df <- read_excel("~/Desktop/ucdp-term-conf-2015.xlsx")
+
+df %>% 
+  rename_all(tolower) %>%
+  mutate_at(vars(outcome),
+            funs(factor)) %>%
+  mutate(outcome = recode(outcome, 
+                          "1" = "Peace agreement",
+                          "2" = "Ceasefire agreement",
+                          "3" = "Government victory",
+                          "4" = "Rebel victory",
+                          "5" = "Low activity",
+                          "6" = "Actor ceases to exist")) %>%
+  mutate(year_end = year(ependdate)) %>%
+  mutate(decade = floor(year_end/10) * 10) %>%
+  drop_na(outcome) %>%
+  group_by(outcome, decade) %>%
+  mutate(count = n()) %>%
+  ggplot(aes(fill = outcome, y = count, x = decade)) +
+  geom_bar(position = "dodge", stat = "identity") +
+  labs(x = "Decade", y = "Count") + 
+  scale_fill_viridis(discrete = T, name = "Outcome")
+```
+---
+
+# Civil war termination
+
+```{r, message=FALSE,warning=FALSE,error=FALSE,echo=FALSE,fig.align='center',fig.height=9,fig.width=14}
+library(tidyverse); library(readxl); library(lubridate); library(viridis)
+
+df <- read_excel("~/Desktop/ucdp-term-conf-2015.xlsx")
+
+df %>% 
+  rename_all(tolower) %>%
+  mutate_at(vars(outcome),
+            funs(factor)) %>%
+  mutate(outcome = recode(outcome, 
+                          "1" = "Peace agreement",
+                          "2" = "Ceasefire agreement",
+                          "3" = "Government victory",
+                          "4" = "Rebel victory",
+                          "5" = "Low activity",
+                          "6" = "Actor ceases to exist")) %>%
+  mutate(year_end = year(ependdate)) %>%
+  mutate(decade = floor(year_end/10) * 10) %>%
+  drop_na(outcome) %>%
+  group_by(outcome, decade) %>%
+  mutate(count = n()) %>%
+  ggplot(aes(fill = outcome, y = count, x = decade)) +
+  geom_bar(position = "dodge", stat = "identity") +
+  labs(x = "Decade", y = "Count") + 
+  theme(text = element_text(size = 20)) + 
+  scale_fill_viridis(discrete = T, name = "Outcome")
+```
+
+---
+
+# Civil war termination
+
+```{r, message=FALSE,warning=FALSE,error=FALSE,echo=FALSE,fig.align='center',fig.height=9,fig.width=14}
+df %>% 
+  rename_all(tolower) %>%
+  mutate_at(vars(outcome),
+            funs(factor)) %>%
+  mutate(outcome = recode(outcome, 
+                          "1" = "Peace agreement",
+                          "2" = "Ceasefire agreement",
+                          "3" = "Government victory",
+                          "4" = "Rebel victory",
+                          "5" = "Low activity",
+                          "6" = "Actor ceases to exist")) %>%
+  mutate(year_end = year(ependdate)) %>%
+  mutate(decade = floor(year_end/10) * 10) %>%
+  drop_na(outcome) %>%
+  group_by(outcome, decade) %>%
+  mutate(count = n()) %>%
+  ggplot(aes(fill = outcome, y = count, x = decade)) +
+  geom_bar(position = "fill", stat = "identity") +
+  labs(x = "Decade", y = "Count") + 
+  theme(text = element_text(size = 20)) + 
+  scale_fill_viridis(discrete = T, name = "Outcome") 
+```
+
+---
+
+# Civil war termination
+
+.font140[
+* Although these data provide some guidance...
+
+* ... factors that end mass killing do not necessarily end civil war
+
+* For instance, mass killings may happen before or during conflicts
+
+* Genocides can also be unrelated to wars
+
+* Studies focused only on the causes of mass killings offer little help
+  - Killings might end without addressing the cause
+  - Mass killings _causes_ are different from their _logics_ 
+
+]
+
+---
+
+# Duration of civil wars
+
+.font150[
+* We only have good evidence that low GDP per capita and lootable resources increase the duration of civil wars
+
+]
 
 ---
 

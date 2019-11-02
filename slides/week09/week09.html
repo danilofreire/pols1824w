@@ -126,7 +126,7 @@ class: inverse, center, middle
 
 # Overview 
 
-.font150[
+.font140[
 * UN's Responsibility to Protect (R2P) implies that the international community should prevent genocides, war crimes, ethnic cleansing, and crimes against humanity
 
 * Global compact created in 2005 and it consists of three pillars:
@@ -135,17 +135,111 @@ class: inverse, center, middle
 * Evoked several times by the UNSC:
 	- Kenya, Libya, Syria, CAR, etc
 
-* But is the best way to end genocides?
+* But is that the best way to end genocides?
 ]
 
 ---
 
 # Overview 
 
+.font140[
 * "Best of all worlds" trap: if we can't do what is best, we don't do anything at all
 
-* Analysing the 
+* If we look closely at the data, some unexpected patterns emerge
 
+* Most cases of genocide de-escalated after the perpetrators achieved their goals
+
+* External military interventions account for a small part of the de-escalations
+]
+
+---
+
+# Mass killings termination
+
+.font150[
+* We have no good data about how genocides end
+
+* The author has three suggestions:
+  - Look at the determinants of civil war onset, civil war duration, and the causes of mass killings
+  - Try an inductive approach by analysing how state-sponsored mass killings have ended in the past
+  - The literature on external interventions
+]
+--
+
+.font150[
+* Let's start with the first one and take a look at the most recent UCDP/PRIO dataset
+]
+
+---
+
+# Civil war termination
+
+
+```r
+library(tidyverse); library(readxl); library(lubridate); library(viridis)
+
+df &lt;- read_excel("~/Desktop/ucdp-term-conf-2015.xlsx")
+
+df %&gt;% 
+  rename_all(tolower) %&gt;%
+  mutate_at(vars(outcome),
+            funs(factor)) %&gt;%
+  mutate(outcome = recode(outcome, 
+                          "1" = "Peace agreement",
+                          "2" = "Ceasefire agreement",
+                          "3" = "Government victory",
+                          "4" = "Rebel victory",
+                          "5" = "Low activity",
+                          "6" = "Actor ceases to exist")) %&gt;%
+  mutate(year_end = year(ependdate)) %&gt;%
+  mutate(decade = floor(year_end/10) * 10) %&gt;%
+  drop_na(outcome) %&gt;%
+  group_by(outcome, decade) %&gt;%
+  mutate(count = n()) %&gt;%
+  ggplot(aes(fill = outcome, y = count, x = decade)) +
+  geom_bar(position = "dodge", stat = "identity") +
+  labs(x = "Decade", y = "Count") + 
+  scale_fill_viridis(discrete = T, name = "Outcome")
+```
+---
+
+# Civil war termination
+
+&lt;img src="week09_files/figure-html/unnamed-chunk-2-1.png" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Civil war termination
+
+&lt;img src="week09_files/figure-html/unnamed-chunk-3-1.png" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Civil war termination
+
+.font140[
+* Although these data provide some guidance...
+
+* ... factors that end mass killing do not necessarily end civil war
+
+* For instance, mass killings may happen before or during conflicts
+
+* Genocides can also be unrelated to wars
+
+* Studies focused only on the causes of mass killings offer little help
+  - Killings might end without addressing the cause
+  - Mass killings _causes_ are different from their _logics_ 
+
+]
+
+---
+
+# Duration of civil wars
+
+.font150[
+* We only have good evidence that low GDP per capita and lootable resources increase the duration of civil wars
+
+]
 
 ---
 
@@ -203,7 +297,24 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 (function() {
