@@ -160,86 +160,304 @@ class: inverse, center, middle
 * We have no good data about how genocides end
 
 * The author has three suggestions:
-  - Look at the determinants of civil war onset, civil war duration, and the causes of mass killings
-  - Try an inductive approach by analysing how state-sponsored mass killings have ended in the past
-  - The literature on external interventions
+  - Look at the causes of mass killings, the determinants of civil war duration, and the effect of external interventions
+  - Try an inductive approach and analyse how state-sponsored mass killings have ended in the past
 ]
 --
 
 .font150[
-* Let's start with the first one and take a look at the most recent UCDP/PRIO dataset
+* Let's start with the first one 
 ]
 
 ---
 
-# Civil war termination
+# Causes of mass killings
 
+.font150[
+* Last week we saw some of the causes of mass killings
+  - Civil wars, guerrillas, political threats to the elites, discrimination against ethnic or religious groups
 
-```r
-library(tidyverse); library(readxl); library(lubridate); library(viridis)
+* Although this literature provides some guidance...
 
-df &lt;- read_excel("~/Desktop/ucdp-term-conf-2015.xlsx")
-
-df %&gt;% 
-  rename_all(tolower) %&gt;%
-  mutate_at(vars(outcome),
-            funs(factor)) %&gt;%
-  mutate(outcome = recode(outcome, 
-                          "1" = "Peace agreement",
-                          "2" = "Ceasefire agreement",
-                          "3" = "Government victory",
-                          "4" = "Rebel victory",
-                          "5" = "Low activity",
-                          "6" = "Actor ceases to exist")) %&gt;%
-  mutate(year_end = year(ependdate)) %&gt;%
-  mutate(decade = floor(year_end/10) * 10) %&gt;%
-  drop_na(outcome) %&gt;%
-  group_by(outcome, decade) %&gt;%
-  mutate(count = n()) %&gt;%
-  ggplot(aes(fill = outcome, y = count, x = decade)) +
-  geom_bar(position = "dodge", stat = "identity") +
-  labs(x = "Decade", y = "Count") + 
-  scale_fill_viridis(discrete = T, name = "Outcome")
-```
----
-
-# Civil war termination
-
-&lt;img src="week09_files/figure-html/unnamed-chunk-2-1.png" style="display: block; margin: auto;" /&gt;
-
----
-
-# Civil war termination
-
-&lt;img src="week09_files/figure-html/unnamed-chunk-3-1.png" style="display: block; margin: auto;" /&gt;
-
----
-
-# Civil war termination
+* ... it might not help us very much here. 
+]
+--
 
 .font140[
-* Although these data provide some guidance...
+* **Why?**
+ ]
 
-* ... factors that end mass killing do not necessarily end civil war
+--
 
-* For instance, mass killings may happen before or during conflicts
+.font150[
+* Factors that _cause_ mass killing might not be the same that those which account for _mass killing duration_
+]
 
-* Genocides can also be unrelated to wars
+---
 
-* Studies focused only on the causes of mass killings offer little help
-  - Killings might end without addressing the cause
-  - Mass killings _causes_ are different from their _logics_ 
+# Causes of mass killings
 
+.font150[
+* Some mass killings do not achieve the perpetrators' purposes
+
+* Elites might be divided during the conflict
+
+* Not all genocides or politicides happen in times of war
+]
+
+--
+
+.font150[
+* No reason to think that the elimination of causes will end mass killing
 ]
 
 ---
 
 # Duration of civil wars
 
+.font140[
+* Some civil wars last much longer than others
+
+* Since early 2000s, researchers have investigated which factors explain civil war duration
+
+* As with the literature on civil war onset, there are only a few robust indicators associated with longer wars:
+  - Low GDP per capita
+  - Lootable resources
+  - External support for rebels
+]
+--
+
+.font140[
+* But these factors might play a different role in genocides. **Question**: How would the variables above affect mass killings? 
+]
+
+---
+
+# Role of third parties
+
 .font150[
-* We only have good evidence that low GDP per capita and lootable resources increase the duration of civil wars
+* We've already discussed that peacekeeping operations can reduce the duration of civil wars
+
+* The author says it might not be the case with genocides. **Why?** Can you think of two possible mechanisms?
+]
+--
+
+.font150[
+* Real or perceived threats to leaders
+]
+--
+
+.font150[
+* If the third parties do not show resolve, leaders can be even more motivated to carry on the attacks  
+]
+---
+
+# How mass killings end: Findings
+
+.font150[
+* The author identified 65 cases of genocides between 1945 and 2009
+
+* Perpetrators themselves ended a majority of cases
+  - Either because their goals
+  - Or because they changed their goals
+  
+* This is changing since the end of the Cold War
+
+* Negotiating ends are rare
+
+* Some episodes end in regime change by domestic groups (more common) or external interventions
 
 ]
+
+---
+
+# Mass killing termination
+
+
+```r
+library(tidyverse); library(viridis) # Required packages
+
+# Load data
+df &lt;- read_csv("~/Documents/github/pols1824w/slides/week09/genocides.csv")
+
+# Data manipulation and plot
+df %&gt;% 
+  mutate_at(vars(type),
+            funs(factor)) %&gt;%
+  mutate(outcome = recode(type, 
+                          "0" = "Goal achieved",
+                          "1" = "Regime change by opposition",
+                          "2" = "Regime change by external forces",
+                          "3" = "Goal shifted",
+                          "4" = "Negotiated")) %&gt;%
+  mutate(decade = floor(year/10) * 10) %&gt;%
+  drop_na(outcome) %&gt;%
+  group_by(outcome, decade) %&gt;%
+  mutate(count = n()) %&gt;%
+  ggplot(aes(fill = outcome, y = count, x = decade)) +
+  geom_bar(position = "fill", stat = "identity") +
+  labs(x = "Decade", y = "Count") + 
+  theme(text = element_text(size = 24)) + 
+  scale_fill_viridis(discrete = T, name = "Outcome") 
+```
+
+---
+
+# Mass killing termination
+
+&lt;img src="week09_files/figure-html/unnamed-chunk-2-1.png" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Mass killing termination
+
+
+```r
+df %&gt;% 
+  mutate_at(vars(type),
+            funs(factor)) %&gt;%
+  mutate(outcome = recode(type, 
+                          "0" = "Goal achieved",
+                          "1" = "Change by opposition",
+                          "2" = "Change by external forces",
+                          "3" = "Goal shifted",
+                          "4" = "Negotiated")) %&gt;%
+  drop_na(outcome) %&gt;%
+  group_by(outcome, year) %&gt;%
+  summarise(n = n()) %&gt;%
+  ungroup() %&gt;%
+  ggplot(aes(x = year, y = n)) +
+  geom_point(aes(colour = outcome), size = 6) +
+  geom_smooth(aes(colour = outcome), se = F, method = "lm") +
+  facet_wrap(.~ outcome) + 
+  scale_y_continuous(breaks = c(0, 1, 2, 3)) + 
+  theme(legend.position = "none") + 
+  theme(text = element_text(size = 32)) + 
+  labs(x = "Year", y = "Count") + 
+  scale_color_manual(values = c(viridis::viridis(6)))
+```
+
+---
+
+# Mass killing termination
+
+&lt;img src="week09_files/figure-html/unnamed-chunk-4-1.png" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Implications
+
+.font150[
+* Regime change is becoming more prevalent as a means to end genocides
+
+* Domestic actors are more successful than international interventions in changing repressive regimes
+
+* But both mitigate atrocities
+
+* **Question**: if you were a policy-maker, what would you do to stop mass killings? What are the pros and cons of each strategy?
+
+]
+
+---
+
+# Matthew Krain (2005)
+
+.center[![:scale 120](k00.png)]
+
+---
+
+# Matthew Krain (2005)
+
+.font150[
+* As we've seen before, the UN has increasingly discussed the used of international interventions 
+
+* The international community frustrated expectations in Bosnia, Timor Leste, Darfur, etc
+
+* Recent failured have raised questions about the effectiveness of interventions in foreign countries
+
+* We have already discussed the role of peacekeeping operations (PKOs) in civil wars, but how do they affect the incidence of mass killings?
+]
+
+---
+
+# PKOs, civil wars, and genocides
+
+.font150[
+* Most research has focused on the interaction between PKOs and civil war duration
+
+* However, genocides pose a much harder problem for the UN
+
+* "In a matter of 100 days, almost 800,000 people were slaughtered in Rwanda, a rate of approximately 8,000 per day"
+
+* Genocide duration is not correlated with genocide severity
+]
+---
+
+# PKOs, civil wars, and genocides
+
+.font150[
+* A major question is that PKOs can have heterogeneous effects on mass killings
+
+* While it can force perpetrators to stop the violence...
+
+* It can also increase the pressure over them and accelerate the rate of murders
+
+* Also, even PKOs can't stop the killings, they might reduce the levels of violence
+]
+---
+
+# PKOs, civil wars, and genocides
+
+.font150[
+* While in civil wars PKOs can choose a side to collaborate with, in genocides there is only _one_ group making the decisions
+
+* This makes the situation harder as the target population by definition can't help
+
+* Thus, the author says, _the motivations of the intervention don't matter_, as PKO's only chance of success lies in stopping the perpetrator by any means
+
+* **Question**: do you agree?
+]
+---
+
+# Intervention models
+
+.font150[
+* Three strategies don't seem to work:
+
+* Do nothing
+
+* Neutral interventions
+
+* Aiding the perpetrator
+
+* What seems to work: directly challenge the perpetrator
+
+* **Why?**
+]
+---
+
+# Other factors
+
+.font150[
+* Duration: the longer the genocide, the more the leaders learn how to kill more efficiently
+
+* Previous conflicts: leaders know that they can continue genocidal policies, or past grievances can increase the likelihood of future mass killings
+
+* Contiguity: contiguous states can either increase or decrease the severity of violence
+]
+
+---
+
+# Other factors
+
+.font150[
+* Regime type: democracies are more peaceful than dictatorships
+
+* Ethnic fractionalisation 
+
+* Economic marginalisation: increase the severity of mass killings. How do they affect *the perpetrator*?
+]
+---
 
 ---
 
