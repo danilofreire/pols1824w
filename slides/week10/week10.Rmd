@@ -1,0 +1,657 @@
+---
+title: "Week 10: Terrorism" 
+subtitle: "Definitions, again: What is terrorism?"
+author: "Danilo Freire"
+date: "12 November 2019"
+output: 
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"
+    nature: 
+      beforeInit: "macros.js"
+      highlightStyle: github
+      ratio: 4:3
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+<style>
+
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 6px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #EB811B;
+}
+
+.orange {
+  color: #EB811B;
+}
+</style>
+
+# Last week we saw that
+
+.font150[
+* Genocides are hard to prevent, maybe even harder than civil wars
+
+* Leaders are often resolute in their decisions to attack civilians
+
+* Peace-keeping operations reduce the duration and incidence of mass killings
+
+* But they are deployed only to the worst cases
+
+* Previous conflicts predict both mass killings and PKO deployment
+]
+---
+
+# Last week we saw that
+
+.font150[
+* Most genocides end when the perpetrators achieve their goals
+
+* Recently, domestic opposition groups and international interventions have succeeded in ending genocide
+
+* PKO used to side with the perpetrators, yet there's evidence that they only work when they support the opposition
+
+* There's no evidence that economic sanctions work in reducing the chances of genocide outbreak or duration
+]
+---
+class: inverse, center, middle
+
+# A brief history of terrorism
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html> 
+---
+
+# Bruce Hoffman and William Shughart
+
+.pull-left[![:scale 80%](h00.png)]
+.pull-right[![:scale 100%](s00.png)]
+---
+
+# Uses and abuses of the term
+
+.font140[
+* Terrorism is a grossly overused term
+
+* Most people have an idea of what it is, yet terrorism is not very precisely defined
+
+* The confusion has gotten worse in the last decades
+
+* "[...] virtually any especially abhorrent act of violence perceived as directed against society [...] is often labelled "terrorism"
+    - religious terrorism, ecoterrorism, "corporate terrorism", etc
+    
+* The meaning of what is illegitimate violence has changed over time 
+]
+---
+
+# Reign of Terror
+
+.center[![:scale 100%](t00.jpg)]
+---
+
+# Reign of Terror
+
+.font150[
+* _Régime de la terreur_ of 1793-1794
+
+* Widespread fear of counterrevolution
+
+* Threats of foreign invasion from Austria and Prussia
+
+* _Girondins_: more conservative members of the Assembly
+
+* Restrain popular violence (lynchings were common) and concentrate power in the hands of the revolutionary government
+]
+---
+
+# The Revolutionary Tribunal
+
+.center[![:scale 100%](trib00.jpg)]
+---
+
+# Committee of Public Safety
+
+.center[![:scale 50%](c00.png)]
+---
+
+# Committee of Public Safety
+
+.center[![:scale 45%](g00.jpg)]
+---
+
+# Maximilien Robespierre
+
+.center[![:scale 50%](r01.jpg)]
+---
+
+# Maximilien Robespierre
+
+.font150[
+* French lawyer (1758-1794)
+
+* Radical member of the Jacobin Club
+
+* Advocated for universal male suffrage, the end of slavery, careers open to talent, right to bear arms
+
+* Coined the revolutionary motto _Liberté, égalité, fraternité_
+
+* Led the referendum that asked for the execution of King Louis XVI
+
+* In about one year, the regime killed 16,594 people in France
+]
+---
+
+# Maximilien Robespierre
+
+.font150[
+_If the basis of popular government in peacetime is virtue, the basis of popular government during a revolution is both virtue and terror; virtue, without which terror is baneful; terror, without which virtue is powerless. Terror is nothing more than speedy, severe and inflexible justice; it is thus an emanation of virtue; it is less a principle in itself, than a consequence of the general principle of democracy, applied to the most pressing needs of the homeland_
+
+Robespierre, February 1794
+]
+---
+
+# Narodnaya Volya
+
+.center[![:scale 100%](n00.png)]
+---
+
+# Narodnaya Volya
+
+.font150[
+* People's Will/People's Freedom
+
+* 19th-century revolutionary organisation established to overthrow the tsarist regime
+
+* Promoted violent tactics, specially the assassination of government officials
+
+* Did not target civilians
+]
+---
+
+# Death of Tsar Alexander II
+
+.center[![:scale 100%](n01.jpg)]
+---
+
+# Death of Tsar Alexander II
+
+.font150[
+* Killed on March 13, 1881 in a bombing attack
+
+* The group had "condemned the Tsar to death" for "betraying the Russian people"
+
+* Increase in repression: many activists were arrested and executed
+
+* Former members of the Narodnaya Volya helped found Russia's Socialist Revolutionary Party
+
+* Vladimir Lenin's elder brother, Alexander Ulyanov, was a member of one incarnation of the Narodnaya Volya
+]
+---
+
+# Irish nationalists in the US
+
+.center[![:scale 45%](i00.jpg)]
+---
+
+# Jeremiah O'Donovan Rossa
+
+.center[![:scale 45%](i01.jpeg)]
+---
+
+# Jeremiah O'Donovan Rossa
+
+.font150[
+* Irish shopkeeper, arrested without trial in 1858 for "high treason"
+
+* Served prison time in England, later deported to the USA
+
+* Organised the first ever bombings by Irish republicans of English cities
+
+* The campaign lasted through the 1880s and made him infamous in Britain
+
+* Bombs exploded in the London Underground, Westminster Palace, and the Tower of London
+]
+---
+
+# Jeremiah O'Donovan Rossa
+
+.font150[
+* Different from Russian terrorists, the Irish nationalists _intentionally_ attacked civilians
+
+* Attacks targeted crowded places and infrastructure 
+
+* They also had a _transnational base_
+
+* Expertly conducted fund-raising campaigns
+]
+---
+
+# Young Bosnia and Narodna Obrana
+
+.center[![:scale 100%](b00.jpg)]
+---
+
+# Young Bosnia and Narodna Obrana
+
+.font150[
+* Nationalist groups that wanted to create a unified Yugoslavia free from the Austro-Hungarian Empire
+
+* Similar to the Russian terrorists, these groups targeted public officials and state representatives
+
+* Support from several secret networks
+
+* In June 1914, a member of the Young Bosnia, Gavrilo Princip, successfully assassinated Archduke Franz Ferdinand of Austria
+
+* This event led to the outbreak of World War I
+]
+---
+
+# Gavrilo Princip
+
+.center[![:scale 100%](b02.jpg)]
+---
+
+# Gavrilo Princip
+
+.center[![:scale 100%](b01.jpg)]
+---
+
+# State terror in the 1930s-1940s 
+
+.center[![:scale 100%](s00.jpg)]
+---
+
+# Terrorism after WWII
+
+.font150[
+* Following the WWII, terrorist groups regained the revolutionary image we still associate them with
+
+* Three terrorism waves:
+
+* "Liberation movements" in the Third World
+
+* "New Left"
+
+* "Radical Islamists" 
+]
+---
+
+# Anti-colonial terrorism
+
+.pull-left[![:scale 100%](a00.jpeg)]
+.pull-right[![:scale 100%](eoka00.jpg)]
+---
+
+# Anti-colonial terrorism
+
+.font150[
+* Targeted civil servants and public buildings associated with previous colonial rules
+
+* Strong sense of nationalism
+
+* Used violence to pressure the international community to support decolonisation
+
+* _Largely successful_
+
+* Motivated other groups to use terrorism to achieve political goals
+]
+---
+
+# New left terrorism
+
+.center[![:scale 90%](baader00.jpg)]
+---
+
+# New left terrorism
+
+.center[![:scale 60%](br00.jpg)]
+---
+
+# New left terrorism
+
+.center[![:scale 100%](eta00.jpg)]
+
+---
+
+# New left terrorism
+
+.font150[
+* Inspired by Latin American guerrilla groups and the Palestinian fighters
+
+* Marxism, Leninism, Maoism
+
+* Political assassinations and kidnappings to advance the "anti-imperialistic struggle"
+
+* _Largely unsuccessful_
+]
+---
+
+# Terrorism in the Middle East
+
+.center[![:scale 100%](arafat00.jpg)]
+---
+
+# Palestine Liberation Organisation
+
+.font150[
+* The Palestine Liberation Organisation is largely considered the most significant terrorist group in the Middle East until the rise of Al Qaeda
+
+* Founded in 1964, perpetrated several attacks against Israeli citizens in Israel and abroad
+
+* They've also collaborated with and trained several other groups, such as Germany's RAF
+
+* It is regarded as the main political authority in Palestine, and has observer status in the UN
+]
+---
+
+# Palestine Liberation Organisation
+
+.font140[
+* Not considered a terrorist organisation any more
+
+*  In 1993, the PLO recognized Israel's right to exist
+
+* Composed by many small nationalist or socialist organisations
+    - Fatah, Hamas, Popular Front for the Liberation of Palestine, Palestinian Liberation Front, etc
+    
+* Tensions between more secularist groups (e.g., Fatah) and religious ones (e.g., Hamas)
+
+* Chairman of the PLO Executive Committee: Mahmoud Abbas
+]
+---
+
+# Palestine Liberation Organisation
+
+.center[![:scale 100%](plo00.jpg)]
+---
+
+# Terrorism in the Middle East
+
+.center[![:scale 100%](wahab00.jpg)]
+---
+
+# Hassan Al-Banna
+
+.center[![:scale 50%](banna00.jpg)]
+---
+
+# Muslim Brotherhood
+
+.font150[
+* Created in 1924 to fight against colonial rule, Western materialism, and secularism in th Egyptian society
+
+* Pan-Islamism: Islam to be a comprehensive system of life, with the Quran as the only acceptable constitution
+
+* Abandoned gradualist approaches and slowly became more militarised
+
+* Instrumental in the training of other Islamist groups
+
+* Suffering a recent crackdown in Egypt and other countries
+]
+---
+
+# Al Qaeda
+
+.center[![:scale 100%](aq00.jpg)]
+--- 
+
+class: inverse, center, middle
+
+# Questions?
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html> 
+---
+
+class: inverse, center, middle
+
+# What is terrorism, then?
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html> 
+--- 
+---
+# What is terrorism?
+
+.font150[
+* Early terrorists were happy to use the term to describe themselves
+
+* Robespierre, the Narodnaya Volya, both openly said that terror was their main goal
+
+* Later, the term gained a pejorative tone and no organisation today states that they are a terrorist group
+    - "Liberation Front", "Popular Liberation Army", "Resistance Movement", etc
+    
+* _Terrorist is our enemy_
+]
+---
+
+# Humanitarian law
+
+.font150[
+* Arafat: "_people who struggle to liberate themselves from foreign oppression and exploitation have the right to use all methods at their disposal, including force._"
+
+* However, there is some order in war, too: humanitarian law
+
+* Terrorists have widely disregarded those rules
+    - Attack innocent civilians, torturing POWs, violate neutral territories, etc
+    
+* Terrorists also attack other countries that have no connection with their goals
+]
+---
+
+# Definitions
+
+.font150[
+* Alex Schmid, author of "Political Terrorism: A Research Guide", devotes _more than a hundred pages to examining more than a hundred different definitions of terrorism_
+
+* Walter Laqueur did not even try to define terrorism in his work
+
+* But we need a working definition of terrorism to know our object of study
+]
+---
+
+# Definitions
+
+.font150[
+* Contrast terrorism with civil war: guerrillas often control parts of the territory, openly identify themselves, and use propaganda to mobilise supporters, etc. Terrorist groups generally don't
+
+* Contrast terrorism with ordinary criminals: purpose of violence is not the same. Criminals have selfish reasons and do not intent to cause broad consequences
+
+* Contrast terrorism with "lunatic assassins": goals of the assassin are idiosyncratic and deeply personal. Often are apolitical
+]
+---
+
+# Definitions
+
+.font150[
+* Few characteristics:
+    - ineluctably political in aims and motives;
+    - violent—or, equally important, threatens violence;
+    - designed to have far-reaching psychological repercussions;
+    - conducted either by an organization or by individuals with a clear inspiration from the leaders; and
+    - perpetrated by a subnational group or nonstate entity
+    
+* **Question**: do you agree with all those terms? Why or why not?
+]
+---
+
+# Alison M. Jaggar (2005)
+ 
+.center[![:scale 100%](j00.png)]
+---
+
+# Theoretical puzzle
+
+.font150[
+* Increasing resistance to acknowledging the possibility of state terrorism
+
+* Police violence or military actions can be classified as terrorism
+
+* Image of "brown-skinned Arab or Muslim looking terrorist"
+
+* This obscures other types of terrorism, such as lynching, crossburnings or gay-bashing
+
+* _We need a more comprehensive understanding of terrorism_
+]
+---
+
+# Proposed definition of terrorism
+
+.font150[
+* She argues that a definition needs to meet the following criteria:
+
+* Conservative: disturbs existing usage as little as possible
+
+* Consistency and non-arbitrariness: improve consistency
+
+* Precision: help differentiate among phenomena that may otherwise be confused
+
+* Impartiality: resist moral arbitrariness and bias
+]
+---
+
+# Purposes and goals of terrorism
+
+.font150[
+* Short term: create a climate of terror
+
+* Long term: depends
+    - right to war (_ius ad bellum_) and _ius in bellum_ (humanitarian law)
+    
+* Not all terrorist groups have unjust goals
+
+* Also, civilians can cooperate with unjust governments too, so they are not considered innocent 
+]
+---
+
+# Proposed definition of terrorism:
+
+.font150[
+_Terrorism is the use of extreme threats or violence designed to intimidate or subjugate governments, groups, or individuals. It is a tactic of coercion intended to promote further ends that in themselves may be good, bad or indifferent. Terrorism may be practiced by governments or international bodies or forces, sub-state groups or even individuals. Its threats or violence are aimed directly or immediately at the bodies or belongings of innocent civilians but these are typically terrorists’ secondary targets; the primary targets of terrorists are the governments, groups or individuals that they wish to intimidate._ (p. 209)
+]
+---
+
+# Moral dimensions of terrorism
+
+.font150[
+* She claims that terrorism is always morally repugnant: it involves coercion and violence
+
+* Terrorists attack those who do not represent a threat to them
+
+* But can it ever be justified? 
+
+* **What do you think?**
+]
+---
+
+# Moral dimensions of terrorism 
+
+.font150[
+* Some argue that violence is always immoral
+
+* However: "_Terrorism is certainly heinous but that something is heinous does not entail that it is prohibited in all circumstances; it merely entails that anyone wishing to argue its moral permissibility bears a heavy burden of proof." (p. 213)
+
+* Extreme circumstances require extreme actions?
+]
+---
+
+# Moral dimensions of terrorism 
+
+.font150[
+* Seven criteria to justify terrorism:
+    - Just cause
+    - Competent authority
+    -  Right intention
+    - Proportionality
+    - Last resort
+    -  Reasonable hope of success
+    - The aim of peace
+    
+* How would you classify the following groups according to those criteria: Al Qaeda, Russian anarchists, French revolutionaries, Latin American _guerrilleros_? 
+]
+---
+
+class: inverse, center, middle
+
+# Questions?
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html> 
+
+---
+
+# How definitions impact research
+
+.font150[
+* Research on terrorism has increased substantially since 9/11
+
+* But as we've seen, scholars cannot agree on a definition of terrorism
+
+* What is the impact of different definitions on research results?
+
+* They survey 9 political science journals since 1980
+
+* Domestic versus international terrorism should be seen as different processes
+]
+---
+
+# Defining terrorism
+
+.font150[
+* Qualitative, case-study work has dominated the terrorism literature for decades.
+
+*  Scholars define terrorism to fit the case(s) under study
+
+* **Problem:** what defines terrorism in one country (i.e., fighting colonial powers) may not explain other types of terrorism
+
+* **Solution:** analyse the cases separately, as there is enough variation in the datasets  to explore differences in definitions 
+]
+---
+
+# Different types of terrorism
+
+.font150[
+* Dozens of different typologies
+
+* Not all of them useful to predict future cases 
+
+* **Problem:**  much attention has been given to the perpetrators and victims of the violence, but much less attention has been given _to the targets_
+
+* **Solution:** differentiate between the country of origin of the terrorists and their target countries. Assume that domestic terrorism have different causes from international attacks
+]
+---
+
+# Unit of observation
+
+.font150[
+* Most studies analyse one country at a time, mostly the one which suffered the violence
+
+* This does not tell us much about transnational terrorism
+
+* **Problem:**  it is unclear which unit of analysis we should use
+
+* **Solution:** sometimes it is useful to analyse terrorism _in pairs_, that is, ISIS attacks in Pakistan are not the same as ISIS attacks in France
+]
+---
+
+# 
+---
+
+class: inverse, center, middle
+
+# See you next week!
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html> 
