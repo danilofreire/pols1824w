@@ -1,0 +1,172 @@
+---
+title: "Week 12: Terrorism" 
+subtitle: "The rational terrorist"
+author: "Danilo Freire"
+date: "26 November 2019"
+output: 
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"
+    nature: 
+      beforeInit: "macros.js"
+      highlightStyle: github
+      ratio: 4:3
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+<style>
+
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 6px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #EB811B;
+}
+
+.orange {
+  color: #EB811B;
+}
+</style>
+
+# Two week ago, we saw that
+
+.font150[
+* There has been many waves of terrorist activities, from the French Revolution to Radical Islamism today
+
+* Jacobins, Narodnaya Volnya, Irish nationalists, Young Bosnia, anti-colonial movements, left-wing terrorist groups, Al Qaeda, etc
+
+* Terrorist has been used both by governments and by non-state actors
+
+* Use of violence of threats of violence to intimidate others, directly or indirectly, to achieve political goals
+]
+---
+
+# Two week ago, we saw that
+
+.font140[
+* We also discussed some situations in which terrorism might be morally acceptable
+  - Groups facing oppression, extreme violations of human rights
+
+* Moral issues: 
+  - Disrespect for war conventions, targeting innocent civilians, intent is difficult to justify
+
+* Different definitions of terorrism have significant impact over our analyses
+
+* Often a rational strategy, but it doesn't always work 
+]
+---
+class: inverse, center, middle
+
+# The rational terrorist
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html> 
+---
+
+# Andrew Kydd and Barbara Walter
+
+.center[![:scale 100%](kw00.png)]
+
+---
+
+# The strategies of terrorism
+
+.font150[
+* "Terrorism often works."  
+
+* Between 1980 and 2003, half of all suicide terrorism campaigns resulted in concessions by the government 
+
+* "Hijacking planes, blowing up buses, and kidnapping individuals [...] can be surprisingly effective"
+
+* For counter-terrorism strategies to work it is important to understand what those groups want and whether/how they achieve their goals
+]
+
+---
+
+# The strategies of terrorism 
+
+.font150[
+* They seek to answer four questions:
+  - What types of goals do terrorists seek to achieve?
+  - What strategies do they pursue to achieve these goals?
+  - Why do these strategies work in some cases but not in others?  
+  - What are the targeted governments’ best responses to prevent terrorism and protect their countries from future attacks?
+
+* Main explanatory variable: _costly signalling_
+]
+
+---
+
+# The goals of terrorism   
+
+.font150[
+* The press usually portraits terrorists groups as crazy extremists
+
+* This is particularly true for _suicide terrorism_
+
+* Individuals have different motivations from their groups
+  - Suicide bombers may seek financial benefits for their family or a pleasant afterlife
+  - Organisations have political goals
+
+* Political goals have changed over time, as we have seen 
+]
+
+---
+
+# The goals of terrorism 
+
+.font150[
+* The authors find five broad goals of terrorist groups
+  - Regime change (Sendero Luminoso, Hezbollah, Taliban)
+  - Territorial change (Tamil Tigers, Lashkar-e Tayyiba in Kashmir)
+  - Policy change (Al-Qaeda, Hamas)
+  - Social control (KKK, Fascist regimes)
+  - Status quo maintenance (LatAm paramilitaries, IRA)
+
+* Regime change is the most common, followed by territorial change
+
+* Many organisations have multiples goals
+]
+
+---
+
+# The strategies of terrorist violence
+
+* So how do terrorist groups try to achieve their goals?
+
+* The authors argue that _uncertainty_ and _costly signalling_ provide a good explanation
+--
+.font150[
+* **Uncertainty**: groups don't know what their enemies can do or how committed they are to a given policy 
+ 
+* 
+]
+
+---
+
+
+---
+
+class: inverse, center, middle
+
+# See you next week!
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html> 
