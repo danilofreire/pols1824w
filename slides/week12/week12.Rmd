@@ -1,6 +1,6 @@
 ---
 title: "Week 12: Terrorism" 
-subtitle: "The rational terrorist"
+subtitle: "The rational terrorist<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html>"
 author: "Danilo Freire"
 date: "26 November 2019"
 output: 
@@ -71,11 +71,30 @@ options(htmltools.dir.version = FALSE)
 * Moral issues: 
   - Disrespect for war conventions, targeting innocent civilians, intent is difficult to justify
 
-* Different definitions of terorrism have significant impact over our analyses
+* Different definitions of terrorism have significant impact over our analyses
 
-* Often a rational strategy, but it doesn't always work 
+* Often a rational strategy, but it doesn't always work  
 ]
+
 ---
+
+# Early Warning Project updates 
+
+.center[![:scale 50%](ewp00.png)]
+
+.center[<https://earlywarningproject.ushmm.org/ranking-of-all-countries>]
+
+---
+
+# Early Warning Project updates
+
+.center[![:scale 60%](ewp01.png)]
+
+
+.center[<https://github.com/EarlyWarningProject/2019-Statistical-Risk-Assessment>]
+
+---
+
 class: inverse, center, middle
 
 # The rational terrorist
@@ -151,17 +170,493 @@ class: inverse, center, middle
 
 # The strategies of terrorist violence
 
+.font150[
 * So how do terrorist groups try to achieve their goals?
 
-* The authors argue that _uncertainty_ and _costly signalling_ provide a good explanation
+* The authors argue that _uncertainty_ and _costly signalling_ provide a good explanation]
 --
 .font150[
 * **Uncertainty**: groups don't know what their enemies can do or how committed they are to a given policy 
  
-* 
+* This setting of incomplete information leads to miscalculations and under- or overestimation of the parties' capabilities  
 ]
 
 ---
+
+# The strategies of terrorist violence
+
+.font150[
+* How to reduce uncertainty? _Provide reliable communication_
+
+* However, simple verbal statements are not credible: people lie and bluff 
+
+* *How to convey reliable information?*
+]
+--
+.font150[
+* **Make it costly to send**]
+
+---
+
+class: inverse, center, middle
+
+# Brief digression on costly signalling
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html> 
+---
+
+# Why do peacocks have such long tails?
+
+.center[![:scale 100%](peacock.jpg)]
+
+---
+
+# Bird of paradise
+
+.center[![:scale 100%](bird.jpg)]
+
+---
+
+# Gazelles stotting 
+
+.center[![:scale 60%](gazelle.jpg)]
+
+---
+
+# Luxury goods 
+
+.center[![:scale 100%](diamond-mercedes-master.jpg)]
+
+---
+
+# Luxury goods 
+
+.center[![:scale 100%](Hall-of-Mirrors-ceiling-Jules-Hardouin-Mansart-Charles.jpg)]
+
+---
+
+# Facial tattoos
+
+.center[![:scale 90%](mara.jpg)]
+
+---
+
+# ... back to terrorism 
+
+.font150[
+* _Costly signalling_ indicates resolve and commitment
+
+* Violence, mainly _suicidal violence_ is an extreme form of costly signalling 
+
+* How do terrorists use violence?
+]
+
+---
+
+# Five strategies 
+
+.center[![:scale 100%](kw01.png)]
+
+---
+
+# Attrition
+
+.font140[
+* Persuade the enemy that the group is strong
+
+* The greater the costs terrorists inflict today, the stronger the signal that they will inflict _even greater_ costs in the future
+
+* Anti-colonial terrorism, Hamas, Hezbollah, Al Qaeda
+
+* The more unlikely the target state is to make concessions, the more terrorists will resort to attrition
+
+* Democracies are particularly _unlikely_ to retaliate and faces higher audience costs, thus they are the favourite target of attrition strategies
+]
+
+--- 
+
+# Responses to attrition 
+
+.font150[
+* Governments can make some concessions in non-crucial areas (fiscal autonomy, etc)
+
+* Retaliation is a better strategy if the terrorists threaten core competences of the state
+
+* Harden likely targets (additional security checkpoints, etc)
+
+* Deny access to most destructive weapons (biological, nuclear, etc)
+
+* Minimise psychological damage (keep calm and carry on)
+]
+
+---
+
+# Intimidation 
+
+.font150[
+* Similar to deterrence: preventing undesired behaviour with threats of, and actual, violence
+
+* Left-wing groups, KKK, state terrorism
+
+* Weak states facilitate intimidation strategies
+
+* Citizens are forced to seek protection from local armed groups in the state doesn't provide internal security 
+]
+
+---
+
+# Responses to intimidation
+
+.font150[
+* Territorial claims: state should retake control over the territory
+
+* "Clear, hold, and build": invest in state capacity
+
+* Social control: better law enforcement 
+
+* Bypass local leaders 
+]
+
+---
+
+# Provocation
+
+.font150[
+* Used in pursuit of regime change and territorial gains 
+
+* Designed to persuade the domestic audience that the target of attacks is evil
+
+* To shift citizen support away from the incumbent regime
+
+* ETA: Spanish government reacted very strongly, so the population was shocked by the violence
+
+* Democracies, again, are likely targets of provocation
+]
+
+---
+
+# Reactions to provocation
+
+.font150[
+* "Seek and destroy", but try to isolate civilians
+
+* Gathering information about the group
+
+* Targeted killings
+]
+
+---
+
+# Spoiling
+
+.font150[
+* Terrorists use violence to force the government to negotiate or increase their bargaining power 
+
+* Often used when two enemies are close to reaching an agreement
+  - Algerian civil war, Israel and PLO 
+
+* More likely to happen when moderates of a given groups are unlikely to hold extremists, or merely when the other party thinks that this is the case
+]
+
+---
+
+# Responses to spoiling
+
+.font150[
+* If mutual trust is high, negotiations should continue regardless of the terrorist attacks
+
+* Since trust is often scarce, trust-building initiatives might work
+
+* Power-sharing agreements, post-treaty reconciliation commissions, etc
+
+* Effective protection of minority rights
+]
+
+---
+
+# Outbidding
+
+.font150[
+* "[...] two or more domestic parties are competing for leadership of their side, and the general population is uncertain about which of the groups best represents their interests"
+  - Hamas versus Fatah
+
+* Moderates can actually _prefer_ the radicals to gain more prominence close to negotiations with the enemy: lower margin for bargain
+
+* Citizens might believe their representatives will "sell out", so they might prefer the zealots to step in 
+
+* As expected, outbidding is more likely to happen when many groups are competing for power
+]
+
+---
+
+# Responses to outbidding
+
+.font150[
+* Encourage competing groups to form a coalition
+
+* If not possible, grant them concessions
+
+* Favour one of the groups?
+]
+
+---
+
+# Conclusion
+
+.font150[
+* States and terrorists groups don't know the capabilities of their respective enemies
+
+* Terrorists use violence to signal that they are committed to their causes
+
+* (States can do the same too!)
+
+* Five strategies: 
+  - Attrition, Intimidation, Provocation, Spoiling, and Outbidding
+]
+
+---
+
+class: inverse, center, middle
+
+# Questions?
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html> 
+
+---
+
+# Robert Pape  
+
+.center[![:scale 100%](p00.png)]
+
+---
+
+# Introduction
+
+.font140[
+* Terrorist groups increasingly rely on suicide attacks
+
+* Before the 1980s, suicide attacks were rare 
+
+* First wave explanations: 
+  - Religious fanaticism, psychological dispositions
+
+* The world's leaders in suicide attacks are the Tamil Tigers (Sri Lanka)
+
+* Large variation in terrorist characteristics (gender, education, age, etc) 
+
+* Pape argues that terrorism follows a _strategic logic_
+]
+
+---
+
+# How can suicide be rational?
+
+.font150[
+* Even if the person who commits a suicide attack is not rational, _the leaders probably are_
+
+* Thomas Schelling: "rationality of irrationality" (The Strategy of Conflict)
+  
+* Niccolò Machiavelli: "it is a very wise thing to simulate madness" (Discourses on Livy, 3:2)
+
+* Suicide terrorism is analogous to international coercion (madman theory) 
+]
+
+---
+
+# Defining suicide terrorism
+
+.font140[
+* Suicide terrorism is an attack in which the death of the perpetrator is required for the attack to succeed 
+
+* Usually, the goal is to the highest number of people as possible 
+
+* This forces the government to consider the demands of the terrorist group
+
+* It is a coercive strategy: 
+  - While the military coerces people because it is strong, terrorists coerce people because they are weak
+
+* However, this coercion might alienate potential supporters, too
+]
+
+---
+
+# Defining suicide terrorism 
+
+.font150[
+* Suicide attacks increase the coercive effect of terrorism  
+
+* They are generally much more destructive (suicide vests, hijacking planes); 
+
+* Very strong costly signal: if terrorists are willing to die for the cause, what _can't_ they do?
+
+* Better able to communicate commitment and increasing levels of violence in the future 
+]
+
+---
+
+# The record of terrorism  
+
+.center[![:scale 100%](p01.png)]
+
+---
+
+# The record of terrorism  
+ 
+ .font150[
+* _Timing_: From 188 attacks, 179 (95%) were part of a campaign
+
+* End of the campaigns determined by the leaders when they believe some of their demands have been achieved
+
+* _Nationalist goals_: since costs of suicide attacks are high, groups resort to them only when stakes are very high, too
+
+* Every campaign from 1980 to 2001 has been directed to take "foreign invaders out of the homeland" 
+]
+
+---
+
+# The record of terrorism  
+
+.center[![:scale 100%](p02.png)]
+
+---
+
+# The record of terrorism
+
+.font150[
+* _Democracies as targets_: all groups in the sample attacked democratic regimes 
+
+* **Why?**
+]
+--
+.font150[
+* Democracies are less likely to use force domestically
+
+* Democracies make more concessions to opposition groups
+
+* Democracies have free press and uncensored social media, which publicise the attacks 
+]
+
+---
+
+# Terrorists' assessment of suicide terrorism 
+
+.font150[
+* Suicide attacks have become more common because they often work
+
+* In the case of Hezbollah, Hamas, and the Tamil Tigers, they were able to force the state to negotiate in about 50% of the cases
+
+* But this also implies that the attacks often failed, too
+
+* The most successful group was the Hamas
+]
+
+---
+
+# The limits of suicide terrorism 
+
+.font150[
+* In the 1980s, terrorist leaders thought that moderate punished led to moderate concessions; but do harsh punishments lead to greater concessions?
+
+* _Apparently not_
+
+* Suicide terrorism campaigns are only modestly more successful than their alternatives
+
+* Suicide terrorism is unlikely to make states change policies that are crucial to their survival 
+]
+
+---
+
+# Policy recommendations
+
+.font150[
+* Concessions might be useful in the beginning, but this strategy has clear limitations
+
+* Pape proposes demographic separation to deal with terrorism. What do you think?
+]
+
+---
+
+# Conclusion
+
+.font150[
+* Suicide attacks follow a strategic logic and are clustered over time and across space
+
+* They are more destructive and show stronger resolve
+
+* Democracies are often targeted by terrorist groups 
+
+* Suicide terrorism often works, but can't change important issues in the enemy state 
+
+* Hamas, the Tamil Tigers, and Al Qaeda are the most significant examples of suicide terrorists
+]
+
+---
+
+# John Horgan
+
+.center[![:scale 100%](h00.png)]
+
+---
+
+# Introduction 
+
+.font150[
+* Why do people join terrorist groups?
+
+* Very few people engage in terrorism, so all generalisations are made from a small sample
+
+* Another issue is that of profiling: treating terrorists as pathological cases
+
+* For instance, 2 million Muslims live in the UK, many sharing similar social, political, economic, and religious conditions
+  - Why do only very few radicalise?
+]
+
+---
+
+# Openness to socialisation into terrorism
+
+.font150[
+* While avoiding profiling, the author lists some factors that increase the risk of radicalisation
+
+* Feelings of anger, alienation, and disenfranchisement
+
+* The perception that conventional political activity does not work
+
+* Identification with victims, either real or in more abstract terms
+
+* Beliefs that violence against the state or against fellow citizens is not immoral
+]
+
+---
+
+# Openness to socialisation into terrorism
+
+.font150[
+* Sense of reward, either in this or in the afterlife
+
+* Kinship and social ties, sense of belonging
+
+* **Question**: which one do you think is the most important? Is there any factor that he missed?
+]
+
+---
+
+# Terrorist pathways  
+
+.font150[
+* Terrorist organisations have a myriad of positions, so many members don't have the same role for a long time
+  - People involved in violent attacks participate in political negotiations, etc
+
+* Qualitative interviews highlight some similarities in the pathways:
+  - Role models (the Prophet, Wahabi leaders, Che, Fidel)
+  - Families involved in the community 
+  - Sense of respect for terrorists
+  - Material incentives
+]
+
+---
+
+# Terrorist pathways
+
+* increased involvement in a terrorist movement is a slow marginalisation away from conventional society
 
 
 ---
