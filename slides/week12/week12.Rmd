@@ -1,6 +1,6 @@
 ---
 title: "Week 12: Terrorism" 
-subtitle: "The rational terrorist<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html>"
+subtitle: "The rational terrorist"
 author: "Danilo Freire"
 date: "26 November 2019"
 output: 
@@ -124,7 +124,7 @@ class: inverse, center, middle
 # The strategies of terrorism 
 
 .font150[
-* They seek to answer four questions:
+* The authors seek to answer four questions:
   - What types of goals do terrorists seek to achieve?
   - What strategies do they pursue to achieve these goals?
   - Why do these strategies work in some cases but not in others?  
@@ -194,7 +194,7 @@ class: inverse, center, middle
 ]
 --
 .font150[
-* **Make it costly to send**]
+* **Make that information costly to send**]
 
 ---
 
@@ -272,7 +272,7 @@ class: inverse, center, middle
 * Democracies are particularly _unlikely_ to retaliate and faces higher audience costs, thus they are the favourite target of attrition strategies
 ]
 
---- 
+---
 
 # Responses to attrition 
 

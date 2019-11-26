@@ -15,12 +15,6 @@ class: center, middle, inverse, title-slide
 
 # Week 12: Terrorism
 ## The rational terrorist
-<html>
-<div style="float:left">
-
-</div>
-<hr color='#EB811B' size=1px width=800px>
-</html>
 ### Danilo Freire
 ### 26 November 2019
 
@@ -129,7 +123,7 @@ class: inverse, center, middle
 # The strategies of terrorism 
 
 .font150[
-* They seek to answer four questions:
+* The authors seek to answer four questions:
   - What types of goals do terrorists seek to achieve?
   - What strategies do they pursue to achieve these goals?
   - Why do these strategies work in some cases but not in others?  
@@ -199,7 +193,7 @@ class: inverse, center, middle
 ]
 --
 .font150[
-* **Make it costly to send**]
+* **Make that information costly to send**]
 
 ---
 
@@ -277,7 +271,7 @@ class: inverse, center, middle
 * Democracies are particularly _unlikely_ to retaliate and faces higher audience costs, thus they are the favourite target of attrition strategies
 ]
 
---- 
+---
 
 # Responses to attrition 
 
@@ -884,7 +878,24 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 (function() {
