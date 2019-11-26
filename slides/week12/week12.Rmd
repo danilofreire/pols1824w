@@ -1,6 +1,6 @@
 ---
 title: "Week 12: Terrorism" 
-subtitle: "The rational terrorist"
+subtitle: "The rational terrorist<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html>"
 author: "Danilo Freire"
 date: "26 November 2019"
 output: 
