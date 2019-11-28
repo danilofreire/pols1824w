@@ -56,9 +56,9 @@ options(htmltools.dir.version = FALSE)
 
 * Jacobins, Narodnaya Volnya, Irish nationalists, Young Bosnia, anti-colonial movements, left-wing terrorist groups, Al Qaeda, etc
 
-* Terrorist has been used both by governments and by non-state actors
+* Terrorism has been used both by governments and by non-state actors alike
 
-* Use of violence of threats of violence to intimidate others, directly or indirectly, to achieve political goals
+* Definition: _use of violence, or threats of violence, to intimidate others, directly or indirectly, to achieve political goals_
 ]
 ---
 
@@ -73,7 +73,7 @@ options(htmltools.dir.version = FALSE)
 
 * Different definitions of terrorism have significant impact over our analyses
 
-* Often a rational strategy, but it doesn't always work  
+* It is a rational strategy, but it doesn't always work  
 ]
 
 ---
@@ -138,15 +138,13 @@ class: inverse, center, middle
 # The goals of terrorism   
 
 .font150[
-* The press usually portraits terrorists groups as crazy extremists
+* The press usually portraits terrorist groups as crazy extremists
 
-* This is particularly true for _suicide terrorism_
+* This is particularly true for _suicide terrorists_
 
 * Individuals have different motivations from their groups
   - Suicide bombers may seek financial benefits for their family or a pleasant afterlife
-  - Organisations have political goals
-
-* Political goals have changed over time, as we have seen 
+  - But the leaders have rational political goals
 ]
 
 ---
@@ -154,7 +152,7 @@ class: inverse, center, middle
 # The goals of terrorism 
 
 .font150[
-* The authors find five broad goals of terrorist groups
+* The authors argues that terrorist groups have five goals:
   - Regime change (Sendero Luminoso, Hezbollah, Taliban)
   - Territorial change (Tamil Tigers, Lashkar-e Tayyiba in Kashmir)
   - Policy change (Al-Qaeda, Hamas)
@@ -163,7 +161,7 @@ class: inverse, center, middle
 
 * Regime change is the most common, followed by territorial change
 
-* Many organisations have multiples goals
+* Many organisations have multiples goals at the same time
 ]
 
 ---
@@ -178,7 +176,7 @@ class: inverse, center, middle
 .font150[
 * **Uncertainty**: groups don't know what their enemies can do or how committed they are to a given policy 
  
-* This setting of incomplete information leads to miscalculations and under- or overestimation of the parties' capabilities  
+* This setting of incomplete information leads to miscalculations and under- or over-estimation of the enemy's capabilities  
 ]
 
 ---
@@ -245,9 +243,9 @@ class: inverse, center, middle
 .font150[
 * _Costly signalling_ indicates resolve and commitment
 
-* Violence, mainly _suicidal violence_ is an extreme form of costly signalling 
+* Violence, mainly _suicidal violence_, is an extreme form of costly signalling 
 
-* How do terrorists use violence?
+* How do terrorists use violence? According to five strategies, the authors argue
 ]
 
 ---
@@ -261,13 +259,11 @@ class: inverse, center, middle
 # Attrition
 
 .font140[
-* Persuade the enemy that the group is strong
+* Attrition campaign: to persuade the enemy that the group is strong
 
 * The greater the costs terrorists inflict today, the stronger the signal that they will inflict _even greater_ costs in the future
 
 * Anti-colonial terrorism, Hamas, Hezbollah, Al Qaeda
-
-* The more unlikely the target state is to make concessions, the more terrorists will resort to attrition
 
 * Democracies are particularly _unlikely_ to retaliate and faces higher audience costs, thus they are the favourite target of attrition strategies
 ]
@@ -293,13 +289,13 @@ class: inverse, center, middle
 # Intimidation 
 
 .font150[
-* Similar to deterrence: preventing undesired behaviour with threats of, and actual, violence
+* Similar to deterrence: preventing undesired social behaviour with threats of, and actual, violence
+
+* Targeted at the population terrorists are trying to control
 
 * Left-wing groups, KKK, state terrorism
 
 * Weak states facilitate intimidation strategies
-
-* Citizens are forced to seek protection from local armed groups in the state doesn't provide internal security 
 ]
 
 ---
@@ -325,7 +321,7 @@ class: inverse, center, middle
 
 * Designed to persuade the domestic audience that the target of attacks is evil
 
-* To shift citizen support away from the incumbent regime
+* The goal is to shift citizen support away from the incumbent regime
 
 * ETA: Spanish government reacted very strongly, so the population was shocked by the violence
 
@@ -352,7 +348,7 @@ class: inverse, center, middle
 * Terrorists use violence to force the government to negotiate or increase their bargaining power 
 
 * Often used when two enemies are close to reaching an agreement
-  - Algerian civil war, Israel and PLO 
+  - Israel and PLO, Hamas spoiled the Camp David Agreements
 
 * More likely to happen when moderates of a given groups are unlikely to hold extremists, or merely when the other party thinks that this is the case
 ]
@@ -376,7 +372,7 @@ class: inverse, center, middle
 # Outbidding
 
 .font150[
-* "[...] two or more domestic parties are competing for leadership of their side, and the general population is uncertain about which of the groups best represents their interests"
+* "[...] when two or more domestic parties are competing for leadership of their side, and the general population is uncertain about which of the groups best represents their interests"
   - Hamas versus Fatah
 
 * Moderates can actually _prefer_ the radicals to gain more prominence close to negotiations with the enemy: lower margin for bargain
@@ -545,7 +541,7 @@ class: inverse, center, middle
 
 * But this also implies that the attacks often failed, too
 
-* The most successful group was the Hamas
+* The most successful group which uses suicide terrorism is Hamas
 ]
 
 ---
