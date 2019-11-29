@@ -69,3 +69,9 @@ Here I include some changes in the references that might improve the course next
 
 * Replace Uzonyi (2014) for:
   * Esteban, J., Morelli, M., & Rohner, D. (2015). Strategic mass killings. Journal of Political Economy, 123(5), 1087-1132.
+
+## Sessions 12-13
+
+* Merge them with Kydd and Walter first, then Pape, then Abrams in a single discussion
+
+* Perhaps remove the other two texts discussed in session 12
