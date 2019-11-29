@@ -732,8 +732,176 @@ class: inverse, center, middle
 
 ---
 
-# 
+# Why civil resistance works
 
+.center[![:scale 100%](c00.png)]
+
+---
+
+# Introduction
+
+.font150[
+* Scholars have noted that nonviolent action is effective to achieve political goals 
+
+* Yet, there was no comprehensive evaluation of their _relative_ success compared to violent means such as terrorism
+
+* The authors provide the first test of the hypothesis that nonviolent campaigns are more effective than violent ones
+]
+
+---
+
+#  The strategic logic of nonviolent resistance 
+
+.font150[
+* "Nonviolent resistance is a civilian-based method used to wage conflict through social, psychological, economic, and political means without the threat or use of violence"
+
+* There many possible methods: strikes, boycotts, noncooperation, etc
+
+* It takes place outside of traditional political channels
+
+* Nonviolent resistance _is not_ the same as pacifism: the vast majority of participants in nonviolent struggles have not
+been devoted to principled nonviolence.
+
+* It involves _defiance_
+]
+
+---
+
+#  The strategic logic of nonviolent resistance 
+
+.font150[
+* As we've just seen, terrorists do not always succeed
+
+* Nonviolent campaigns have a much higher success rate
+
+* The authors argue that there are two reasons behind their success:
+	- Backlashes against the government
+	- Openness to negotiation
+]
+
+---
+
+# Backfire
+
+.font150[
+* Violent repression against nonviolent campaigns is more likely to backfire
+
+* Government violence is seen as unjust
+
+* Government supporters can identify with the protesters
+	- Mostly importantly, nonviolent action can win the support of the military
+
+* The same is true for the international community
+	- Democractic regimes and international NGOs tend to support peaceful protests
+]
+
+---
+
+# Openness to compromise 
+
+.font150[
+* Nonviolent groups are also more likely to reach an agreement
+
+* Two reasons why:
+	- As the groups are perceived as more legitimate, it is easier for the government to bring them to the negotiating table
+	- The groups' supporters also tend to be less radical than terrorists, so they tend to have limited goals
+
+* Repression against violent protests can backfire too (see the IRA), but this happen less often for reasons we've just seen
+]
+
+---
+
+# Hypotheses
+
+.font150[
+* The authors then test a few hypotheses:
+
+* _Hypothesis 1_: The willingness of the regime to use violence will increase the likelihood for success among nonviolent campaigns, but disadvantage violent campaigns.
+
+* _Hypothesis 2_:  Nonviolent resistance has a relative advantage over violent resistance in producing loyalty shifts within security forces.
+
+* _Hypothesis 3_: International sanctions and overt state support for the campaign will advantage nonviolent campaigns over violent campaigns.
+
+* _Hypothesis 4_: External state support for the target regime will disadvantage both violent and nonviolent campaigns
+]
+
+---
+
+# Data and Methods
+
+.font150[
+* A new dataset: [Nonviolent and Violent Conflict Outcomes (NAVCO)](https://dataverse.harvard.edu/dataverse/navco)
+
+* Aggregate data on 323 violent and nonviolent resistance campaigns from 1900 to 2006
+
+* "We define a resistance campaign as a series of observable, continuous tactics in pursuit of a political objective."
+
+* They are not the same as random riots: they have beginning and end points, as well as distinct events throughout their history
+
+* Collected by using many qualitative sources
+]
+
+---
+
+# Data and Methods
+
+.font150[
+* The outcomes of these campaigns are identified as "success", "limited success", or "failure"
+
+* To be designated a “success”, the campaign must have met two criteria: 
+	- its stated objective occurred within a reasonable period of time (two years) from the end of the campaign
+	- the campaign had to have a discernible effect on the outcome
+
+* A "limited success" occurs when a campaign obtained significant concessions
+
+* "Failure" describes all the other cases
+]
+
+---
+
+# Results
+
+.center[![:scale 100%](c01.png)]
+
+---
+
+# Results
+
+.center[![:scale 100%](c02.png)]
+
+---
+
+# Discussion
+
+.font150[
+* Nonviolent campaigns are more than six times likelier to achieve full success than violent campaigns that also faced regime repression
+
+*  Repressive regimes are also about twelve times likelier to grant limited concessions to nonviolent campaigns than to violent campaigns
+
+*  Defections more than quadruple the chances of campaign success
+
+* Although campaigns that receive external state support are more than three times likelier to succeed against a repressive opponent, international sanctions have no effect on the outcomes of the campaigns
+
+* Security force defections make nonviolent campaigns forty-six times more likely to succeed
+]
+
+---
+
+# Discussion
+
+.font150[
+* A one-unit increase in the polity score increases the chances of success for a nonviolent campaign by 23 percent and for a violent campaign by about 7 percent.
+
+* The longer the campaign endures, the less likely the resistance is to achieve full success
+
+*  Nonviolent campaigns occurring during the Cold War were less likely to succeed than nonviolent campaigns occurring prior to or after the Cold War
+
+* In sum, _nonviolent campaigns are a more effective strategy_
+]
+
+---
+
+#  
 
 
 ---
