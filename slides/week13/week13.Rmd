@@ -77,9 +77,6 @@ options(htmltools.dir.version = FALSE)
 
 * Engineers are particularly overrepresented in Islamic terrorist groups 
 ]
-
----
-  
 ---
 class: inverse, center, middle
 
@@ -342,6 +339,207 @@ class: inverse, center, middle
 
 ---
 
+# Does terrorism work?
+
+.center[![:scale 100%](g00.png)]
+
+---
+
+# Introduction
+
+.font150[
+* We have just seen how states misunderstand the goals of the terrorists
+
+* How to _civilians_ see terrorist attacks?
+
+* Using individual-level data from Israel, the authors measure the effect of terrorist attacks on the propensity to make concessions and support terrorist's goals
+
+* Interestingly, terror attacks induce individuals to support right-wing parties, but it is because these parties move to the left (!)
+]
+
+---
+
+# Introduction
+
+.font150[
+* Existing evidence on how citizens react to terrorism isn't very robust
+
+* We know more about what state leaders think, as they are forced to position themselves over terrorist attacks, than what voters think about potential threats
+
+* Using micro-level data is always a welcome addition to any quantitative study
+	- It shows possible mechanisms
+	- Provides a more compelling evidence about how people actually behave
+]
+
+---
+
+# Data
+
+.font150[
+* Their sample includes several surveys fielded in Israel from 1988 until 2006
+
+* The surveys are _not_ specifically designed to measure attitudes on terrorism
+
+* And that is probably a good thing: by asking other questions, researchers do not prime interviewees
+
+* Answers might be more spontaneous 
+
+* Since the surveys have been fielded since 1969, there's a good amount of pre-treatment data to compare
+]
+
+---
+
+# Data
+
+.font150[
+* The questions the authors focus on are:
+	- Which party the voter is supporting in the upcoming elections and his or her self-described political tendency
+	- Whether the respondent favours granting territorial concessions to the Palestinians
+
+* The survey also contains other demographic information
+
+* Let's see some descriptive statistics
+]
+
+---
+
+# Data
+
+.center[![:scale 100%](g01.png)]
+
+---
+
+# Data
+
+.font150[
+* Some interesting trends:
+
+* Israelis were becoming more favourable to a two-state solution
+
+* They also agreed with more territorial concessions to Palestinians
+
+* They were voting increasingly in left-wing or centre parties
+
+* Support for right bloc of political parties was decreasing 
+]
+
+---
+
+# Political attitudes
+
+.center[![:scale 100%](g02.png)]
+
+---
+
+# Political attitudes
+
+.center[![:scale 80%](g03.png)]
+
+---
+
+# Political attitudes
+
+.center[![:scale 80%](g04.png)]
+
+---
+
+# Results
+
+.center[![:scale 80%](g05.png)]
+
+---
+
+# Results
+
+.center[![:scale 80%](g06.png)]
+
+---
+
+# Results
+
+.center[![:scale 80%](g07.png)]
+
+---
+
+# Results
+
+.center[![:scale 100%](g08.png)]
+
+---
+
+# Results
+
+.center[![:scale 80%](g09.png)]
+
+---
+
+# Discussion
+
+.font150[
+* A positive relationship between the change in fatalities per capita in a subdistrict and the change in the average willingness to grant concessions
+
+* However, the relationship seems to get weaker at higher levels of terror
+
+* We see our familiar inverted U-shaped line again
+
+* More terror _does_ induce more concessions (_terrorism works_), but after a certain threshold people become less likely to agree with the terrorists' demands (_terrorism doesn't work any more_)
+
+* We observe this relationship in every subgroup
+]
+
+---
+
+# The effect of terror on voting
+
+.center[![:scale 100%](g10.png)]
+
+---
+
+# The effect of terror on voting
+
+.center[![:scale 100%](g11.png)]
+
+---
+
+# Discussion
+
+.font150[
+* The result suggests that terrorism is causing Israelis to vote increasingly for right-wing parties
+
+* But this happens at the same time where Israelis are _less_ likely to support right-wing groups
+
+* Probably it is because the right adopted the domestic programme of the left:
+	- The Likud did not support the policy of territorial concessions in 1988, yet in 2009 they were willing to do so
+]
+
+---
+
+# Discussion 
+
+.font140[
+* Support for right-wing parties increases amongst individuals who are male,  non-native, secular, highly educated, and not from an Asian- African ethnic background population
+
+* Interestingly, terrorism leads to a more accommodating attitude particularly among individuals who are religious, less educated, and from an Asian- African backgrounds
+
+* Yet, the shift toward right-wing parties occurred within subgroups that are strongly identified with left-wing parties
+
+* Thus, they have evidence that _the left started supporting right-wing parties_ after the parties have adopted left-wing policies
+]
+
+---
+
+# Conclusion
+
+.font150[
+* On the one hand, terrorism might not work because leaders see the groups' goals are maximalist
+
+* On the other hand, people become less likely to support policy concessions after attacks reach a certain threshold
+
+* **Question**: how can we combine both findings?
+]
+
+---
+
 # Terrorists who don't kill 
 
 .center[![:scale 80%](r00.png)]
@@ -399,10 +597,11 @@ class: inverse, center, middle
 	- Hizb ut-Tahrir doesn't use violence, although many countries don't allow them to speak openly about their views
 ]
 
-	---
+---
 
 # Why not kill? 
 
+.font150[
 * Although there are exceptions, religious groups in general are more likely to use violence
 
 * 65% of Islamic organizations have killed between 1998 and 2005
@@ -410,6 +609,7 @@ class: inverse, center, middle
 * 70% of organizations that mix religion and ethnonationalism have killed over the same period
 
 * However, some other ideologies are openly against violence too...
+]
 
 ---
 
@@ -444,7 +644,7 @@ class: inverse, center, middle
 
 # Left-wing Anarchism
 
-.center[![:scale 100%](anarcho-left.jpeg)]
+.center[![:scale 100%](anarcho-left.jpg)]
 
 ---
 
@@ -488,7 +688,7 @@ class: inverse, center, middle
 
 # Analysis
 
-.center[![:scale 100%](r04.png)]
+.center[![:scale 90%](r04.png)]
 
 ---
 
