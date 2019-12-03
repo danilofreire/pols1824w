@@ -350,11 +350,11 @@ class: inverse, center, middle
 .font150[
 * We have just seen how states misunderstand the goals of the terrorists
 
-* How to _civilians_ see terrorist attacks?
+* How do _civilians_ see terrorist attacks?
 
-* Using individual-level data from Israel, the authors measure the effect of terrorist attacks on the propensity to make concessions and support terrorist's goals
+* Using individual-level data from Israel, the authors measure the effect of terrorist attacks on the propensity to make concessions and support terrorists' goals
 
-* Interestingly, terror attacks induce individuals to support right-wing parties, but it is because these parties move to the left (!)
+* Interestingly, terror attacks induce individuals to support right-wing parties, but it is because these parties move to the left
 ]
 
 ---
