@@ -213,8 +213,46 @@ class: inverse, center, middle
 
 ---
 
-# 
+# Introduction
 
+.font150[
+* Islamist groups are connected through family or social ties
+
+* The groups also provide financial and logistic support for others in their network, with Al Qaeda being the main source of support and expertise
+
+* Many groups have little to do with the recent wave of Pan-Islamism, sometimes predating it by centuries
+
+* According to Kilcullen, this network of interconnected groups form a _global jihadist insurgency_
+
+* But jihadist activities are only a part of larger patron-client alliances
+]
+
+---
+
+# Global Islamist insurgency 
+
+.font150[
+
+* Jihadists are not regular terrorists, they represent _a global insurgency_
+
+* Al Qaeda resembles the Communist International: a movement dedicated to world revolution
+
+* They are _not_ morally flawed individuals or simple criminals: insurgencies reflect deeper grievances within society
+
+* The methods they used are unacceptable, yet their demands are often seen as legitimate
+
+* How to win the war on global terrorism? 
+]
+
+---
+
+# Counterinsurgency _redux_
+
+* "We seek to defeat insurgents through ‘winning the hearts and minds’ of the population, a process that involves compromise and negotiation." (p. 605)
+
+* Counterinsurgency was originally designed to fight local guerrilla groups, not global insurgencies
+
+* International coordination is not 
 ---
 
 class: inverse, center, middle
